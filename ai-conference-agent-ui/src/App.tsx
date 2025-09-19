@@ -12,7 +12,7 @@ export default function App() {
       <div className="container">
         <Header onTryNow={() => setView('chat')} onBrandClick={() => setView('home')} />
         {view === 'home' ? (
-          <Hero onGenerate={(text) => { setInitialPrompt(text || ''); setView('chat') }} />
+          <Hero onGenerate={(text) => { if (text && text.trim()) { setInitialPrompt(text.trim()); setView('chat') } }} />
         ) : (
           <Chat initialPrompt={initialPrompt ?? undefined} />
         )}

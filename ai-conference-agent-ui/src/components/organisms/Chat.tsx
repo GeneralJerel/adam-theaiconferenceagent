@@ -17,7 +17,7 @@ const initialMessages: ChatItem[] = [
 type Props = { initialPrompt?: string }
 
 export default function Chat({ initialPrompt }: Props) {
-  const [messages, setMessages] = useState<ChatItem[]>(initialMessages)
+  const [messages, setMessages] = useState<ChatItem[]>(() => (initialPrompt ? [] : initialMessages))
   const scroller = useRef<HTMLDivElement>(null)
   const hasAutoSent = useRef(false)
 
@@ -34,15 +34,20 @@ export default function Chat({ initialPrompt }: Props) {
     }
   }, [initialPrompt])
 
-  const handleSend = (text: string) => {
+  const handleSend = async (text: string) => {
     const userItem: ChatItem = { id: crypto.randomUUID(), role: 'user', content: text }
-    // In a later step, we will stream an assistant response. For now, echo a canned answer.
-    const assistantItem: ChatItem = {
-      id: crypto.randomUUID(),
-      role: 'assistant',
-      content:
-        'From the conference transcripts: inference speed and cost dominated, national security shaped priorities, and reliability practices (evals, red-teaming, and observability) were repeatedly cited as critical.',
-    }
+    let reply =
+      'From the conference transcripts: inference speed and cost dominated, national security shaped priorities, and reliability practices (evals, red-teaming, and observability) were repeatedly cited as critical.'
+
+    try {
+      const res = await fetch('/conversation-mockdata.json')
+      if (res.ok) {
+        const data = (await res.json()) as Record<string, string>
+        if (data[text]) reply = data[text]
+      }
+    } catch {}
+
+    const assistantItem: ChatItem = { id: crypto.randomUUID(), role: 'assistant', content: reply }
     setMessages((prev) => [...prev, userItem, assistantItem])
   }
 

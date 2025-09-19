@@ -1,0 +1,5 @@
+{
+  "what are the top 3 ideas from the event": "Here are the big takeaways from the event:\n1) Inference is everything — teams focused on fast, affordable inference and model serving.\n2) Security and policy are shaping roadmaps — national security, safety, and governance drove many discussions.\n3) Reliability and evaluation — systematic evals, observability, and red-teaming are becoming table stakes.",
+  "what did people say about inference?": "Speakers emphasized that inference cost and latency are the primary bottlenecks for real products. There was a lot of attention on optimized runtimes, GPU scheduling, batching, model architectures for speed, and tooling to monitor p95/p99 latency in production.",
+  "what did the speakers say about fine tuning?": "The consensus: \"use fine-tuning when you have consistent domain data and want predictable formatting or tone.\" Many recommended instruction-tuning small/efficient models for narrow tasks, with RAG for breadth. Several cautioned about maintaining fine-tuned models with drift and the need for evaluation harnesses."
+}

@@ -19,7 +19,7 @@ export default function Hero({ onGenerate }: Props) {
         </div>
         <div className="hero-inner">
           <PromptCard onGenerate={onGenerate} value={prompt} onChange={setPrompt} />
-          <ConversationStarters onPick={(text) => setPrompt(text)} />
+          <ConversationStarters onPick={(text) => onGenerate?.(text)} />
         </div>
       </div>
     </section>
