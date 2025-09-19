@@ -1,0 +1,758 @@
+0:01 [Music]
+0:04 [Applause]
+0:06 [Music]
+0:11 Okay. Hey Erin, how's it going?
+0:14 Fantastic. So nice to meet you. Thank
+0:15 you for having me.
+0:17 Thanks for being here, taking time for
+0:19 us. Um, so I know you're speaking at the
+0:21 conference. We're we're about two weeks
+0:24 away as we record this and I'm uh on the
+0:27 on the rat wheel spinning frantically
+0:30 right now, but uh love love the fact
+0:31 that we get to talk to you a little bit
+0:33 and um you know get to hear some of some
+0:35 of your thoughts on how things are
+0:36 going. So um maybe maybe we could just
+0:39 start by just telling telling uh you
+0:41 just telling us what you do and what
+0:43 you've been doing up to at Amazon.
+0:45 Absolutely. So I am a very longtime
+0:47 Amazonian. Uh I will hit my 25 year
+0:50 anniversary at Amazon in October. Uh so
+0:53 it's it's been a it's been a crazy ride,
+0:55 my friend. Um I started as a web
+0:58 developer in the year 2000 in the music
+1:00 part of the website. Uh and then over
+1:03 time I've worked in different tech teams
+1:04 largely on the retail side of the house
+1:06 for about 20 years. The last uh three
+1:10 years I was the head of product for
+1:12 Amazon's internal software development
+1:14 tooling team. And it was in that role
+1:17 that I actually started getting involved
+1:19 in the AI space. So, uh, Amazon, like
+1:22 everyone else, got, uh, you know, as all
+1:25 of these coding tools and things were
+1:26 starting to come out, we're like, "Oh,
+1:28 those look great. Let's let's see what
+1:29 we can do with them." And so, I got
+1:31 pulled in on a lot of those
+1:32 conversations and just uh, this
+1:36 technology is like nothing I've seen
+1:37 before. It's amazing. Um, and there's so
+1:40 much potential, but I think it's one
+1:42 that there's we need to do some
+1:45 thoughtful engineering and shaping
+1:46 around. So, earlier this year, I joined
+1:50 what is now called the Agentic AI
+1:52 organization within AWS. Uh, my role is
+1:55 I'm a product manager. Uh, I do a lot of
+1:57 things like uh tech strategy, product
+2:00 strategy work. Um, work across a fairly
+2:02 large portfolio. uh but get involved in
+2:07 uh a lot of you know applied tech. How
+2:09 do we take this innovation and really
+2:13 make it something that's really high
+2:16 utility for the world?
+2:18 Yeah. Which is you know an kind of
+2:21 unparalleled opportunity to do that
+2:23 stuff. Now are you so you're you're
+2:26 customerf facing in your are you
+2:28 internal or you customerf facing?
+2:30 That's a great question. I my my role
+2:31 actually is is both. Uh so I work very
+2:34 you know I'm embedded within the product
+2:36 team. I work you know directly daytoday
+2:39 with uh with the product teams as
+2:41 they're building but I also have the
+2:43 privilege of working both across Amazon
+2:45 because there's some amazing things
+2:47 going on here but also I get to interact
+2:49 with our customers a lot uh and have
+2:51 just met some really amazing
+2:54 uh very innovative uh customers who are
+2:58 who are doing some really cool things
+3:00 with this technology.
+3:02 Yeah, I can imagine. I mean the you've
+3:03 you've seen Amazon go through so much
+3:05 and that's that's sort of the isn't is
+3:07 that the genesis story of AWS itself is
+3:09 like hey we built this amazing scalable
+3:11 infrastructure maybe we should sell it
+3:13 to customers and now you're doing the
+3:14 same thing with AI or
+3:16 you know I think there's absolutely
+3:17 truth to that you know I think there's
+3:18 also you know some some truth to there
+3:20 was just you know sort of clear uh
+3:22 opportunity out the industry but of
+3:24 course we did have the um we had the
+3:29 experience to do it well and you I think
+3:33 when uh you know in the AI space as well
+3:37 um obviously there's a ton of amazing
+3:40 innovation going on across the industry
+3:42 there's been some amazing breakthroughs
+3:43 particularly coming out a lot of these
+3:45 you know science startups and things
+3:46 like that that we all owe a lot to but
+3:50 uh Amazon has been a a sort of a big
+3:53 data user for decades and um it's it's
+3:56 just the bread and butter of how we run
+3:59 so when this tech tech came along, we're
+4:03 like, "Oh, cool." Like, we see some
+4:05 things we could do with that. And, you
+4:07 know, it's not always the most sexy
+4:08 thing to do with it, but it is like just
+4:11 like it's such a powerhouse to solve
+4:14 problems in ways we've never been able
+4:16 to solve before. So, even within Amazon,
+4:19 you know, there's these like, well,
+4:20 where do you use AI? I'm like, where are
+4:22 we not using it? Where are we not
+4:24 experimenting with it? Where have we not
+4:26 put it into production? Like, it's
+4:28 everywhere.
+4:30 um and you different levels of maturity
+4:32 doing all sorts of different tasks. Um
+4:35 so you know for me you know in the space
+4:37 that we're working in Amazon itself is
+4:40 an interesting petri dish for how we
+4:43 take this uh you know truly innovative
+4:46 you know data science work and combine
+4:48 it with really solid thoughtful
+4:50 engineering to produce like as I say
+4:54 really high utility results
+4:57 makes makes a ton of sense. I I I can't
+5:00 imagine the kind of stuff that you're
+5:01 that you're working on, the data that
+5:02 you have access to. So, it's super it
+5:06 must be super cool. Um, one of the
+5:08 things I saw in your in your abstract
+5:10 that that hit me was just the idea of
+5:11 the of the Renaissance worker,
+5:13 right?
+5:14 Um, and I know you studied art history,
+5:16 right? So, that's
+5:17 I did. I did. Uh, yeah.
+5:20 You know, I I got hired at Amazon at a
+5:22 time when uh we'll just say technology
+5:25 education hadn't caught up with the the
+5:27 needs of the industry. kind of at
+5:28 that.com boom. And so, you know, there
+5:30 was a whole bunch of us who had liberal
+5:32 arts degrees that were self-taught
+5:34 technologists and and came into the
+5:36 industry. And, you know, of course,
+5:37 there's still a few of us hanging
+5:38 around. Um, yes.
+5:40 But, you know, I I think that um you
+5:44 Amazon has had this culture of two pizza
+5:46 teams for oh, I want to say they they
+5:49 showed up in I want to say 2003 2004
+5:52 era. Um, I know when when they first
+5:54 showed up, we were all like, "What?" Um
+5:57 and then of course now they're they're
+5:58 so core to how we function. But um you
+6:03 know one of the premises of a two pizza
+6:05 team is really a this idea of sort of a
+6:10 fully encapsulated
+6:12 group that's empowered to really move
+6:15 the needle on a problem space.
+6:18 But I think what we found as technology
+6:21 has got more complex, as there's just
+6:23 more to know, as problem spaces have
+6:25 gotten harder to deal with, uh, as you
+6:28 know, security and resilience and all of
+6:31 our expectations continue to go up, the
+6:34 autonomy of two pizza teams has been
+6:36 it's been a hard one battle to kind of
+6:39 keep that going. Um, and you end up
+6:42 getting all these weird interconnects,
+6:45 right? like, oh, well, I can get this
+6:46 far, but now I need to bring in security
+6:48 expertise, or I can get this far, but
+6:51 now I need to bring in somebody who's
+6:53 able to go really do the market
+6:54 research. Um and
+6:58 you know and I think this is it's it's
+7:00 you know at Amazon's really large scale
+7:02 this is what a lot of startups a lot of
+7:04 people who are in a place of their
+7:07 passion who are like hey I want to get
+7:09 going on building a solution you know
+7:11 have historically had this this dilemma
+7:14 of well I can either be a deep tech
+7:17 expert and know how to make the
+7:18 computers do the things
+7:20 right
+7:20 or I can be a domain expert but those
+7:23 unicorns who can do both well and still
+7:27 sleep um is a hard and I I think when we
+7:32 look at this technology and the the
+7:35 promise that we're starting to see in it
+7:37 and the start promise that we're
+7:38 starting to realize in it we're getting
+7:41 back to this idea of enabling smart
+7:45 people with great ideas to really use
+7:47 these tools as tools
+7:49 and not have to be deep technology
+7:52 experts in order to at security and
+7:55 resilience and you know scalability and
+7:58 all of that stuff out of them.
+8:00 Yeah, that's a super good point. I one
+8:03 of the things we're seeing as a pattern
+8:05 um this year in the conference is an
+8:06 explosion of what we call uh innovator
+8:10 exhibitors. So they're pe they're people
+8:12 that we have this special pla uh you
+8:15 know kind of class of exhibitor that is
+8:17 very small. they have to qualify for it
+8:20 and so we h we've really not had very
+8:22 many of them. These are these are very
+8:24 early stage startup a lot of time
+8:26 preunding and um we weren't we weren't
+8:29 really focused on it the last two years
+8:31 because all the big companies are there
+8:33 and they're you know they're put they're
+8:34 taking up the space. This year we just
+8:36 saw this massive to your point, right?
+8:38 We just saw this massive influx and we
+8:40 we actually had to start reconfiguring
+8:42 the the exhibit hall to take out some of
+8:45 the big booths because we were just
+8:48 getting this, you know, windfall of uh
+8:51 of requests for these small companies or
+8:53 these or even solo, you know, solo folks
+8:55 that are just literally they have a
+8:57 working SAS system that they built
+9:00 themselves with, you know, with AI. So,
+9:04 um, yeah, 100% exactly what you're
+9:06 saying. And
+9:07 you were just in a planning meeting, uh,
+9:09 yesterday thinking, trying to think
+9:11 through what 2026 looks like. And I was
+9:13 saying, you know,
+9:14 I think every, you know, I just think
+9:16 it's hard to predict, but I think
+9:19 everybody with an idea will be able to
+9:21 pursue that and actually build something
+9:23 useful and it'll be really interesting
+9:24 to see. So, I think that we're just
+9:26 going to see this explosion of of of
+9:28 stuff of companies and and useful
+9:31 things. Is is that kind of how you how
+9:33 you see this agentic thing playing out?
+9:35 I
+9:35 I I do. I mean, if you think about the
+9:37 early days of the web, right, the
+9:38 companies that that were really big at
+9:40 the time were were the companies that
+9:41 were building the core tech itself,
+9:43 right? You know, you're you certainly
+9:45 you did have companies like Amazon that
+9:47 were doing retail audit and things like
+9:48 that. But, you know, as as you say, we
+9:51 we even got into AWS pretty fast, right?
+9:54 Um and you know so but then we started
+9:57 seeing innovation on top of that
+10:00 technology right this is where our door
+10:01 dashes started popping up and Ubers and
+10:04 Lyfts and you know inuits and and all
+10:07 sorts of service you know companies that
+10:11 of course have technology at their heart
+10:14 but their purpose is in service of a
+10:18 greater need
+10:19 right
+10:20 and I I I completely agree with you
+10:22 we're going to see that with AI too,
+10:24 right? You know, the last couple of
+10:25 years we've been seeing this sort of
+10:27 like how do we build the core tech
+10:29 itself, but now we get to transition to
+10:33 the what are those amazing ideas that
+10:36 people are now able to dive into because
+10:39 this tech exists and didn't before.
+10:43 Yeah, it's it's super interesting to
+10:44 think about because like you said, you
+10:46 know, I mean, it's funny because I've
+10:48 been I've been buying stuff from Amazon
+10:49 since 2000, I think. I think maybe 99
+10:52 but I think 2000 just just books I I
+10:55 remember and and watching you know the
+10:58 evolution of Amazon basically becoming
+11:01 one of the best technology companies in
+11:04 the world because it had to
+11:05 because we had to
+11:07 it had had no choice and and yeah to
+11:09 your point we're we're we're starting to
+11:12 see that future where
+11:14 you might not have to or you don't have
+11:16 to anymore to to service you know
+11:19 to sell an enormous number of books or
+11:21 products, you don't have to do that
+11:23 anymore, which is going to be quite
+11:24 interesting, right?
+11:25 You know, I think that for every um
+11:27 every service provider, you're your goal
+11:30 is always to take really great care of
+11:32 your customers at an increasingly large
+11:35 scale without losing that fidelity of
+11:37 care.
+11:38 And that that's a a really big
+11:42 challenge, right? that is, you know,
+11:44 it's it's a huge
+11:48 headwind for companies to scale to be
+11:52 able to serve more customers well. And I
+11:55 think that what we get to see with this
+11:57 technology and its ability to do things
+11:59 like, you know, rapidly collate data and
+12:02 provide insights or, you know, be
+12:06 proactive about following up with
+12:08 customers or um, you know, gathering
+12:12 data from the folks who are out in the
+12:14 field with customers and making sure
+12:16 that that gets into the right place and
+12:18 used the right way. it it's a such an
+12:21 enabler for anybody who's building
+12:24 customer services which is pretty much
+12:25 anyone right we all live in service of
+12:27 others um to to take great care of their
+12:32 customers at scale uh and you know that
+12:35 that's obviously been the impetus for a
+12:36 lot of Amazon's technology innovation
+12:39 over the years is how do we continue to
+12:41 have fidelity of taking care of our
+12:42 customers at scale um
+12:45 and you know why we ended up in ML and
+12:47 why AI is interesting to address and all
+12:50 that stuff,
+12:51 right? So, what uh I mean I know you
+12:54 oversee a lot of stuff and and product
+12:56 management is your is your focus. Um can
+12:59 you tell us about sort of like the stuff
+13:01 that you're working on or what what what
+13:04 is going to make it into or how how is
+13:06 it going to be used I suppose in the
+13:07 next few months or what's being used
+13:09 now?
+13:10 So, you know obviously the the tip of
+13:11 the spear has been in the developer
+13:13 space. Um, you know, I think that that
+13:15 is uh sort of a no-brainer uh because
+13:18 you say see technologists building for
+13:19 their own problems initially and it's
+13:22 also uh a very datarich environment
+13:24 fairly well structured. So it has all of
+13:27 the sweet spot attributes that make AI
+13:29 work really well. Um you know so I think
+13:33 so that I think has been teaching us a
+13:36 lot you know both in Amazon and across
+13:38 the industry over the last couple of
+13:40 years. Uh but you know we'll just say
+13:42 that some of our our non- tech peers are
+13:44 looking on um at our our work with envy
+13:47 and saying well when can I get something
+13:48 that cool too um and you know even you
+13:52 know adaptation of tools initially built
+13:54 for uh you know tech problems um in in
+13:58 others like my single favorite AI tool
+14:01 is QCLI like I use that to
+14:06 for things that it was never intended to
+14:08 be used for um but it's got access to my
+14:11 file system. I have all sorts of bizarre
+14:13 workflows with it using markdown files
+14:15 and things like that. Um but so I think
+14:18 that we're going to start seeing um so
+14:22 one as these coding agents and the
+14:24 patterns of using them get more reliable
+14:27 where you really truly can use sort of
+14:30 natural language description to describe
+14:32 the technology that you want to have
+14:34 built and have good expectations that a
+14:38 that a good tech artifact is going to
+14:39 come out of that. You're going to enable
+14:43 smart people who have business problems
+14:45 to actually build tech to solve their
+14:47 own problems, right?
+14:48 I'm going to acknowledge I haven't coded
+14:51 professionally
+14:53 probably for over a decade. Um, but I'm
+14:56 now coding again, which one for me is
+15:00 super fun because I can now solve my own
+15:02 problems with with tech. And I, you
+15:03 know, like I appreciate I'm not the
+15:06 poster child of a non- tech worker
+15:08 because obviously I've been working
+15:10 technology. Um, but what I get to see
+15:14 there is the promise of kind of the arc
+15:18 of evolution of this stuff. Um, you
+15:20 know, I think the other examples we're
+15:23 seeing, uh, I think research agents are
+15:25 really interesting. Um uh we've been
+15:29 having a lot of uh a lot of enthusiasm
+15:32 and experimentation with those
+15:33 internally uh up to and including our
+15:35 executives um who you know of course
+15:38 executives of a large company uh in
+15:40 general end up getting into the point
+15:42 where they're they're reading reports.
+15:43 They're not doing the primary research.
+15:45 They're you know stuff is being brought
+15:47 to them. And we're now seeing uh a bunch
+15:50 of our execs using these research agents
+15:52 like on the side to do their own
+15:54 research. And so you'll show up in a
+15:57 meeting with an executive and they're
+15:58 like yeah I went I went and did this
+15:59 research and you're like
+16:01 that's awesome right like that that's
+16:04 outstanding but you also get to see it
+16:07 at the other end of the scale right so
+16:09 you've got uh you know
+16:11 sort of day-to-day you know workers who
+16:15 get the same set of tools
+16:18 um and so I I you know those types of
+16:20 things like you know I was uh super
+16:24 interested in exploring the potential of
+16:27 better multilingual support. Um, and so
+16:30 I I threw that against a research agent
+16:32 the other day and it made a really
+16:34 compelling case that I should be leaning
+16:35 into that more. Um, and I'm like that
+16:38 sounds great. I I think uh multilingual,
+16:40 you know, I am worried that right now
+16:43 natural language
+16:45 for the most part means English.
+16:47 Yeah.
+16:48 um to really get the most out of these
+16:51 models at this moment in time. You know,
+16:53 the research says that you need to be
+16:56 prompting in English and I think that is
+16:59 a massive area of opportunity to really
+17:01 enable the world um
+17:03 to do things. Um but to go back to your
+17:06 question, you know, I I do think that,
+17:08 you know, the ability to explore data,
+17:10 the ability to, you know, like build an
+17:14 arbitrary dashboard, right, without
+17:16 really having to be, you know, a
+17:19 business intelligence engineer. Um
+17:22 the ability to explore your curiosity
+17:27 um and then be able to do something
+17:29 about it is you know particularly at at
+17:32 really big companies like sometimes it
+17:34 can feel difficult to do
+17:38 company you may feel like you don't you
+17:40 have historically not had the resources
+17:41 to do it.
+17:42 Yeah.
+17:43 And suddenly you can.
+17:45 So yeah that's interesting. How do you
+17:48 um have you have you seen examples where
+17:51 that's that's happening within Amazon or
+17:52 in a AWS where um either an executive or
+17:56 somebody that's traditionally
+17:57 non-technical has built something and
+17:59 and now it's actually being used or
+18:01 become part of the the standard.
+18:04 I'm I'm going to give you a silly
+18:06 example, but you know maybe one that
+18:07 that's illustrative of uh you know sort
+18:10 of some of the possibilities. So, Amazon
+18:13 uh we've got this thing called the phone
+18:14 tool and uh in the phone tool there are
+18:18 phone tool icons and phone tool icons
+18:20 are very prized. uh they're um you if
+18:23 you go back to the early 2000s the
+18:25 concept of ego boo uh you've got you
+18:27 know basically this sorry way back um I
+18:31 worked in the reputation team for a
+18:33 while so um it's you know so phone tool
+18:38 icons uh at Amazon motivate behavior uh
+18:42 it's it's just one of these things right
+18:44 and um we wanted you know to ex
+18:48 encourage
+18:50 all of Amazon's
+18:52 workers uh to really lean into using AI
+18:57 tools because you know we kind of see
+18:58 this as a virtuous cycle. As our own
+19:01 workforce becomes increasingly
+19:02 comfortable with AI, they start thinking
+19:04 about how to use it to solve problems in
+19:06 different ways. So we knew that one of
+19:09 the ways to strongly encourage people at
+19:11 Amazon to play around with AI tools was
+19:15 to give them phone tool icons. Now,
+19:17 historically to build the data pull, you
+19:20 know, data queries and all of that
+19:22 stuff, we would have expected that there
+19:24 needed to be some dev team that would
+19:27 have had to go build this like, you
+19:29 know, leaderboards and all of that
+19:31 stuff.
+19:32 Well, one of our product managers did it
+19:34 with Curo over the weekend.
+19:37 Nice. And so it's like, you know, I know
+19:39 it's a silly example, but like it's just
+19:41 that like we knew that that was
+19:43 important from a cultural perspective,
+19:44 but it was one of these things like when
+19:46 am I ever going to get a dev team to
+19:47 prioritize building phone tool icons,
+19:50 right?
+19:51 Um, but sure enough, do I check where
+19:53 I'm at on leaderboards? Oh, of course I
+19:55 do. I'm I'm working on that next icon.
+19:58 So the phone Okay, so phone tool is
+20:00 something that everybody uses all the
+20:01 time.
+20:02 All the time. and and the icon, you
+20:05 know, it's basically like the bragging
+20:07 rights of having the icon.
+20:08 The bragging rights, right? And you can
+20:10 get them for all sorts of things. And in
+20:11 the sentence, we wanted to get them to
+20:13 encourage exploration of AI tools.
+20:15 Yeah.
+20:16 And so,
+20:18 and so someone built some Yeah. Well, I
+20:21 think what you know 100% what you're
+20:23 saying like um
+20:25 you know is very resonates a lot with me
+20:27 because you know building a building an
+20:30 AI startup in 2012 in hard mode you know
+20:33 we had this massive list of of things
+20:35 that we wanted to do and no time you
+20:37 know and stuff like that. Yes. They they
+20:40 always as you you know you you always
+20:42 got your punch list of like the sharp
+20:45 edges and those those launch blockers
+20:47 and those things that build community,
+20:50 those things that you create great
+20:52 engagement, those things that that those
+20:54 soft parts of a product that actually
+20:57 really make or break what you're doing.
+21:00 It's so hard to prioritize them.
+21:02 Yep. They get they get shoved away and
+21:04 Yeah. Absolutely. Some little bit of
+21:06 magic gets lost.
+21:08 Exactly. And so now you can, right?
+21:11 Because now you can go have Curo or
+21:14 Claude Code or whatever. Go just do it
+21:17 for you
+21:18 and it just works.
+21:20 It just works and Yeah. It's amazing.
+21:22 Yeah. So how do you think um so when you
+21:25 think of this Renaissance worker concept
+21:27 is it
+21:28 Yeah. How do you think it changes like
+21:30 the organization? Is it obviously a lot
+21:32 of people are worried about you know
+21:34 teams going from you know 50 people to
+21:36 one person but what do what do you see
+21:39 on that
+21:40 you know I think um I guess I think I
+21:42 see AI agents in a little bit more
+21:44 synergistic uh relationship um
+21:49 certainly as the technology evolves
+21:52 they'll function with increasing
+21:54 autonomy
+21:55 but you know I think they're um we'll
+21:58 say they're complimentary to the way
+22:00 that humans
+22:01 think
+22:03 um and you know I do think that you know
+22:07 going back to like Amazon's two-piece
+22:09 team structure right
+22:11 uh
+22:13 I think they get us you know for a
+22:15 company like our size it actually gets
+22:17 us back to the way we like to operate um
+22:21 with greater agility to be able to
+22:23 notice and respond to what our customers
+22:26 need with more agility
+22:28 um because you as I over time you
+22:31 particularly again at at a company like
+22:33 our size uh that sort of long list of
+22:38 mustd do stuff is never ending right
+22:40 there's always security patches there's
+22:42 always resilience work there's always
+22:43 region expansion there's always
+22:45 all of these things that um are
+22:49 absolutely critical and very hard to say
+22:52 no to and in fact you really can't say
+22:54 no to them
+22:55 right
+22:55 um but as we get to a world where
+23:00 those things are easier to automate with
+23:05 kind of certainty and trust
+23:06 trustworthiness,
+23:08 right?
+23:09 I think that allows humans to be their
+23:13 best selves. Um and that is you know
+23:18 being matrix thinkers uh you know
+23:20 thinking innovatively noticing problems
+23:24 talking to their customers and then
+23:26 being able to actually not just have
+23:29 this long wish list of things they want
+23:31 to do but turn that wish list into
+23:34 action which earns their customers trust
+23:37 you know shows a level of agility and
+23:39 resilience and you know that that's the
+23:42 the future I'm I'm excited about you I I
+23:45 appreciate there's
+23:47 all sorts of different points of view on
+23:49 what the AI future looks like. Um,
+23:53 but I I tend to be hopeful.
+23:55 Yeah. No, I think I mean, well, it's
+23:57 interesting that some of the stuff we're
+23:59 saying, how how big is a TPC team
+24:01 normally?
+24:02 So, two pizza teams, you know,
+24:04 traditionally, uh, you know, you should
+24:06 be able to feed them with two pizzas.
+24:08 So, typically it's going to be six to
+24:09 eight people.
+24:10 Gotcha. Yeah. Um
+24:12 yeah things
+24:13 and you know
+24:14 right and ideally it's composed of the
+24:17 right types of people to tackle whatever
+24:20 job you know whatever problem set you've
+24:22 got um you know historically that may
+24:26 have been like couple you know test
+24:28 engineers software engineers some web
+24:30 developers product folks um but as I say
+24:35 as we've
+24:37 needed specialization
+24:39 you know deep security expert
+24:41 you know, how do I make this resilient
+24:43 at a global scale? Uh, it's tough to fit
+24:46 all of that into two pizzas.
+24:48 Yeah. Yeah. Of course. Yeah. Yeah. So,
+24:51 it's interesting. So, you're you're kind
+24:52 of thinking that what what AI unlocks
+24:55 for us here is
+24:58 kind of shouldering some of the burden
+25:00 that those teams get saddled up with in
+25:03 a large organization. And maybe it maybe
+25:06 it is unlocks more pro productivity by
+25:08 either handling that stuff or being the
+25:10 expert or
+25:11 right
+25:12 and also to allow experts to sort of
+25:14 amplify themselves right like I don't
+25:17 think any of us will ever say we have
+25:19 enough security engineers ever
+25:22 right and we always want more
+25:24 and um that you know there will
+25:28 literally never be enough security
+25:30 engineers on the planet.
+25:32 There you go. people that want to know
+25:33 what to study.
+25:34 Seriously,
+25:35 I get this all the time. So,
+25:37 right. And so, like how how for example
+25:39 do we let our security engineers force
+25:41 multiply themselves,
+25:42 right? You know, so we talk about things
+25:44 like shifting left and security work,
+25:47 right? How do we get security in from
+25:49 design period? But like look, I can't
+25:52 have a security engineer in every design
+25:54 meeting. That just doesn't scale.
+25:56 Right. Right. So, how could I have a
+25:59 virtual presence that does a good job,
+26:02 you know, right?
+26:03 Maybe not at the level of, you know, a
+26:05 world-class security engineer, but good
+26:07 enough to get me started.
+26:09 Right. Now, that makes a ton of sense.
+26:11 And I think that it it alludes to sort
+26:13 of where we where we have to be, which
+26:16 is, you know, the humans still provide
+26:18 the we provide the drive and the and the
+26:20 direction, but we also provide the
+26:22 trust, right? We we
+26:24 we're not going to be able to
+26:26 just let these systems, you know, oh, it
+26:28 you know, we it checked off in security,
+26:30 you know, security agent checked off,
+26:32 we're fine. Let's deploy it. We're not
+26:34 going to, you know, culturally be able
+26:36 to do that and it wouldn't be a good
+26:37 idea if we did, right?
+26:39 Yeah. Our our trust will also grow over
+26:41 time, right? Like remember, you were
+26:43 talking about Amazon in in 2000. Um
+26:47 there was a lot of people who did not
+26:49 trust putting their credit card number
+26:51 on the web in the early 2000s. They
+26:53 didn't.
+26:54 You know, some of it because the
+26:56 technology needed to evolve, but some of
+26:57 it was because that trust building
+27:01 exercise that comes through demonstrable
+27:06 reliability, transparency,
+27:08 um sort of ongoing high quality
+27:12 performance. That runway just hadn't
+27:14 happened yet.
+27:16 and AI needs to go through that trust
+27:19 building exercise. I think we're in the
+27:21 midst of it right now.
+27:23 Yeah. How long do you think that that
+27:24 takes?
+27:25 You know, I think we certainly can learn
+27:29 from the past of what we've what we've
+27:33 needed to do to build trust in
+27:34 technology in the past and use that to
+27:37 accelerate trust building. um both
+27:40 through the demonstration of
+27:43 trustfulness but also through the core
+27:47 technological elements that we know are
+27:50 core to retaining trust, right? That is,
+27:53 you know, and that does come down to
+27:55 things like security and privacy and
+27:58 traceability and observability.
+28:01 Um all of those things are things that
+28:03 we've learned historically about
+28:05 building technological trust. And you
+28:08 know, we need to make sure that those
+28:09 things are built in to what we continue
+28:12 to build in the AI space. Now,
+28:15 yeah, that's that's that's I think you
+28:17 make some really interesting points
+28:19 because, you know, people get really
+28:20 freaked out about how the world's going
+28:22 to change in a second, but it's a great
+28:24 the credit card example is such a great
+28:25 example because the truth is back in
+28:27 2000, everyone was rolling their own
+28:29 credit card gateway basically, right?
+28:32 And a lot of them weren't encrypted and
+28:34 there were a lot of problems that
+28:35 happened in a lot of places and then you
+28:38 know like you said so those people were
+28:39 right to not trust in some ways right
+28:42 that just put your credit card in and
+28:43 then as you said that you know the
+28:45 building of reliability and transparency
+28:47 and all that stuff like with AI will get
+28:50 us there but it's going to it's it's
+28:51 really a human it's a it's a human thing
+28:53 it's not a technology thing right it's
+28:55 it
+28:56 we have to get comfortable with it but
+28:59 um well thank thanks so much Erin I
+29:01 think
+29:02 super super exciting stuff that you're
+29:03 working on and really just awesome to
+29:05 see your perspective and and have your
+29:07 voice at the conference. Really
+29:08 appreciate you joining us.
+29:10 Absolutely. My absolute pleasure and I'm
+29:12 really looking forward to the
+29:13 conference.
+29:14 Thanks so much.
+29:15 Thank you. Okay, I'm going

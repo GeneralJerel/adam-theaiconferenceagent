@@ -1,0 +1,639 @@
+0:08 so um today I'll talk a little bit about
+0:12 uh I know we're at the AI conference but
+0:14 how not every uh problem needs a
+0:16 generative AI solution uh I also want to
+0:19 cover a few jargon-free ways of building
+0:23 AI applications uh I want to cover the
+0:26 one of the critical problems that we see
+0:28 uh At Last Mile which is the problem of
+0:31 evaluating AI applications uh and what
+0:33 we see is the current state-of-the-art
+0:35 for that uh and then obviously I want to
+0:37 talk about what we're building to solve
+0:39 some of that at Last Mile AI uh i' try
+0:42 to uh end a little bit early just so we
+0:44 have a room for some Q&A as well so a
+0:47 little bit about uh me and the company
+0:49 uh I'm the CEO of a company called Last
+0:51 Mile Ai and our mission is to enable
+0:53 software developers who may not be ml
+0:56 experts to be able to build a production
+0:59 grade generative
+1:00 applications um and we think that the
+1:03 future of AI application development is
+1:06 going to be driven by developers and we
+1:08 cannot expect every developer to become
+1:10 a data scientist uh so a little bit
+1:13 about me I've been building developer
+1:15 tools my entire career uh I before last
+1:18 mile was working at Facebook on some of
+1:20 the uh ml developer tools there like
+1:22 jupyter notebooks uh Model Management
+1:24 and experimentation platforms uh I also
+1:27 worked for a bit on vs code at Microsoft
+1:29 and compiler and build systems and
+1:31 things like that so I'm very passionate
+1:32 about uh developer productivity in
+1:36 general so there's a lot of hype around
+1:39 generative AI uh nobody needs to uh be
+1:42 told that but I think it's important to
+1:45 see what uh what problems actually need
+1:48 a generative AI solution uh because AI
+1:51 Innovation is accelerating models are
+1:54 improving we're having a lot of uh uh
+1:57 cost reductions as well but we're also
+2:00 at the risk of trying to see every
+2:02 problem as an AI problem uh and it isn't
+2:06 uh first of all uh just a small example
+2:09 is chat interfaces are being added
+2:11 everywhere even though there are visual
+2:13 elements like buttons and ux design that
+2:16 has existed for a long time that is
+2:18 sometimes even more efficient than
+2:19 talking to a computer uh and the second
+2:22 thing is not every AI problem is a gen
+2:25 AI problem uh and by that I mean there's
+2:28 a long history of research uh on on
+2:32 things like information retrieval uh ir
+2:35 and recommender systems and sometimes
+2:37 when we talk about uh the shiny new
+2:39 thing uh we forget about the predictive
+2:42 ML and uh well well- defined techniques
+2:45 of doing the same thing uh and so I'd
+2:48 caution against you know trying to think
+2:51 of everything as a gen
+2:54 problem so what I want to cover is
+2:56 basically a step-by-step guide uh I'm
+2:58 not going to be able to go into detail
+3:00 and everything but what we see as the
+3:03 principles of uh building AI
+3:05 applications that that work in
+3:07 production and a lot of this stock is
+3:09 driven by some of the learnings we've
+3:11 had from working with Enterprise
+3:13 customers who have a much higher bar for
+3:16 what production grade means uh for AI
+3:18 applications and so uh at a very high
+3:21 level what we see is it takes days to
+3:22 build a prototype we have lots of great
+3:24 tools out there you can even invoke apis
+3:27 like the open AI SDK uh to get pretty
+3:30 far and build something reasonably uh
+3:33 useful uh in a matter of days if not
+3:36 hours but then to actually take that
+3:38 into a production ready application that
+3:41 works reliably covers all the edge cases
+3:44 that is a monthlong Endeavor and a lot
+3:46 of Engineers are currently not equipped
+3:49 with the tools they need or the skills
+3:50 they need to be able to bridge that
+3:52 divide and so I want to cover some
+3:54 principles today on what that looks
+3:57 like so first of all again is this a
+4:00 hammer looking for a nail you know uh
+4:03 first really it's important to define
+4:05 whether you're just trying to add an AI
+4:06 feature for the sake of it or if there
+4:09 is an actual business problem that can
+4:11 uniquely be solved with uh with the
+4:14 introduction of generative AI uh and so
+4:16 some examples we see is uh uh someone
+4:19 came to us and said we really want to
+4:21 make sure phone numbers are of a
+4:22 specific format uh and that is a regular
+4:25 expression problem not an AI problem uh
+4:28 similarly if you're trying to do
+4:30 mathematical calculations use a
+4:32 calculator uh and you can still have an
+4:34 information uh generation phase that
+4:37 combines the different sources of
+4:38 information that uses an llm at the end
+4:41 perhaps as a synthesizer uh but you
+4:43 don't need to solve everything with Gen
+4:46 um and so the second thing is U if the
+4:49 solution still requires some kind of
+4:52 application of generative Ai and
+4:54 examples of that are uh classification
+4:57 problems intent recognition natural
+4:59 language processing some of these things
+5:01 that are that llms are really good at
+5:04 then we can go to the next step which is
+5:07 let's cut through some of the hype in
+5:09 jargon um there are a lot of
+5:11 distractions uh out there today because
+5:13 everybody's trying to talk about the
+5:14 shiny new thing uh I remember last year
+5:17 when uh we were fundraising a whole
+5:19 bunch of investors asked us about what
+5:21 our opinions are on Vector databases uh
+5:23 and then everybody started talking about
+5:25 Rag and I think now we're all talking
+5:28 about agents as a collective AI
+5:29 community and tomorrow I'm sure there'll
+5:31 be another thing uh right and so it's
+5:33 really important to figure out what are
+5:35 the fundamentally new Innovations
+5:37 happening and where are we you know kind
+5:40 of falling for some of the marketing
+5:41 hype as well uh and so the thing that I
+5:44 always uh tell our customers is we don't
+5:47 need to reinvent everything so for
+5:49 example llm observability is just
+5:51 distributed systems observability in a
+5:53 nutshell uh you can add llm specific
+5:56 capabilities on top of that but let's be
+5:59 real it is uh observability for
+6:01 distributed systems at the end of the
+6:03 day uh similarly multi-agent workflows
+6:06 with memory sounds really fancy uh
+6:08 usually it means a workflow
+6:10 orchestration with some persistent State
+6:13 uh and agents in general at least for
+6:15 the Enterprise customers we work with
+6:17 oftentimes are tool use of and sometimes
+6:19 multi-step tool use uh and we'll talk
+6:21 about agents in a bit um and similarly
+6:24 prompt management uh we hear a lot uh
+6:27 one of the things we recommend customers
+6:29 is just use Source control it's
+6:30 important not to store prompts as
+6:32 strings uh but you can also store and
+6:35 manage and version prompts just fine
+6:37 with with with Source control and GitHub
+6:39 just like you Version Control your
+6:40 source code uh that's actually one thing
+6:43 that is important like version
+6:44 controlling your prompts but I think it
+6:46 doesn't need a whole new product line
+6:48 just to you know be able to do
+6:50 this the second the third thing is
+6:53 understanding the current limits of the
+6:55 state-of-the-art uh and it's in order to
+6:57 build a robust application experience
+7:00 you first have to figure out where are
+7:02 we at the very Cutting Edge and just
+7:04 pull back from that uh a little bit uh
+7:07 and so at a very high level it's really
+7:09 good for enhancing uh retrieval
+7:11 applications today you can use llms in
+7:13 all sorts of interesting ways for
+7:15 information synthesis for classification
+7:17 problems uh intent recognition for data
+7:20 augmentation uh and it's some of those
+7:22 in fact like back office workf flows
+7:23 that we're seeing Enterprises really
+7:25 excel at uh using uh AI uh uh models for
+7:30 uh the thing it's not yet great for is
+7:32 unconstrained agentic workflows and by
+7:35 unconstrained I mean you give a very
+7:37 abstract task to an llm you ask it to
+7:40 figure out what the plan should be
+7:43 completely autonomously and then you ask
+7:45 it to execute on that plan but you can
+7:48 get a lot of the way by constraining the
+7:51 problem by making it more deterministic
+7:53 and so for example uh you can define a a
+7:57 state machine of interactions that are
+7:59 possible for your application uh and use
+8:02 that to Def to constrain how agents
+8:04 interact with each other uh so an
+8:06 example of that is uh we work with a
+8:08 customer that's building u a a code uh
+8:12 uh management tool and they're using
+8:15 multiple agents for that and so for that
+8:17 you know that there's a build
+8:19 refactoring agent a package manager a
+8:21 class refactoring tool Etc and because
+8:25 that's a very constrained domain you can
+8:27 actually Define a saate machine of
+8:29 interactions that are possible between
+8:31 these different agents so you don't have
+8:32 to have the llm figure out a plan every
+8:34 single time um also what we've seen is
+8:38 almost every uh practical use case in
+8:41 Enterprises currently boils down to
+8:43 information retrieval of some kind or
+8:45 another companies have tons of data and
+8:48 they're trying to build reasoning and
+8:50 synthesis pipelines over that and uh
+8:53 they find rag or other kinds of
+8:55 techniques as the first entry they have
+8:57 into building information retrieval
+8:59 system systems uh but I want to clarify
+9:01 that that's not the only way you build
+9:03 information retrieval systems uh and so
+9:06 a lot of customers are not familiar with
+9:08 uh recommender systems from the past or
+9:10 it's almost like trying to build a
+9:12 Google search engine internally from
+9:14 from scratch um and so it's important to
+9:16 figure out what the limits are of the
+9:17 current state of-the-art and apply what
+9:19 has existed for a while to the to the
+9:21 problem we're dealing
+9:23 with so now it's time to build a system
+9:26 uh and so one of the things we recommend
+9:28 is avoiding un necessary Frameworks
+9:30 except to prototype very quickly because
+9:32 those Frameworks do help you get started
+9:34 very very rapidly you can get something
+9:36 useful in 100 lines of code but often
+9:38 times they slow you down when you're
+9:40 actually trying to iterate and perfect
+9:42 your own application uh like I mentioned
+9:45 earlier for retrieval systems there is
+9:47 tons of research in the past from
+9:49 predictive ml days uh of how to build a
+9:51 retrieval system and so some examples of
+9:54 that are for topic extraction you can
+9:55 check out an open source rebook called
+9:57 Bert topic uh and
+9:59 even uses llms now like a llama model
+10:02 for topic extraction but it's built on
+10:04 more deterministic and interpretable
+10:06 ways of doing topic extraction that have
+10:08 existed for several years uh the other
+10:10 thing is it's uh is it's still a data
+10:13 pipelining problem where you still need
+10:15 a roles based access control and data
+10:17 refresh and re-indexing policies set up
+10:20 uh in order to build a proper retrieval
+10:21 system uh and so for example you can
+10:24 chunk data and you can put it in a
+10:26 vector DB but if the original data had a
+10:29 boundaries on data access then those
+10:32 permissions need to be propagated all
+10:33 the way through and a lot of the time
+10:35 when we've seen initial versions of
+10:37 retrieval systems built we see all of
+10:40 that important metadata lost along the
+10:43 way and so just building those controls
+10:45 that a proper rules based rules based
+10:48 access control system needs is pretty
+10:51 critical uh and finally I want to flag
+10:53 this one example we saw from meta
+10:54 recently where they built uh a system
+10:57 for uh root cause analysis of uh
+11:00 incident responses so SS that happened
+11:02 at meta and they were able to get a 42%
+11:05 uh accuracy rate on root cause analysis
+11:08 through the system and what it involved
+11:10 was a fine-tuned llama model that was
+11:12 trained on historical uh data from uh
+11:15 sevs that had happened in the past and
+11:17 they were able to uh get that using an
+11:21 llm as a ranker and recommender uh to a
+11:24 42% accuracy which is really incredible
+11:26 because that means that for 42% of the
+11:28 issues it was able to identify the
+11:30 commit that caused the the uh the the
+11:37 failure the uh fifth step in all this is
+11:40 setting up if you have the application
+11:42 you want to set up the harness around
+11:44 your application and this involves guard
+11:45 rails this involves monitoring
+11:47 observability there's a really great
+11:49 post by by chip on how to build a
+11:51 generative AI platform uh I'd recommend
+11:54 folks take a look Google that it's uh
+11:56 gotten pretty popular uh but it just
+11:58 shows highlights all the things that are
+12:01 the harness around your application that
+12:03 are still necessary to launching into
+12:06 production uh getting the application to
+12:08 work well is not enough you there's
+12:10 steps after that that you need to take
+12:13 uh in order to build a a proper
+12:15 application uh and so in this case uh
+12:17 some examples are you want uh guard
+12:19 rails for inputs and outputs uh uh and
+12:22 sometimes these are just rules-based
+12:23 things that you uh constrain Behavior
+12:26 based on uh the the op the the subject
+12:30 of your application um in other cases it
+12:33 might be an AI model that's acting as a
+12:35 guardrail um then there's observability
+12:38 and monitoring and again this is
+12:40 standard distributed system stuff uh
+12:42 this is something you would set up when
+12:43 you launch a service anyway um and
+12:46 finally you do want a feedback loop of
+12:48 data coming back to the developer and
+12:51 this isn't just for fine-tuning it's
+12:52 also for just seeing how the application
+12:54 is performing in the wild and having
+12:57 basically a a performance Benchmark of
+12:59 how the application is doing overall and
+13:01 how to improve it and that brings us to
+13:04 not step six but actually Step Zero
+13:06 which is the last mile problem of
+13:08 evaluation so it's a very simple uh
+13:11 proposition like how do I measure the
+13:13 performance uh of my application that's
+13:15 effectively what we mean when we talk
+13:17 about AI evaluation but it fundamentally
+13:19 breaks down the software development
+13:21 life cycle because AI applications are
+13:24 non-deterministic and so it's something
+13:26 that we as software developers have not
+13:27 really encountered uh you think of like
+13:29 writing unit tests and integration tests
+13:31 and having test Suites that are run and
+13:33 you actually disable tests that are
+13:35 non-deterministic you know and in AI
+13:37 applications you're fundamentally
+13:39 introducing non-determinism as a feature
+13:42 uh and so how do you evaluate an
+13:44 application like that requires a
+13:46 fundamentally new way of thinking about
+13:48 testing and performance
+13:49 benchmarking uh so the current
+13:51 state-of-the-art for that is using an
+13:53 llm as a judge and so you're basic we're
+13:55 basically back to giving the question
+13:57 back to gp4 and saying hey
+13:59 score this response one through five
+14:01 given this criteria U and that works
+14:05 well as kind of like a rubric but what
+14:07 it breaks down at is it's first of all
+14:09 expensive so you can't run this every
+14:11 single time it takes uh time to run so
+14:14 there's latency constraints but more
+14:16 importantly it's unreliable because llms
+14:18 were fundamentally not designed to be
+14:20 evaluators uh and it's almost like a
+14:23 tautological statement you know where
+14:25 you're asking an llm to evaluate an llm
+14:28 and people go around like all sorts of
+14:30 Hoops to justify that by like having a
+14:32 consensus model of M asking multiple
+14:35 llms to judge these but ultimately we're
+14:37 like not addressing the root of the
+14:39 problem which is this is not the right
+14:40 way to evaluate things and so uh what
+14:44 we've been building at Last Mile is a
+14:46 set of uh capabilities to C to build
+14:48 custom evaluator models uh that allow
+14:50 you to evaluate your AI application and
+14:53 get a numerics metric and score out of
+14:55 it and so what this means concretely is
+14:58 let's take retri applications like rag
+15:00 applications uh we have a bunch of
+15:02 evaluator models that are uh extremely
+15:05 small there are 400 million parameter
+15:06 models they're based on BT based
+15:08 architecture so they're still
+15:10 Transformer based models but they're not
+15:12 llms uh and the final response the
+15:15 generate is a numeric score between zero
+15:17 and one um giving you a a quantitative
+15:20 metric for for what you're measuring and
+15:23 so for a retrieval application one
+15:24 example is faithfulness uh which is how
+15:27 Faithful Is For example the response
+15:29 that the llm produced to the data or the
+15:31 context that I fed it and that can be a
+15:33 proxy for measuring hallucinations uh
+15:36 similarly uh answer relevance could be
+15:38 another metric that you want where uh
+15:41 you want to see is did the llm or my
+15:43 application answer the question that I
+15:46 that the user asked uh and you can have
+15:48 a suite of these metrics that we enable
+15:50 by default but the really important part
+15:52 about this is we enable you to fine-tune
+15:54 a custom metric for the context of your
+15:56 application and so every application we
+15:59 found has some different business metric
+16:01 criteria for what quality looks like uh
+16:04 in some cases Enterprises want to
+16:05 measure brand tone and so how do you
+16:08 quantify brand tone uh and so what we
+16:11 enable them to do is actually provide a
+16:14 set of uh a rubric of how they want to
+16:17 quantify their uh uh their metric uh and
+16:21 this could be like a a document on brand
+16:24 tone for example we use that to
+16:26 synthetically generate uh a data set set
+16:29 that labels examples as good or bad and
+16:33 then we use that data set to fine tunea
+16:35 model uh that gives you a numeric metric
+16:38 at the end uh and the good nice thing
+16:40 about this is you don't need ground
+16:42 truth data sets to get started but you
+16:45 could use a human in the loop as a lab
+16:47 labeler to say these examples for brand
+16:50 tone for example are good these examples
+16:52 are bad and then at the end of that
+16:54 process get a fine-tune model that can
+16:56 basically replicate that human judgment
+16:58 extremely
+16:59 accurately uh and so we we believe that
+17:02 this set of customized metrics can get
+17:05 you uh a suite and a dashboard of of
+17:08 application performance metrics that
+17:11 break the dependency on llm as a judge
+17:13 and can go back to a more scientific way
+17:15 of measuring application
+17:18 performance uh the other thing I want to
+17:20 cover a little bit is guard rails so
+17:23 guardrails uh what I like to say is
+17:26 guardrails are just evaluators that are
+17:27 run online because if your evaluation
+17:30 metrics were run were able to be run
+17:32 fast enough why wouldn't you just run
+17:34 them in real time in the application
+17:36 flow to prevent the issue from happening
+17:39 in the first place uh and so for example
+17:41 if you detect a hallucination if the
+17:43 faithfulness score is low then you
+17:45 should be able to just block that
+17:47 request or retry that request before it
+17:50 even reaches the user uh and so what
+17:53 we've committed to is setting up a a
+17:56 baseline performance criteria for these
+17:58 Auto eval models where it's extremely
+18:00 fast to run so that it can be run online
+18:03 as well as offline uh and so some
+18:05 metrics for us are currently they're
+18:07 able to be Run in under 300 milliseconds
+18:10 on a CPU uh which matters because a lot
+18:12 of Enterprises don't want to set up a
+18:14 GPU cluster just for eval purposes uh
+18:17 and also they're very cheap to operate
+18:19 because they're 400 million parameter
+18:21 models uh they don't break the bank if
+18:23 you ran them on every single trace that
+18:26 that came your way or every single
+18:27 request that the application
+18:29 serving um and then important thing is
+18:31 you can also train custom guard drill
+18:33 models what we've seen uh from some
+18:35 customers is they want to constrain the
+18:37 input to an application uh or let's say
+18:40 you're an energy company and uh you have
+18:42 a nuclear division and you really don't
+18:44 want your AI application to talk about
+18:47 your nuclear division which is
+18:49 essentially a custom guardrail the way
+18:51 you would do that today is by adding a
+18:53 system prompt like please don't answer
+18:55 questions about XYZ which is very
+18:57 unreliable and they're all sorts of
+18:59 techniques of uh circumventing that but
+19:01 you could train a custom evaluator model
+19:04 that uh basically gives you a numeric
+19:07 score of uh between zero and one of How
+19:11 likely you're uh basically someone is
+19:13 breaking that guard dril uh that you've
+19:15 set up and that way you can guarantee
+19:18 that those responses or those inputs
+19:20 will be
+19:23 rejected so this is what we see as an
+19:26 application dashboard it should look
+19:28 very familiar to people who've built
+19:30 applications and services before uh our
+19:33 goal is essentially to be able to build
+19:36 uh back this the the kind of things that
+19:39 software developers are are used to when
+19:41 they've been doing application
+19:43 development for so long and for them to
+19:45 just have ai applications as yet another
+19:47 part of their SDK you know it shouldn't
+19:50 be something fundamentally new uh it
+19:52 should just be an add-on to to a a
+19:55 toolkit that you already possess and so
+19:58 I'll be here afterwards I think we have
+19:59 a few minutes left for questions as well
+20:01 um we're going to be launching the auto
+20:04 eval product that I mentioned as a
+20:05 service next month so if you want to
+20:07 sign up here's a QR code uh and also
+20:10 happy to get in touch with anybody
+20:11 afterwards as well thank
+20:13 you so we do have time for a couple
+20:16 questions uh we have a couple of folks
+20:19 uh in the
+20:21 back and they have microphones in their
+20:24 hands make eye contact and get your
+20:26 question and
+20:29 asked hi um I appreciate you going over
+20:32 the concept of guard rails and um are
+20:35 you able to speak on it about how it can
+20:39 relate with
+20:40 fuzzing sorry can you repeat that can
+20:43 can you provide any sort of insight on
+20:45 how it could relate with fuzzing so the
+20:47 traditional
+20:49 security mechanism would be to like run
+20:51 a fuzzer over how does guard rails apply
+20:55 in this way that's a great question so
+20:58 there are many different kinds of guard
+21:00 rails there are also rules-based
+21:01 guardrails like you know regular
+21:03 expression based things or uh other
+21:05 kinds of uh applications this is a
+21:08 specific capability that you enable as
+21:11 part of a guardrail Suite it's not the
+21:13 only thing but what we call this is
+21:16 modelbased guardrails and so for example
+21:19 uh if you want to set up a rule where
+21:22 you want to disallow uh any questions
+21:24 that are irrelevant to the purpose of
+21:26 your application you should be able to a
+21:28 model uh an evaluator or a guardrail
+21:31 model that understands what the purpose
+21:33 of your application is and can evaluate
+21:35 any input and give you a score of
+21:38 whether that's relevant or irrelevant uh
+21:41 and so this is just one part of what a
+21:45 wider guard dril Suite would look like
+21:47 we think this is an important piece and
+21:49 so that's why we're focusing on this but
+21:51 to your point there are other pieces to
+21:53 to properly securing an application that
+21:55 that shouldn't be
+21:57 ignored yeah
+22:00 yes uh I can't see you but can you um
+22:04 speak a little more about the uh the
+22:07 role or make a prediction about uh human
+22:09 in the loop as far as uh data response
+22:12 evaluation where you think that's going
+22:15 yeah that's a another good question I
+22:17 think um I think it can't be a
+22:21 prerequisite to getting started but I
+22:23 think it's irreplaceable in many ways
+22:25 and human in the loop I think people
+22:27 often think of it as like large scale
+22:29 labeling tasks because it's usually like
+22:32 data intensive and we've gotten used to
+22:33 like llm training and so uh in many
+22:36 cases people get scared by uh you know
+22:39 the mention of human in the loop but
+22:41 what we see is you can actually have
+22:43 human in the loop for let's say a few
+22:45 hundred examples right which means if
+22:47 you're a developer team of five people
+22:50 that's like every developer labeling 40
+22:52 examples that's very doable even within
+22:55 the context of a day to create a good
+22:57 set of of data uh but I do think there
+23:01 is a room for basically having both
+23:04 human in the loop as well as synthetic
+23:06 data augmentation with llms uh and they
+23:09 can actually inter uh interoperate very
+23:11 well so let's say you have 200
+23:13 highquality labeled examples by a human
+23:15 being you can then generate 2,000
+23:18 examples with an llm using that initial
+23:21 set as the Baseline uh and so I I see
+23:25 that as basically essential to getting
+23:27 good quality valuators uh in in the end
+23:30 uh but I think that needs to be more
+23:32 methodical uh because today it's just a
+23:34 scary thing to get started with uh I
+23:37 think because there is no workflow in in
+23:40 in place for how you even start with
+23:42 like labeling go from human in a loop to
+23:45 find tuning to getting a model to
+23:47 hooking that up into production so I
+23:49 think that workflow needs to be well
+23:50 defined in order for uh it to be a
+23:53 little bit demystified but I think it's
+23:55 here to stay and it's going to go get
+23:57 more important last question yeah uh
+24:01 thanks for the talk uh I'm I'm from in
+24:04 here I'm here oh sorry oh sorry yes uh
+24:07 I'm from in and we are rolling out a
+24:10 custom coding assistant for our
+24:12 developers so you talked about the
+24:14 synthetic data Creation in your auto
+24:16 eval product does it work for coding uh
+24:19 tasks it does uh we're working with a
+24:21 couple companies actually that have
+24:23 coding assistants uh happy to chat
+24:25 afterwards as well yes uh and it depends
+24:27 on how you w to uh generate synthetic
+24:29 data it can either be synthetic data
+24:32 sets and entirely or it can be labels
+24:35 for evaluating quality of exact okay and
+24:40 it does work you can like yeah we have a
+24:42 couple of techniques for generating that
+24:44 data synthetically so one more question
+24:46 so we recently rolled out multi-one
+24:48 conversations so does Auto well work for
+24:51 that because it has to take uh like all
+24:53 the questions to come up with those
+24:55 scores the correctness faithfulness it
+24:58 does that's another good question so one
+25:00 thing I forgot to mention is we've done
+25:01 a lot of work on effectively infinite
+25:04 but like up to 128k context window uh
+25:07 length for these evaluator models uh and
+25:10 I'm happy to go into more detail
+25:11 afterwards on how that works but there's
+25:13 a windowing technique that works pretty
+25:16 well so you can even use a 400 million
+25:18 parameter model but have a effectively
+25:20 128k context window for this I see okay
+25:23 all right

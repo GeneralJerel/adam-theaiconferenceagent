@@ -1,0 +1,235 @@
+0:03 hi everyone good afternoon my name is
+0:05 Christy maver I'm VP of marketing at
+0:07 numenta the talk of my title today is
+0:09 transforming AI through Neuroscience so
+0:13 I'm going to talk a little bit about
+0:14 Neuroscience a little bit about Ai and
+0:16 I'm going to take no more than 10
+0:17 minutes trying to convince you why AI
+0:20 needs Neuroscience more than ever today
+0:22 talk about the impact we're making in
+0:24 the short-term and our long-term road
+0:26 map so let's get started so I start with
+0:29 this slide which shows that for the past
+0:31 30 to 40 years the amount of compute
+0:34 required for AI systems has just grown
+0:37 tremendously so if you look at the left
+0:39 the Y AIS you'll see that's a log scale
+0:43 and if you do some quick math and some
+0:45 sustained squinting you'll notice that's
+0:48 a 10 billionfold increase in compute
+0:51 required for AI if you look at the xais
+0:54 you'll notice that ends at 2020 so it's
+0:57 only gotten bigger since then and that's
+0:59 the red curve the AI deep learning curve
+1:02 now if you look at the Blue Line showing
+1:05 Hardware performance that's a pretty
+1:06 respectable growth as well remembering
+1:08 that's a log scale and so that's shown
+1:10 improvement too but it's the gap between
+1:13 these two that's really driving
+1:15 complexity and cost and and frankly
+1:17 preventing many companies from getting
+1:19 started or deploying large AI models
+1:22 today so we need to bring these two back
+1:26 into alignment and how will we do that
+1:29 well the hardware improvements are great
+1:32 but on their own that's not going to cut
+1:33 it we need new innovation we need new
+1:36 algorithms we need something new to help
+1:39 bridge this Gap well the brain is larger
+1:43 than any llm that's out there and it can
+1:45 run on about as much power as a normal
+1:48 light bulb so why not start there can we
+1:52 start there can Neuroscience truly
+1:55 improve AI well we think it can and we
+2:00 understand a lot of the details that
+2:03 make the brain so efficient we
+2:06 understand the strategies and the
+2:07 mechanisms that the brain uses to
+2:09 operate in this efficient manner now I'm
+2:11 not going to go into those Neuroscience
+2:13 details here that's a different talk
+2:16 that's a longer talk that's someone
+2:18 else's talk but I am going to talk about
+2:21 two key components of the brain's
+2:23 efficiency that we can apply to today's
+2:25 AI so the first has to do with the
+2:28 neuron a deep learning neuron is really
+2:32 pretty simple um it's not it really
+2:34 doesn't represent a biological neuron
+2:36 which is fine it's mathematical so it's
+2:39 essentially a linear weighted sum
+2:40 followed by a
+2:42 nonlinearity now a brain neuron is
+2:44 completely different it's highly complex
+2:47 it's very complicated and we have these
+2:49 sparse distributed computations that
+2:52 allow the brain to use with very very
+2:55 minimal
+2:56 energy and then when you look at the
+2:58 neural network on the Deep learning side
+3:01 essentially it's Brute Force right you
+3:04 multiply everything by everything you're
+3:07 generating a lot of power a lot of
+3:09 computes and again in the brain that's
+3:11 not how it works at all so if you look
+3:13 at the entire system we have a sensory
+3:16 input that comes in the brain can
+3:19 automatically understand its context and
+3:22 dynamically activate a tiny tiny portion
+3:25 of neurons that are needed to process
+3:28 that input and we're talking like
+3:32 99.99% of the neurons are not required
+3:35 for any particular input and that's
+3:38 pretty amazing right when you if you
+3:40 were to freeze frame any moment in your
+3:42 day today very few neurons are actually
+3:46 involved in that particular moment so
+3:49 the brain is able to allocate metabolic
+3:51 energy very efficiently and we
+3:56 understand the algorithms that underpin
+3:58 these two concepts and by applying that
+4:01 to AI we can make AI more efficient and
+4:05 that's what we've been working on at
+4:07 newa for many years so if you're not
+4:10 familiar with Numa we were founded in
+4:12 2005 by Jeff Hawkins and Donna dubinsky
+4:15 it's the same team that did Palm
+4:17 Computing if you remember the Palm Pilot
+4:19 back in the day that was Jeff's creation
+4:21 and Numa was really founded on a dual
+4:23 Mission the first leg of that mission is
+4:26 scientific it's to understand how the
+4:28 brain works so that we can carry out the
+4:32 second leg of the mission which to is to
+4:34 apply those discoveries and that
+4:36 research to Ai and ultimately eventually
+4:40 create truly intelligent machines so for
+4:43 the past two decades we've been working
+4:45 on this Neuroscience research we've made
+4:47 a lot of progress and some breakthrough
+4:48 discoveries in understanding
+4:50 specifically how intelligence is
+4:53 implemented in the brain we published a
+4:57 theory of that intelligence called the
+4:59 Thousand brain Theory uh Jeff wrote a
+5:01 book about it um which came out a few
+5:03 years ago called a thousand brains uh
+5:05 Bill Gates named it to one of his top
+5:07 five books of 2021 the year it came out
+5:11 and since then at numenta we've been
+5:13 building AI technology on top of that
+5:17 theory so so far we've been able to
+5:20 demonstrate dramatic power and
+5:22 performance improvements um notably for
+5:25 llms running on
+5:27 CPUs we also earlier this year a few
+5:30 months ago actually in June we announced
+5:33 a new open-source collaborative research
+5:36 project that's funded by The Gates
+5:38 Foundation called the Thousand brains
+5:40 project and that's devoted to creating
+5:42 an entirely new type of AI based on
+5:46 these biological neocortical
+5:49 principles okay so what does it mean to
+5:52 transform AI through Neuroscience if I'm
+5:55 going to put that as a title of the talk
+5:57 I should at least address what that
+5:59 means
+6:00 so essentially what we're doing is We're
+6:02 translating Neuroscience to computer
+6:05 science so we've taken components of the
+6:07 theory we've created new architecture
+6:10 data structures and algorithms so
+6:13 architecture being how information is
+6:15 physically structured in the brain data
+6:18 structures how that information is
+6:19 represented and then the algorithms are
+6:22 how you operate on it what you do with
+6:24 that information and I've covered some
+6:26 of these uh in the key principles
+6:28 showing that in the brain we use a more
+6:31 sophisticated neuron with active
+6:33 dendrites we have sparse weights we have
+6:36 sparse activations in the Thousand
+6:38 brains project they're they're looking
+6:40 at building entirely new sensory motor
+6:43 learning intelligence systems so again
+6:46 we're taking this research we're mapping
+6:48 it to AI both short term and in the
+6:52 future and then what are the results
+6:54 what's the impact of doing that well so
+6:57 far we've been able to show improvements
+6:59 in these three categories so for
+7:02 inference we've been able to show that
+7:04 we can dramatically accelerate
+7:05 throughput we can do this with super low
+7:08 latencies that require much less memory
+7:11 that use much less energy on the
+7:14 training side of things we're able not
+7:16 only to accelerate training but also to
+7:19 do it in a way that requires much
+7:21 smaller training sets less data labeling
+7:25 and giving you the ability to update
+7:26 models on the Fly rather than having to
+7:29 retrain the whole thing and then lastly
+7:32 on the hardware side of things one of
+7:35 the nice things about what's come out of
+7:36 this research is that we're able to
+7:38 optimize this for commodity Hardware so
+7:41 specifically we've done a lot of
+7:42 benchmarks on CPUs also gpus enabling
+7:47 low Precision Ai and then ultimately
+7:50 laying the groundwork for completely new
+7:53 hardware architectures that are designed
+7:55 from the beginning to take advantage of
+7:58 these software
+8:00 optimizations we've shown to date in
+8:03 many of these categories up to 100x
+8:06 Improvement and as we continue to
+8:09 implement portions of our
+8:11 neuroscience-based road map we expect
+8:14 another order of magnitude improvement
+8:16 over the next two to three years so let
+8:19 me show you just a couple of the results
+8:21 that we've gotten so far so this first
+8:23 one is a power Benchmark that we ran
+8:25 this is power defined as throughput per
+8:28 Watts and we're looking at nenta
+8:32 technology running on a fifth gen Intel
+8:35 Zeon CPU compared to an Nvidia a100 GPU
+8:40 and Numa on the Intel CPU is 20 times
+8:44 more power efficient than the Nvidia GPU
+8:47 now if you're looking at the footnotes
+8:49 you may see that that's a Bert large
+8:51 model so let's look at a GPT model this
+8:54 is a result that's looking at speed well
+8:57 throughput specifically and again this
+8:59 is a numenta this time it's a GPT 7
+9:02 billion model running on the Intel fifth
+9:04 gen Zeon compared to the Llama 2 7B
+9:08 running on Nvidia a100 and here we see a
+9:11 3 to 6X throughput speed up and that's
+9:15 pretty compelling considering that you
+9:17 know I think most people associate
+9:19 running large LL large running large AI
+9:23 models on gpus and not CPUs so the
+9:25 ability to get all the benefits and the
+9:27 flexibility of CPUs
+9:29 and with and still get this performance
+9:32 increase is quite nice so to summarize
+9:36 in the last 20 seconds at numanta we''ve
+9:39 been we're steeped in Neuroscience
+9:41 research but we're really excited about
+9:43 the results that we're seeing today and
+9:45 the future that we're setting for
+9:47 tomorrow and we'd love to chat more with
+9:49 you about it uh visit nea.com I'll be
+9:52 hanging out at the nenta lounge at Booth
+9:55 232 if you're interested in joining the
+9:58 open source community please do you can
+10:00 scan that QR code that'll take you to
+10:02 the Thousand brains project and you'll
+10:04 learn how to get involved thank you so
+10:07 much

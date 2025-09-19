@@ -1,0 +1,271 @@
+0:04 hi I'm Karan from locy and today I'm
+0:06 going to talk about how our large design
+0:08 models or ldms are helping accelerate
+0:11 front-end UI development so as Builders
+0:15 entrepreneurs or product managers the
+0:17 start of any project is the most
+0:18 exciting time you have a vision you have
+0:20 an idea and you want to bring it to your
+0:22 users as soon as possible so you work
+0:25 with your designers and you come up with
+0:27 your first wireframe things are looking
+0:29 good at this point you get some feedback
+0:31 you talk to stakeholders you take all
+0:33 their feedback and then you come up with
+0:36 your
+0:36 mockup and you're pretty happy at this
+0:38 point things are looking good your
+0:40 vision's almost there but we all know
+0:44 what happens after
+0:45 this iterations and iterations back and
+0:48 forth between designers and developers
+0:51 you've blown your budget you're way
+0:53 behind schedule and it's still not
+0:56 something that you're ready for the
+0:58 final product after all of this this is
+1:01 not really what you actually wanted to
+1:02 build and at this point literally
+1:05 everyone wants to kill everyone so you
+1:08 started with something great and you
+1:09 ended up with something else now here
+1:12 you're in a conundrum what do I do next
+1:14 do I ship a substandard product to my
+1:16 users or do I go back to the drawing
+1:18 board and start all over again there has
+1:21 to be a better way to do this and that
+1:23 is where loopi comes in we help take
+1:26 your designs to code and convert it into
+1:29 code and we do do it in just one click
+1:32 so before I go directly into the AI that
+1:35 actually is powering this technology let
+1:37 me just show you how it works
+1:40 so all right giving it some time to
+1:44 load all right so we are a plug-in
+1:46 within figma which is a design tool and
+1:48 this is a typical Airbnb design that you
+1:51 can see uh this would actually take a
+1:53 few Engineers a couple of weeks if not
+1:55 months to convert into code and actually
+1:57 ship this out but with loopi as you just
+1:59 saw a single click help convert this
+2:02 into fully responsive
+2:04 code the idea is that you're able to now
+2:06 also interact with it so it's not just
+2:08 something that is static and you're able
+2:10 to look at the code that is actually
+2:12 generating the preview as you can see
+2:14 here in addition to this we also
+2:16 generate components and this helps make
+2:19 your uh entire code more modular the
+2:23 idea is not to actually replace
+2:24 Engineers but to supercharge them so
+2:26 that they can actually work on high
+2:28 value items and 80% of the grunt work of
+2:30 the frontend UI development is actually
+2:32 taken care of by loopi here we also you
+2:36 know like any AI it's not perfect so it
+2:39 does make mistakes but we have provided
+2:41 the diagnostic tools to go through each
+2:43 and every decision made by the AI and
+2:46 actually edit it so the power and the
+2:48 control is still with the actual
+2:51 engineer and all of this is possible
+2:53 because of the large design models that
+2:55 we built we buil this in-house uh from
+2:57 scratch by training it on designs that
+3:00 were available now the next obvious
+3:03 question is another model really can't
+3:06 llms actually do this and we put that to
+3:08 the test right so let's actually see
+3:10 what happens when you ask the same
+3:11 problem to an llm so we did this with
+3:14 Gemini and he said hey here's a design
+3:16 here has an image can you convert this
+3:17 into code no code was generated we just
+3:20 got a bunch of instructions on how to do
+3:21 it Claude same thing no code was
+3:25 generated chat GPD was slightly better
+3:28 right we still got code we got something
+3:29 thing but what it actually looks like
+3:31 and what we wanted to build is very very
+3:33 different and the same problem given to
+3:36 locy was able to create not just code
+3:38 but also Pixel Perfect and almost
+3:40 production ready and that is basically
+3:43 how llms and ldms kind of differ so why
+3:46 do they actually differ large language
+3:49 models or even multimodel models are
+3:51 trained on text on generic images and
+3:55 that's what they really understand but
+3:57 designs are not text and images they are
+3:59 shapes their vectors their symbols a
+4:02 heart icon or a home icon has a specific
+4:05 meaning in a design so large design
+4:07 models are actually trained on this
+4:08 rather than just generic text and that
+4:11 is why we're able to generate the code
+4:13 that you just
+4:14 saw in a nutshell this is basically all
+4:17 that that is made inside the large
+4:19 design model so we take designs we build
+4:22 a we have built a foundational design
+4:24 model using text image as well as the
+4:26 node metadata that is provided by these
+4:28 design tools and we generate the
+4:30 embeddings and concatenate them this
+4:32 becomes the backbone of all these
+4:34 smaller models that solve a specific
+4:36 task like optimizing your designs making
+4:39 it interactive making it modular and
+4:41 responsiveness and responsiveness uh
+4:43 responsiveness is basically making sure
+4:45 that it actually works on a desktop as
+4:47 well as it scales down to a mobile so
+4:50 once we go from the design to the code
+4:52 domain that's when we see the actual
+4:55 power of llms helping out so we use that
+4:57 to optimize layer names and other code
+4:59 op
+5:00 optimizations and all of this process
+5:02 which happens in one click goes from
+5:04 your design to code and preview that you
+5:06 just
+5:06 saw let me dive a little deeper into
+5:09 each of these smaller modules right so
+5:12 design Optimizer is our model to look at
+5:15 the structure of the design and optimize
+5:17 it removing redundant groups uh adding
+5:20 Auto layout making sure everything is
+5:22 vertical and horizontal uh and also
+5:24 grouping them accurately we uh use
+5:27 visual Transformers as well as name
+5:29 entity recog ition models to achieve
+5:30 this and then we go to the next step
+5:33 which is basically adding semantic
+5:35 meaning to your actual designs so a
+5:37 design can consist of multiple things so
+5:39 for example you have Auto completes you
+5:41 have inputs you have buttons you want to
+5:43 recognize all of this but in a design
+5:45 it's nothing but a rectangle so to
+5:47 really understand the actual uh actual
+5:50 item that it is actually going to be
+5:52 used for like a button is going to be
+5:54 clicked or a daytime picker is going to
+5:55 show you the calendar that's basically
+5:57 what the model is able to distinguish
+5:59 and not just these Atomic elements we
+6:01 also detect meta elements like your
+6:03 header because headers have special
+6:05 properties or a grid which also has
+6:06 special properties so we're able to
+6:08 detect this and add the semantic meaning
+6:10 uh to the design
+6:11 itself code components um so with any
+6:15 design you always have repeated items
+6:17 like for example in this case you have a
+6:19 hotel card that's repeated multiple
+6:20 times so you don't want to keep
+6:21 generating code for each item so the
+6:24 idea is to use similarity detection in
+6:26 this case to detect similar items and
+6:28 then convert into a single component and
+6:30 a single code base in addition to that
+6:33 we also generate the properties or the
+6:36 props that can be used to distinguish
+6:38 different instances of the same
+6:41 component and then we have
+6:42 responsiveness this is one of the
+6:44 toughest problems we had to solve it's
+6:46 very subjective uh but taking something
+6:48 that looks good on desktop and mobile
+6:50 and having it work seamlessly is not
+6:53 easy here we use a hybrid approach uh we
+6:56 use tagging and feature detection to
+6:58 understand the UI pattern
+7:00 that have been detected and then we use
+7:01 static algorithms to apply the relevant
+7:03 responsive rules so you go from your uh
+7:06 desktop to your mobile seamlessly and
+7:08 this in a nutshell is basically your
+7:10 large design model once we enter the
+7:13 code domain as I mentioned we're looking
+7:14 at Auto layer names so designs typically
+7:17 have hundreds or thousands of layers
+7:19 manually renaming each of them so that
+7:21 they make sense is a cumbersome task and
+7:24 no one really does it so using llms
+7:26 Gemini in this case we pass the context
+7:29 of the design and the output of our ldm
+7:31 to make sure that it understood what the
+7:33 each function was and come up with more
+7:35 meaningful names that can be used as
+7:36 variable names in your code further
+7:39 improving the quality
+7:41 itself so going quickly into how we
+7:44 actually train our model so we use
+7:46 publicly available HTML and figma data
+7:49 we label them and then we convert them
+7:52 into a proprietary design data format
+7:54 this design data format ensures that we
+7:57 can actually scale across different
+7:59 design tools not just figma but also
+8:00 Adobe XD penot and support both mobile
+8:04 and web apps this is then fed into our
+8:07 foundational design model that looks at
+8:09 all three modalities image text and
+8:11 metadata concatenates them and then
+8:14 feeds them into the design Optimizer
+8:16 tagging components and feature detection
+8:18 models now the typical metrics that you
+8:21 would use for a an ml solution are not
+8:24 really relevant in this case or not very
+8:26 useful for us to understand how models
+8:28 are doing so we built our own evaluat
+8:30 evaluator which looks at pixel
+8:32 differences but also looks at how the
+8:34 design is different from the preview and
+8:36 make sure that there's an improvement
+8:38 with every
+8:39 iteration and finally the inference
+8:41 pipeline itself is very simple we take
+8:43 your figma designs we convert that into
+8:45 the design data format the ldm inference
+8:48 happens along with the llm layer names
+8:50 and the combination of that is used to
+8:52 generate instructions which then
+8:54 generates the code
+8:55 itself so this is where we are today and
+8:59 it's just the the tip of the iceberg we
+9:00 have big plans we want to scale our ldm
+9:03 to go to a 2 billion parameter model and
+9:05 train it with a lot more data we also
+9:07 want to support mobile apps and scale to
+9:09 more design
+9:10 tools responsiveness is another big
+9:13 challenge we want to solve We Believe
+9:15 feature detection that is adding
+9:16 semantic meaning to the different UI
+9:19 elements is the Silver Bullet here so we
+9:21 want to be able to identify that and
+9:23 actually improve that performance there
+9:25 and finally once we enter the code
+9:27 domain we want to
+9:29 hello yeah we want to use the power of
+9:31 llms to optimize the code further rather
+9:34 than Reinventing the wheel we want to
+9:36 use these L llms to maybe add backend
+9:38 logic to kind of uh add
+9:41 internationalization comons and also
+9:43 remove redundant code that might have
+9:44 been
+9:45 generated so that's all I have for today
+9:48 thank you again for attention we have a
+9:50 booth downstairs Booth 118 so please
+9:52 come down if you guys want to see a
+9:53 quick demo uh we have been in free beta
+9:56 for the last 3 years and just launched a
+9:58 pricing plan if anyone's interested
+10:00 there's a coupon code there and uh hope
+10:02 to see you guys at our booth thank you
+10:04 so much

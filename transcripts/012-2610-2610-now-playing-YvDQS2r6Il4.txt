@@ -1,0 +1,751 @@
+0:08 great welcome everyone I'm excited to be
+0:10 moderating this panel um quick
+0:13 introduction about myself my name is Ken
+0:16 um I'm the author of generational which
+0:18 is a substack publication about what
+0:20 matters in the business and technology F
+0:21 AI if you're interested check it out
+0:23 generation. PB um but since this is a VC
+0:26 panel um putting on investor hat I'm
+0:28 also a venture partner at the fun called
+0:30 firsthand Ventures invest in preed uh
+0:33 and Seed stage B2B software companies
+0:36 but enough about me I'm very fortunate
+0:38 to be joined by three amazing investors
+0:41 I'll do a brief intro first Alex Alex is
+0:44 a partner at light speed Ventures he and
+0:46 his uh fund have invested in companies
+0:49 like glean as well as um in intense ey
+0:53 which uses computer vision to help
+0:55 employees um with their health and
+0:57 safety and then next we have KU
+1:00 partner at coasta ventures she and her
+1:02 fund have invested in po aai which is an
+1:05 Enterprise voice agent and also open AI
+1:07 which everyone knows about and then
+1:09 lastly we have Shan partner at ivp um he
+1:13 and this fund have invested in the I
+1:16 guess the more popular or the most
+1:17 popular search companies right now glean
+1:19 and perplexity but my introduction does
+1:23 not do justice to their experience so
+1:25 I'd like to open up this panel with an
+1:27 introduction by the panelist themselves
+1:30 maybe Alex you can start then we can go
+1:31 conu and Tron great sounds good hey
+1:34 everyone great to be here I joined light
+1:36 speed last year one of the partners on
+1:38 the team uh you know as a firm we've
+1:40 been investing in the Enterprise space
+1:41 for about 30 years um you know the firm
+1:43 got started back in 99 so it's been a
+1:45 really fun few years just giv all the
+1:47 developments in AI I think the level of
+1:49 excitement and optimism at the firm uh
+1:52 there's just a lot of Buzz um you know
+1:54 as a firm obviously we've been long
+1:55 investors in AI but in particular the
+1:57 last few years have been really exciting
+1:59 I focus particular on the application
+2:00 layer i' been at Salesforce uh for eight
+2:03 years before joining uh the firm uh and
+2:06 so really excited about the Innovation
+2:07 that we're seeing uh were real business
+2:09 use cases um and some of the sort of
+2:12 hard problems to be solved for cios it
+2:15 decision makers at the app player um and
+2:17 so happy to chat more about
+2:19 that hi everyone I'm kanu gulati very
+2:22 excited to be here uh I'm a partner with
+2:24 coasta Ventures which is a multi-stage
+2:26 fund but our sweet spot is coming in
+2:28 early uh in back bold and impactful
+2:31 Ventures uh the fund is fairly
+2:34 generalist but we like to back companies
+2:37 that have an advantage in a technology
+2:39 or a business mode that can then be
+2:40 parlayed into a business Advantage uh my
+2:43 background uh I have a PhD in we focused
+2:46 on speeding up software using hardware
+2:48 and I soon realized the only thing most
+2:50 interesting to speed up on Hardware is
+2:51 AI and for the last decade have been
+2:54 focused on just that um I focus on
+2:56 applications uh including robotics
+2:58 applications uh because increasingly
+3:00 those are using AI techniques and also
+3:03 uh some
+3:04 infrastructure hey I'm Shan partner at
+3:07 ivp ibp has been around about 44 years
+3:09 we're more of a venture growth firm uh
+3:11 so slightly later than uh than they will
+3:13 invest occasionally um and for me I was
+3:16 at snowflake before this and I spend
+3:17 most of my time in infrastructure
+3:18 software great awesome so let's kick off
+3:22 the Q&A portion I think since this is a
+3:24 VC panel I want to structure it like how
+3:26 VC St always weighing the opportunities
+3:29 versus risk so we'll start with the
+3:31 opportunity section and then the risk
+3:33 section so on the opportunity side um
+3:37 typical question that you probably get
+3:39 asked a lot what's the most exciting
+3:41 thing now um and then what is your quote
+3:44 unquote request for startups at this
+3:46 point I can kick us off yeah uh yeah so
+3:49 I guess on the request for startups I
+3:51 mean I think where we get excited today
+3:53 is where Founders have a real deep sort
+3:55 of domain insight and they're they're
+3:57 really solving a business problem not
+3:58 just sort of technology you know I think
+4:01 in our experience when you have a really
+4:03 Innovative technology like we have today
+4:05 with AI it's not just about sort of the
+4:08 buzzwords and uh trying to think about
+4:11 you know how cool the technology is it's
+4:12 really trying to translate that into
+4:14 business issues um and so you know you
+4:16 talked about intense size an example uh
+4:18 computer vision has been obviously a
+4:20 really exciting technology but what
+4:21 they're doing is uh focused on uh
+4:25 preventing health and safety accidents
+4:26 and so today that industry is really
+4:29 used to to pen and paper folks walking
+4:31 around Factory floors uh manufacturing
+4:33 facilities industrial settings you know
+4:35 something like 3 million people die
+4:37 globally every year from workplace
+4:38 accidents uh and so instead intensi is
+4:41 able to come in and plugs into existing
+4:43 cameras and provides 247 alerts you know
+4:45 their computer vision models are never
+4:47 tired they never not pay attention uh
+4:50 and there's this always on technology
+4:51 that's solving a really hard problem uh
+4:54 and so it's that combination you know I
+4:56 think of not only is it a real
+4:58 technological Edge and advantage in
+5:00 terms of what they' been able to bring
+5:01 to the market but there's a real
+5:02 business case fast Roi you know a big
+5:06 Market opportunity that gets unlocked so
+5:07 I think that's one thing that um we get
+5:09 really excited about right now uh in
+5:11 terms of the ask for Founders and then
+5:13 on the first part of your question um
+5:15 you know you asked what's sort of super
+5:16 exciting you know we've been spending a
+5:18 lot of time at vertical application
+5:19 software uh there's just a real
+5:21 opportunity today I think in the market
+5:23 to identify whether it's illegal in
+5:26 healthcare in retail what are sort of
+5:29 the the new business models and how is
+5:30 AI going to really fundamentally change
+5:33 some of these industries um as an
+5:35 example you know we were an investor in
+5:36 even up on the legal space uh and what
+5:39 that company does is in the injury
+5:40 personal injury law domain is able to
+5:43 sort of generate uh demand letters for
+5:46 uh law firms and really accelerate you
+5:48 know how how quickly they can serve
+5:49 clients and get to resolution uh and so
+5:52 just a fundamental sort of reimagining
+5:53 of how that industry Works uh that's
+5:55 been powered by
+5:58 I yeah you know I I would add on to that
+6:01 uh we are excited about uh applications
+6:04 across different Industries across
+6:06 different functional aspects within the
+6:08 Enterprise and rethinking and
+6:09 reimagining how the current capability
+6:13 and future capability which I think is
+6:15 even more important that imagine if your
+6:17 models are going to be Beyond uh the
+6:20 high school grade level but coming up to
+6:22 say a PhD level or the combined brain
+6:24 power of an open AI what can be enabled
+6:27 what what can be reimagined in terms of
+6:29 the Enterprise uh to give you an example
+6:32 uh we are investors in a company called
+6:33 cognos which is reimagining what RPA can
+6:36 look like because it can allow business
+6:38 users uh to lock business logic in
+6:42 without needing any tech support or any
+6:45 developer time and that completely
+6:47 changes what an industry could feel like
+6:49 so we're very excited about reimagining
+6:51 different Industries different vertical
+6:52 but that's not all in addition to uh
+6:56 llms we are also excited about what's
+6:58 beyond llms we don't think we have
+7:00 obviously you know we investors in open
+7:02 Ai and Sakana and we think they are here
+7:05 to stay and they are going to be very
+7:06 powerful and and and continue to provide
+7:09 a lot of Leverage to a lot of different
+7:10 applications but we are also in the camp
+7:13 that there will be different kinds of
+7:14 intelligences that we should continue to
+7:15 fund and we are investing in or looking
+7:18 at other neuros symbolic techniques and
+7:20 Beyond so very excited about those and
+7:22 encouraging Founders to look Beyond even
+7:24 llms now we're generalist fund so I'm
+7:27 only going to speak for myself here at
+7:28 ivp but I I tend to focus mostly on
+7:30 infra and for infra it's actually with
+7:32 one notable exception we're mostly focus
+7:34 on general purpose infra that has an
+7:36 even more compelling why now because of
+7:38 how the application stack is changing
+7:40 that being said there's actually a lot
+7:42 of stuff I'm personally very passionate
+7:43 about on the creativity and curiosity
+7:45 front so if you think about if you're
+7:47 curious about a subject the best place
+7:48 to go in my opinion is perplexity if
+7:50 you're curious about a subject
+7:51 internally and try to understand how you
+7:53 can better do your job you go to glean
+7:55 and creativity there are dozens of tools
+7:57 out there we haven't invested in them
+7:58 but that are doing amazing job of
+8:00 translating what's in your head into
+8:01 paper or design or screen so to speak uh
+8:04 maybe on more on the personal front I'm
+8:05 an 18-month-old and so one of the things
+8:06 I'm really passionate about is are there
+8:08 going to be a set of products that are
+8:10 not screen based that emerge that can
+8:12 really drive a curiosity Revolution
+8:13 among kids maybe that's a product like
+8:16 curio and what they're doing on the on
+8:17 the toy front maybe there's going to be
+8:18 an AI enabled ET a sketch but that stuff
+8:20 that's maybe my my personal request for
+8:22 startups awesome okay so we talked about
+8:25 what's uh exciting for all of you now
+8:28 but I want to do time travel back to
+8:30 maybe early 2023 cuz it hasn't even been
+8:33 2 years since chat GPT was launched um
+8:35 but the space has evolved really really
+8:37 fast and I think it's only been a little
+8:39 bit uh over a year since gp4 was
+8:42 launched so take yourself back then um
+8:46 what was exciting to you back then that
+8:48 probably at this time isn't as exciting
+8:51 how has your thesis changed over that
+8:52 time
+8:53 period open up to
+8:56 anyone I can kick us off in that answer
+8:59 so so we've been because um we we were
+9:01 fortunate enough to be the earliest
+9:03 Venture investor in open AI we've been
+9:04 tracking that space very carefully very
+9:06 closely uh gpd2 came out in 2019 uh GPD
+9:10 3 and Chad GPD really made uh the news
+9:14 uh that's when people got really excited
+9:15 about the emerging capabilities that
+9:17 come from scale and I think there's a
+9:19 lot more to be seen about what can be
+9:21 done with scale and so we haven't
+9:23 stopped there but going back then I
+9:26 think we
+9:27 were we were just excited about how uh
+9:32 uh you know what can the creative
+9:34 writing experience be and we were
+9:36 looking at a number of applications that
+9:37 can be powered including code automation
+9:41 it was really really early we were one
+9:42 of the earliest investors in a company
+9:43 called repet which started with enabling
+9:46 the citizen developer to create complete
+9:49 applications and the the part that I
+9:52 continue to get excited about is
+9:53 building companies or building
+9:55 applications that can continue to
+9:57 leverage and take advantage of
+9:59 Improvement in underlying alms so there
+10:02 should be an informed opinion on uh and
+10:05 we should try to do our best in in
+10:07 informing that opinion on what GPD 5 or
+10:09 a gpd6 or a gpn could look like and
+10:12 build applications or build our
+10:13 companies with that in mind so that's
+10:15 the ongoing Trend that I continue to be
+10:17 excited about which started off with
+10:19 gbt2 and gbd3 and it's going to continue
+10:21 and creating just more empowered
+10:24 applications for us maybe in contrast to
+10:26 Cano there's a reason I'm not an early
+10:28 stage investor which is I tend to be a
+10:29 little late to the game um and so I was
+10:31 not aware of gpt2 I was not tracking all
+10:33 that sort of stuff that being said I've
+10:35 worked in companies where we were trying
+10:36 to bring machine learning into the
+10:37 Enterprise over the past decade and so I
+10:40 was blown away when I first used chat
+10:41 GPT but I still think I had a little bit
+10:43 of that scar tissue of the difficulties
+10:45 and barriers to adoption and so I was
+10:47 actually more on the skeptical side very
+10:49 incorrectly about how Enterprises how
+10:52 quickly Enterprises would be adopting AI
+10:53 Technologies how quickly they'd be
+10:55 redefining their stack how quickly
+10:56 they'd be redefining their Workforce
+10:58 that is something I totally
+11:00 underestimated um so that's been really
+11:03 fascinating to see I actually sh I
+11:05 actually think some of that skepticism
+11:06 is well founded and I think um what's so
+11:09 to answer the first part of your
+11:10 question I still remember that first
+11:12 time you typed into that chat bot and
+11:14 you sort of got that response it felt
+11:15 magical uh it reminded me the very first
+11:18 time I sort of connected on AOL and you
+11:20 know post Diop speed and you sort of
+11:22 click on a website and it took 45
+11:24 seconds to see a little Banner that felt
+11:26 magical you know the first time you had
+11:27 an email uh on this thing called a
+11:29 mobile device that you sort of had in
+11:31 your pocket and you're like oh my God I
+11:32 can't believe I could sort of do this on
+11:34 here there was a a real moment of magic
+11:37 and I I felt similar when you know the
+11:39 first time uh you know using one of
+11:41 these tools and I think I thing that's
+11:42 amazed me the most is just the Zeitgeist
+11:44 how quickly you know you look at the
+11:45 speed of which you know we back
+11:46 companies like anthropic and Mistral and
+11:49 how fast customers are adopting it
+11:51 having said that I think your instinct
+11:52 of like security privacy uh data
+11:55 governance like those are hard
+11:57 challenges and I think we've we've
+11:58 crossed that point now where we're
+12:00 outside of sort of the uh wave of
+12:02 optimism and now the rubber really needs
+12:04 to hit the meet the road and I think it
+12:06 decision makers are really figuring out
+12:08 how to actually deploy these systems in
+12:10 production because they're cool and fun
+12:12 but we also need to drive business value
+12:13 and we also have to do it in a secure
+12:14 and Safe Way and so as a firm you know
+12:17 having invested as sort of the
+12:18 infrastructure layer we're also
+12:20 investing a lot at the tooling layer you
+12:21 know giving companies uh whether it's
+12:23 companies like ponis uh on the sort of
+12:26 uh governance side or EXA on the sort of
+12:28 search side really helping create the
+12:30 tooling infrastructure to build that
+12:32 trust because I think that's that's
+12:33 needed now yeah and I want to piggy back
+12:36 off of that um on tooling um this is a
+12:40 question for shvan but Kan and Alex as
+12:42 well right so shvan you've worked at
+12:45 some of the most um iconic
+12:46 infrastructure companies snowflake um as
+12:49 well as confluent you've also invested
+12:51 in some of the a companies that have
+12:53 seen the scale and adoption that Alex
+12:56 was mentioning Gan and perplexity what's
+12:58 breaking at the structure layer what's
+13:00 new there um and kuu and Alex what have
+13:04 you seen what with uh companies you're
+13:06 involved with as well I think it's hard
+13:07 to say things are breaking because so
+13:09 much is new I think things are just
+13:11 being discovered in terms of how to
+13:12 actually build an application that
+13:14 scales in a very different way than
+13:16 prior Applications had to scale whether
+13:17 it's a Reliance on external models and
+13:19 infrastructure versus internal whether
+13:21 it's how you have to orchestrate a
+13:22 different models together to get to get
+13:24 the best performance things like that I
+13:25 think there are some very known problems
+13:28 uh you heard probably early from any
+13:29 scale also about scaling and how do you
+13:31 reliably serve models in production
+13:33 we're investors in a company called Bas
+13:34 10 which does that remarkably well as
+13:36 well um so it's hard to say that
+13:38 anything's breaking because I think the
+13:40 reality is just not much is actually in
+13:42 production at scale in large Enterprises
+13:45 so there are lots of techniques people
+13:46 are going for whether it's Rags LMS as
+13:48 judges evals uh guard rails things like
+13:51 that to try and get ahead of some of
+13:52 these problems but I think there's still
+13:54 a lot of the phase of we don't know what
+13:55 we don't know um and I think that'll
+13:58 start to change probably over the next
+13:59 year or two as people start to get
+14:00 things in production realize what breaks
+14:03 and then figure out a lot of
+14:04 infrastructure around it that's I think
+14:05 why we've also been a little bit more
+14:06 patient on our AI infrastructure
+14:08 investing is we wanted to wait for
+14:10 applications to reach scale for those
+14:12 problems to become a little bit more
+14:13 known before we then started making some
+14:15 more
+14:18 bets yeah for us the um ml Ops or llm
+14:22 Ops category has been a harder one to
+14:25 invest in because it's it's hard to see
+14:28 how does a you know a company at the
+14:30 scale of a public company like a neural
+14:31 like or a data dog can exist for just
+14:34 doing say one very small portion of llm
+14:38 like say just observability or just uh
+14:42 you know evals is hard and and similarly
+14:44 you mention some other areas like rag I
+14:46 think there are two challenges one you
+14:48 don't want to invest in anything which
+14:49 is very very adjacent to what the model
+14:52 providers or the model Hub uh has can
+14:55 build because they just have immense
+14:56 mind share they have the right
+14:57 capability they're seeing what sorts of
+14:59 use cases the developer Community wants
+15:01 to build how they want to use it and
+15:03 they have an advantage there so as a
+15:04 startup you don't want to build
+15:06 something that's in the you know
+15:08 roadkill of one of the large model
+15:10 providers and at the same time um you
+15:13 have to go after a large enough
+15:14 interesting market and sometimes if
+15:16 you're only focus on a very tiny
+15:18 vertical because it's niche you can win
+15:20 that market but then where and so we've
+15:23 we've been looking we continue to look
+15:24 you know we we've done model providers
+15:26 more easily but in order to look at llm
+15:29 Ops uh we we we're continuing on the
+15:31 hunt so very excited to meet Founders to
+15:33 help us refine our Theses here totally
+15:36 agree yeah I think one of the things
+15:38 that uh interesting I picked up on is
+15:41 like you're waiting for applications to
+15:42 scale see where things break and then
+15:44 look at what infrastructure is required
+15:47 so Alex you've written about SAS 4.0 um
+15:51 and you mentioned this is a fourth
+15:52 generation of software applications
+15:54 called the system of cognition I guess
+15:56 maybe for the crowd for the audience can
+15:58 you elaborate more on that and then the
+16:00 thing I'm curious about that attaching a
+16:02 second question to is is like there's a
+16:04 growing refrain rightly or wrongly that
+16:07 AI is a feature not the product or
+16:10 capability or a company curious how you
+16:12 kind of mesh those Frameworks and that
+16:14 refrain yeah for sure so if the sort of
+16:17 a cognition quite simply is uh really
+16:19 software going end to end so if you look
+16:21 at you know I mentioned I was at
+16:22 Salesforce before back in 99 Salesforce
+16:24 really pioneered the shift of the cloud
+16:26 maybe we call that sort of SAS 1.0 when
+16:28 use had on- premise applications that
+16:30 then became cloudbased you can access
+16:31 them to a browser 2.0 was a sort of
+16:34 explosion the number of SAS applications
+16:36 from sort of the 2005 2015 era if you
+16:39 will and more and more of these systems
+16:41 started talking to each other you know
+16:42 companies like moft and slack really
+16:44 embody that shift and then 3.0 was sort
+16:47 of this early sign of intelligence where
+16:49 um you know companies like gong and
+16:50 moveworks really started doing next best
+16:53 action and it sort of felt like the the
+16:55 tool had some insight and visibility
+16:56 that was helping uh the human do their
+16:58 job
+16:59 I think what we're about to go into is
+17:01 this sort of really the ability for
+17:02 software going to end I actually whoever
+17:04 thinks it's a feature I I really would
+17:06 disagree with I think this is one of the
+17:07 most fundamental uh Transformations
+17:10 we're going to see and I think what's
+17:11 interesting you know when you talk to
+17:12 customers who are buying these tools
+17:14 they really think about it about not
+17:16 just sort of it spend uh but about sort
+17:18 of actual labor spend you know and I
+17:20 think the size the opportunity um you
+17:22 know a great example is uh we we've made
+17:25 an investment in a company that helps
+17:26 automate manual data entry um and for
+17:29 most people that's a very repetitive
+17:30 timec consuming laborious job they would
+17:33 much rather be focused on meeting with a
+17:35 customer you know another canonical
+17:37 example of this is a company called the
+17:39 bridge doctors spend two hours a day
+17:41 typing up notes at the end of the day
+17:43 it's one of the biggest reasons for
+17:45 Burnout in the medical profession is
+17:46 just how long it takes them to type
+17:47 these notes up uh and so wouldn't it be
+17:50 amazing if they just had this sort of
+17:52 device with them that recorded
+17:53 transcribed everything Auto sort of
+17:55 summarized the note for the patient
+17:57 created all the next steps and the
+17:59 doctor can do what they do best which is
+18:01 really you know sit in front of the the
+18:03 patient figure out what's going on and
+18:04 how to help them be healthier as opposed
+18:06 to sitting there thinking about notes
+18:08 and the administrative part of their job
+18:10 and so that's where we get really
+18:11 excited about this sort of recognition
+18:13 is what are those tasks uh that today
+18:16 have just been unencumbered and these
+18:17 reasoning engines are at the point now
+18:19 where they can actually decide and do
+18:21 next steps and uh drive that automation
+18:24 end to end and so I think it's I've been
+18:26 investing in technology for about 15
+18:28 years
+18:29 I have never been more excited about
+18:30 sort of the opportunity set just because
+18:32 it feels that we're the cusp of this s
+18:34 Revolution yeah and there yeah one
+18:38 another way to look at the space I would
+18:40 say or we talk about it internally is is
+18:43 a co-pilot and an autopilot and there is
+18:45 multiple um you know applications where
+18:48 both could could be really large
+18:49 opportunities for example a GitHub
+18:51 co-pilot which helps make an engineer
+18:53 10x their performance or productivity uh
+18:56 that helps an uh
+18:59 a a professional with just improving
+19:01 their output on the other hand there is
+19:03 an autopilot mode where you can get the
+19:06 tasks done end to end under still some
+19:08 human supervision but for example uh I'm
+19:11 an investor in a company called Reggie
+19:12 which is automates the sales SDR uh
+19:15 activities uh everything from the
+19:17 initial reach out on a cold email
+19:20 figuring out how to personalize figuring
+19:21 out look look alike accounts all the way
+19:24 to uh you know the surround sound from
+19:26 LinkedIn messaging to uh every all of
+19:28 these actions are now being taken by AI
+19:30 n to end and there are multiple examples
+19:33 uh I think it becomes very important to
+19:35 understand where the advantage comes in
+19:37 where does the data flywheel come in and
+19:38 what allows for a bigger larger
+19:40 opportunity in that particular vertical
+19:42 for that particular Market but there is
+19:44 room for both co-pilots and autopilots
+19:46 that's another way to think about the
+19:47 opportunity here got it and we have a
+19:50 couple minutes left but I think you
+19:52 mentioned data fly will and that's often
+19:54 a term um a lot of investors use to as a
+19:58 way to kind of fix figure out whether to
+20:00 how to evaluate the startup so want to
+20:02 jump into the risk portion given the
+20:04 couple minutes we have left is like is
+20:07 there any difference between how you
+20:09 evaluate in diligence a AI startup
+20:12 versus a non- a startup curious how you
+20:14 even Define ai versus non- aai in this
+20:17 in this front um maybe I'll start with
+20:20 that yeah I can share some quick
+20:22 thoughts on that I mean I think the the
+20:23 sort of hardest thing right now when
+20:25 we're meeting new companies and making
+20:26 investment decisions is really just a
+20:28 pace change you know you talked about
+20:30 how it's only been a couple years I mean
+20:31 it's kind of incredible what we've seen
+20:33 in the market since then um and so we
+20:35 think a lot about durability about you
+20:37 know the company's ability to sort of
+20:39 drive and it's not just incumbents uh
+20:41 that have an advantage because of the
+20:43 sort of existing go to market reach and
+20:44 their existing customer relationships
+20:46 it's also just the number of new
+20:47 entrance that are coming around and so
+20:49 we are looking for what are the Moes uh
+20:51 you know historically in software
+20:53 execution was often times one of the
+20:54 best modes and then you drive workflow
+20:56 to drive stickiness um I think we're at
+20:59 a point now where we need to look beyond
+21:00 that and we're looking for places the
+21:02 reason vertical SAS I think is so
+21:03 interesting is typically like a
+21:05 horizontal player like the Salesforce
+21:07 will not think about that vertical as a
+21:09 sort of corol part of their business you
+21:11 know they're they're very focused on
+21:12 serving all customers uh and so if you
+21:14 can start with an initial wedge uh that
+21:17 is really interesting and might not be
+21:18 sort of noticed by one of the bigger
+21:20 incumbents that have it go to market
+21:22 advantage over you you can sort of Drive
+21:24 uh durability and then get to the point
+21:26 where you have your own sort of data
+21:27 flywheel or technology flywheel and you
+21:30 earn the right to grab that next uh sort
+21:32 of Milestone so I I I think what's been
+21:34 amazing about this era is you know you
+21:36 look at Salesforce Microsoft Adobe
+21:38 service now just how fast they've
+21:40 innovated I think you know in the prior
+21:43 when it was Cloud on premise to cloud
+21:44 and then the Mobile Shift a lot of those
+21:46 those new companies um and actually I
+21:48 think the incumbents have done a
+21:49 remarkable job and so uh you know really
+21:52 think about what are those vectors of
+21:54 differentiation and you can't just build
+21:56 uh you know as much as we love uh sort
+21:58 of our investments in anthropic and mral
+22:01 you can't just build and just ride those
+22:03 Tailwinds right you have to sort of
+22:04 think about what is your own IP that
+22:06 you're going to develop I probably add
+22:08 just one thing to that which is that the
+22:11 it is easier than ever to start a
+22:12 company it's harder than ever to scale a
+22:13 company because of that competition and
+22:15 so the the level of creativity you have
+22:18 to have from a business model standpoint
+22:20 and from a go to market standpoint how
+22:22 you acquire users how you resonate with
+22:24 people is just it's so much harder than
+22:26 ever before so
+22:28 I'm a VC I I don't know what people
+22:30 should do uh but I think there's a lot
+22:32 of really exciting things like I think
+22:34 I'm going to come back to perplexity you
+22:35 see some of the creativity they have
+22:36 with their ads how they're partnering
+22:38 with Telos to get distribution things
+22:39 like that those are the types of things
+22:41 you have to do in order to really stand
+22:43 out right now it's still fully
+22:45 conditional about having a magical
+22:46 product experience so nothing replaces
+22:47 that but I think it's easier than ever
+22:49 to build a magical product experience
+22:50 which is the
+22:52 tradeoff yeah um I agree on the you know
+22:56 the incumbents have a distribution
+22:57 advantage and that's hard to mimic just
+22:59 by using llms but we can I think there's
+23:01 a lot of opportunity in reimagining uh
+23:04 completely different approaches for
+23:06 example we've invested in a company
+23:07 called moonhub which is building a
+23:09 recruiting agency themselves so they're
+23:11 not providing say just recruiting
+23:14 software or an ATS for an inside
+23:16 recruiter they're changing and becoming
+23:18 a recruiting agency themselves and
+23:20 behind the scenes a lot of the digital
+23:22 tasks are being automated end to endend
+23:23 by agents uh and internally their
+23:25 margins are getting better as the models
+23:27 next set of models keep getting better
+23:29 uh but now the the business model is
+23:32 completely changed uh and I think I
+23:34 think all of you are way more creative
+23:36 and we'll come up with new companies
+23:37 that we will want to you know fight
+23:39 amongst ourselves to invest so I'm not
+23:42 concerned that there is no opportunities
+23:44 left or you know there is nothing I I
+23:46 think people are just very very creative
+23:47 and there's a a huge huge huge amount of
+23:51 new a wave of companies that's going to
+23:53 come and we're in the very early Innings
+23:55 of what this AI wave is going to get us
+23:57 okay okay yeah um I have a ton of
+24:00 questions left unfortunately like it is
+24:02 time but I'm going to sneak in one more
+24:05 each panelist give a hot take on AI and
+24:08 answer should be like 30 seconds or less
+24:10 and then with that we'll wrap up the
+24:12 panel after
+24:15 that Alex you can go first I can start
+24:17 yeah sounds good I think so if you look
+24:19 at my my hot take is just how quickly
+24:21 it's going to take to build trillion
+24:22 dollar companies you know if you look at
+24:24 today um there's you know Microsoft and
+24:27 uh amazing job in apple it's sort of the
+24:29 three trillion plus Mark these companies
+24:31 have been around for 50 plus years uh
+24:34 you know sometimes 30 40 years I think
+24:36 we're going to see a trillion dollar
+24:37 company in in the next five years uh and
+24:39 I just think the pace at which this
+24:41 Innovation is coming I couldn't agree
+24:42 more that we're just at the very
+24:43 beginning uh and it's just such an
+24:45 exciting time and so the pace we we all
+24:48 are used to technology moving fast I
+24:49 think we're in for a wild ride so I
+24:51 would say buckle
+24:53 up
+24:55 I we we we hinted on this before but yes
+24:58 you know because of the pace again I
+24:59 think the the underlying capability from
+25:02 uh the the models themselves is just
+25:04 increasing improving at a at just even
+25:07 faster rate uh so now we you know from
+25:10 from a high school student to this PhD
+25:11 level reasoning to maybe the combined
+25:14 brain power of of a research lab uh I
+25:18 think my my hot take would be just focus
+25:19 on building companies that can leverage
+25:21 that growth uh and not plan for what's
+25:24 out there today but what will be in the
+25:25 next 2 years or 5 years
+25:29 for me I just I don't think co-pilots
+25:31 are generally good strategies that's my
+25:32 lukewarm to hot take I think unless
+25:34 speaking for Enterprise startups uh I
+25:37 think co-pilots are best for incumbents
+25:39 or for products that have really shitty
+25:40 uxs so instead if you just build like if
+25:43 you have a great product a co-pilot
+25:45 often times slows you down um and so
+25:48 focus on that which I know is a standard
+25:50 VC ISM but I believe it yeah awesome we
+25:53 are out of time unfortunately but if you
+25:55 have questions for the panelists they
+25:57 may stick around right after the panel
+26:00 um with that thank you Alex conu andon
+26:03 thank you Kim thank you

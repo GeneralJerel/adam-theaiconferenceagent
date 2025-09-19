@@ -1,0 +1,225 @@
+0:03 hello everybody uh my name is Louis
+0:06 matui I'm a systems engineer with Arista
+0:08 I'm out of uh Columbus Ohio and uh thank
+0:11 you for the honor to uh speak with you
+0:13 today uh as you can see on the screen
+0:16 here my talk is going to be about
+0:17 networking for AI so probably most of
+0:20 you are on the uh data or the software
+0:23 side uh I'm on the infrastructure side
+0:27 so hopefully uh this will be easily
+0:29 Digest able uh as you're also enjoying
+0:31 your lunches and uh you know we'll we'll
+0:34 just dig in here and get get through
+0:37 this pretty quickly so um in the
+0:40 networking space uh you know we build
+0:43 Leaf spine networks right so your
+0:46 computers your servers they attach to
+0:49 what we call the uh leafes and then
+0:52 those Leafs attach to spines and to get
+0:55 between leaves you bounce off the spine
+0:57 you come back down you hit another leaf
+0:59 and that's how server talk to each other
+1:01 uh today most of those connections on
+1:05 the server side are done at like 10 or
+1:08 25 gig uh gigabits per second um and
+1:13 sometimes on the storage side if you're
+1:14 connecting your storage to an Ethernet
+1:16 Network that can be done at 25 50 or 100
+1:20 Gig uh and then typically those uplinks
+1:22 between the leaves and spines they tend
+1:25 to run more in the ballpark of 100 gbits
+1:28 right um so what happens when your uh
+1:33 director of R&D comes in and tells you
+1:36 hey I've got this new GPU system it's
+1:41 full of Nvidia
+1:43 h100s uh I've got eight gpus in this
+1:46 thing and it's got 400 gig uh
+1:49 connections so um what you see on the
+1:52 screen here is basically what one of
+1:55 these uh massive uh uh dgx systems from
+2:01 Nvidia might look like you can see
+2:03 you've got a couple of
+2:05 CPUs uh and you've got uh a total of
+2:08 eight gpus in this system they're all
+2:11 interconnected by uh these pcie
+2:14 switches um there are there's a onetoone
+2:17 relationship between these gpus and
+2:20 their Upstream network interface cards
+2:22 or Nicks um and so what's interesting is
+2:26 within the system those gpus talk to
+2:29 each other they don't the communication
+2:31 doesn't leave the Box there's usually
+2:33 some GPU native fabric uh so in the
+2:36 Nvidia world that's called nvlink uh in
+2:39 the AMD world that's their Infinity
+2:42 fabric um So within the system there's a
+2:45 native uh communication plane between
+2:48 those gpus but when you need to talk GPU
+2:51 to GPU outside of the system that's
+2:54 where you have those
+2:55 Northbound um interface ports and so you
+3:00 know going back to the traditional
+3:01 Network you're talking about 1025 gig um
+3:06 in the new world uh so you've got we're
+3:09 building these backend networks where
+3:12 we're attaching these gpus at 400 and
+3:15 soon to be 800 gigabits okay so the
+3:19 frontend network is you know what we've
+3:22 always been building these traditional
+3:24 Leaf spines you know 2500 gig these new
+3:29 network to interconnect these massive
+3:31 GPU systems these backend networks uh
+3:35 typically they have 400 gig connectivity
+3:38 to the
+3:38 gpus and they're not oversubscribed at
+3:42 all and so what that means is for every
+3:45 400 gig connection you have down to a
+3:47 GPU you have a matching 400 gig Uplink
+3:50 to the spine okay and
+3:54 so um you know we're we're typically
+3:56 used to like a 2:1 a 3:1 maybe a 4:1
+3:59 over subscription ratio in the front-end
+4:02 Network these backend networks have to
+4:04 be fully provisioned with no over
+4:07 subscription uh so this part down here
+4:10 is what's new to most Network Engineers
+4:13 um and ultimately you know we're scaling
+4:15 these networks out to um 16,000 32,000 I
+4:21 think the largest one that's uh in
+4:23 existence today the xai uh cluster down
+4:27 in Memphis tenness I believe is 100,000
+4:32 GPU uh cluster and so you know as we
+4:36 build these networks larger and larger
+4:39 and larger uh there are some
+4:41 optimizations and some tweaks that we
+4:42 have to put in to to make everything
+4:44 work properly um but what do these
+4:47 applications actually care about there's
+4:49 two main uh metrics that we talk about
+4:52 in the networking space JCT and
+4:56 TCN uh JCT is job completion time
+5:00 this is from the time like let's say a
+5:02 training job is launched until that job
+5:05 is completed uh TSN specifically is a
+5:09 subset of that
+5:12 JCT um where it's basically how much
+5:15 time did that job spend just traversing
+5:18 the network okay and so we measure some
+5:21 of these things down in the millisecond
+5:24 ranges and so very small uh efficiencies
+5:28 on the network transport side have big
+5:31 valuable meaning to the GPU guys um as
+5:36 you know sometimes they're training
+5:37 these jobs they might take days or weeks
+5:39 or months okay so the the uh the more we
+5:43 minimize that time spent in network uh
+5:46 ultimately the better off and the higher
+5:49 utilized those gpus are and so there are
+5:53 some problems you know with um in the
+5:56 networking space we do things like we
+5:59 have
+6:00 um incast like shown here on the far
+6:03 right where you've got uh data coming in
+6:06 from multiple sources all trying to
+6:08 egress the same physical Port um we have
+6:11 flow collisions transient over
+6:14 subscription uh but
+6:16 basically what what we're doing in the
+6:19 um ethernet side is we are tweaking and
+6:21 tuning those connections to minimize the
+6:24 time spent in networking and you know
+6:26 some of those other problems like
+6:28 collisions and the like
+6:30 um so what we're showing here on this
+6:32 slide is just you know if that pink
+6:34 block represents vanilla ethernet um the
+6:39 blue uh the blue portion there
+6:41 represents the optimizations that we get
+6:44 on the Arista side when we do some of
+6:46 our our magic within uh the ethernet
+6:50 protocol and so we bring a full
+6:53 portfolio uh for training of these
+6:55 clusters uh we have you know you can see
+6:58 these six slot chassis where we can get
+7:02 uh like over 500 ports of 800 gig uh
+7:07 within one uh form factor managed as one
+7:10 device and so that's typically large
+7:13 enough for most companies that are
+7:15 experimenting with these gpus on
+7:18 premises right um we also uh service a
+7:23 large portion of Microsoft azure's uh
+7:26 Global backbone as well as Facebook and
+7:28 meta um so some of our customers are
+7:31 building these systems on premises
+7:34 others are renting from the cloud
+7:35 providers and we provide a lot of the
+7:37 transport uh even in those Cloud
+7:40 situations um and we have some
+7:42 optimizations here um which just for the
+7:46 sake of time I I won't go into too much
+7:48 more detail here but the the real
+7:51 takeaway is that you know we optimize
+7:53 for power we optimize for uh latency we
+7:56 optimize for packet loss and you know we
+8:00 maximize for um observability as well
+8:04 and so one of the key things here is um
+8:08 the quality of the operating system
+8:10 that's running on that Hardware uh
+8:13 arista's operating system is known as
+8:16 EOS or the extensible operating system
+8:19 and so there are standards bodies out
+8:22 there like nist and miter who publish
+8:24 and catalog cves common vulnerabilities
+8:27 and exposures and so the higher your cve
+8:33 the more you have to patch your systems
+8:35 uh the more downtime you potentially
+8:37 have the more fragile it typically is
+8:39 and so you know um you can kind of see
+8:42 some of the the numbers there and uh the
+8:45 other important thing is on the optic
+8:47 side so the transceivers to interconnect
+8:50 between our switches which would be
+8:52 shown on the left here and then the Nyx
+8:55 or the GPU systems which are shown on
+8:57 the right um so how do we achieve 400
+9:01 gig how do we achieve 800 gig
+9:04 connections between our switches and
+9:06 those systems um we have a lot of detail
+9:09 here and we've got a full full portfolio
+9:11 of of that equipment as well um the next
+9:15 thing that I just want to mention is the
+9:17 ueec the ultra ethernet Consortium this
+9:20 is a uh group of companies that have
+9:24 come together to build more enhancements
+9:26 into ethernet to benefit AI and so you
+9:30 can see who some of the uh
+9:31 representatives there are um the main
+9:34 problem that they're working on is a
+9:35 transport protocol to replace RDMA over
+9:39 converged ethernet also known as Rocky
+9:42 um and there's load balancing challenges
+9:45 to figure out there's uh scale
+9:47 challenges to figure out um but
+9:49 ultimately I'll leave you with this if
+9:51 there are any hockey fans uh out there
+9:53 so Wayne Gretzky talks about you know
+9:55 the reason he was so uh successful is
+9:57 that he would skate to where the puck
+9:59 was going not to where it's been um so
+10:02 you know I'm a firm believer that uh IP
+10:05 and ethernet always wins so we used to
+10:08 build separate networks for things like
+10:10 telefony and video conferencing and
+10:12 broadcast video and storage and high
+10:15 performance compute and AI clusters uh I
+10:18 believe that you know with the
+10:19 optimizations that we've been talking
+10:21 about that all of those things are
+10:23 ultimately converging to IP and ethernet
+10:26 um and so I've got 8 seconds left if
+10:29 anyone wants to uh keep in touch with me
+10:33 uh you can visit our booth where Rista
+10:35 networks and there is a QR code with my
+10:37 LinkedIn profile so that's all I got
+10:40 thanks everyone

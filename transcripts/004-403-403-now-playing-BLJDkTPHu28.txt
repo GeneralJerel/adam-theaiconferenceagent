@@ -1,0 +1,110 @@
+0:00 I'm Leslie Jones Dove. I'm the CTO and
+0:01 co-founder of Justice Text. Feels pretty
+0:04 good. Uh validating um I know we have a
+0:07 strong company, strong product. Um and
+0:09 I'm happy to see that the people and the
+0:11 judges also agree. Justice X is a video
+0:14 evidence management platform.
+0:16 Essentially, primarily public defenders
+0:18 come to our platform. They'll upload
+0:20 body cam, jail calls, interrogation
+0:21 videos. We'll transcribe it and use AI
+0:24 to pull out the incidents that they're
+0:26 looking for automatically. We save them
+0:28 a whole bunch of time. um in their
+0:30 evidence review process. We'll kind of
+0:32 continue what we've been doing which is
+0:34 essentially growing uh we doubled our
+0:36 revenue this year uh and continue to
+0:39 embrace and invest in the new
+0:41 technologies. So we existed before sort
+0:44 of uh chat GBT was released large
+0:46 language models got super popular uh but
+0:49 when it did get released we wanted to
+0:51 make sure that we integrated it in a
+0:53 fast and safe way. So we did that and
+0:56 our users are already seeing value from
+0:57 it. Uh but you know, we've only taken
+0:59 the first step. Uh there's a lot more
+1:01 things for us to do, a lot more insights
+1:03 for us to pull out. Um another thing
+1:04 that we're really excited about is our
+1:06 sort of vision feature set. Um so
+1:08 identifying faces, objects, all of these
+1:10 things are super important for any
+1:12 attorney looking to review hours and
+1:14 hours of video uh and audio evidence.
+1:17 Our primary use are public defenders and
+1:19 so their feedback tends to be that, you
+1:21 know, first and foremost, they're saving
+1:24 a whole bunch of time. So this They are
+1:28 automated transcripts and the audio that
+1:30 we get is not super good. Uh but it's a
+1:34 place for them to start. Um it's so much
+1:36 easier to go through an actual
+1:37 transcript than it is to go through just
+1:38 raw video and audio data. Um and before
+1:41 public uh Justice X they had nothing.
+1:43 And so now they get a fast transcript, a
+1:46 very easy to use interface to sort of
+1:47 review that evidence and a whole host of
+1:49 different tools that they can use to
+1:52 prepare for their trial, their cases, um
+1:54 and make their lives a lot easier. We
+1:56 actually got one attorney who said
+1:58 justice sex meant more time with their
+2:00 family because they were saving that
+2:01 much time. Um, and that's really part of
+2:04 the reason why we do this work. We're
+2:06 still super excited about large language
+2:07 models. We've already integrated a few
+2:09 of them into our app. Um, so that users
+2:12 can kind of take hundreds, sometimes
+2:14 thousands of files and distill it down
+2:16 to the key insights that they need to
+2:18 sort of prepare for their um their
+2:20 cases. Uh, but yeah, people want to know
+2:23 who's in their videos. They want to
+2:24 start tying the same officer, for
+2:26 example, to multiple different videos,
+2:28 multiple different cases. Uh same thing
+2:30 with objects. Uh perhaps a certain car
+2:34 is super important in a set of body cam
+2:36 files. Perhaps a gun and when that gun
+2:38 appears, if it appears, needs to be
+2:40 known. We want to continue saving users
+2:43 time answering these key questions that
+2:45 they need. I would just say
+2:48 get up there, tell a story, tell a
+2:50 compelling story. Um, and you know, be
+2:53 confident in yourself. I think you're
+2:55 here for a reason. They chose you for a
+2:56 reason. You have a great company. Um,
+2:59 and I think it really is important that
+3:01 you sort of craft the story around that
+3:03 so it's compelling for the audience, the
+3:05 judges, and I guess potential investors
+3:08 and even users. I had zero expectations.
+3:10 I mean, I knew there would be exposure
+3:12 at the very least. Um, so I was happy,
+3:14 very much happy for that. And I was
+3:16 happy to be here for uh the networking,
+3:18 the programming. I mean there's still so
+3:21 much for us to do when it comes to uh
+3:23 artificial intelligence in our platform
+3:25 and so there's so much for me to learn
+3:26 as a CTO. So I was mainly mainly looking
+3:29 forward to that. This is definitely uh a
+3:33 fantastic bonus to this uh experience.
+3:36 So very happy about that. Uh thank you
+3:38 so much for the opportunity. Um really
+3:40 what has been a pleasure so far. Um and
+3:43 please feel free to join our journey. Uh
+3:45 we're posting on Twitter, on uh
+3:47 LinkedIn. Um and yeah, just follow our
+3:50 journey.
+3:50 Where can everyone find
+3:52 uh Justice Text uh at Justice Text
+3:54 LinkedIn Justice Text. You can message
+3:56 me. I'm at Leslie Jones on Twitter. Um,
+4:00 and Lesie Jones up on LinkedIn as

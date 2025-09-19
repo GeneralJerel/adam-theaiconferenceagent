@@ -1,0 +1,735 @@
+0:00 Right.
+0:01 [Music]
+0:04 [Applause]
+0:06 [Music]
+0:08 So, we're here with Anch from Relio.
+0:11 You're the chief product officer. Is
+0:12 that right?
+0:13 That's right. Sean, chief product
+0:14 officer at Realto.
+0:16 Awesome. And u An can you just like just
+0:19 give a a simple intro into what Relio
+0:22 does?
+0:23 Yeah. Yeah. Um so Relio is about data
+0:27 unification. So, we're able to bring
+0:29 lots of different firstparty data
+0:32 together for large enterprises. And, you
+0:34 know, let's let's just start with the
+0:36 problem that these enterprises are
+0:38 trying to solve. Yeah. Sometimes it's
+0:40 hard for the bigger the company, the
+0:42 harder it is to answer simple questions
+0:45 like how many customers do we have? It's
+0:48 actually a fairly complex problem
+0:49 because products are sold through
+0:51 different channels. Companies grow
+0:53 through acquisition. um companies have
+0:55 franchisee type of models. There's an
+0:58 accumulation of systems over the years,
+1:01 right? Whether that's different SAS
+1:03 systems or you know on-prem
+1:05 applications, each one comes with its
+1:07 own sort of opinionated view of how to
+1:09 manage data. So at the end of the day,
+1:11 it becomes very hard to answer simple
+1:13 questions and therefore it becomes hard
+1:16 to run business operations that are
+1:18 consistent, they're efficient across
+1:20 these enterprises. Um, and and we've
+1:23 always believed that the power is in the
+1:25 data and and I I'm sure as as AI more
+1:29 and more people get into AI, they're
+1:31 going to come to the same realization.
+1:33 And so what Relio solves is data
+1:36 unification which is the ability to
+1:38 bring together some of this first party
+1:40 data and apply a different variety of
+1:43 techniques to make sure that the output
+1:45 is as trustworthy
+1:48 um or or much more trustworthy than the
+1:50 different inputs that went in. Right? So
+1:53 this data I'm using abstract terms I'll
+1:55 make it more real. So this data can be
+1:57 about your customers, about your
+2:00 suppliers, about locations, um about
+2:04 products that your company sells. So
+2:05 think about any noun, right, that you
+2:07 need to make higher fidelity. Um so
+2:10 let's take customers as an example. So
+2:12 you would you would have um you know in
+2:15 any any typical enterprise, you would
+2:16 have customer information in your CRM
+2:18 system. There's probably a customer
+2:21 success system somewhere. um there is a
+2:23 shipping or a warehousing system perhaps
+2:25 an e-commerce system right even these
+2:27 four systems they they they have their
+2:29 own variations of information about Shan
+2:33 Burton
+2:34 right
+2:35 there there is no single view that says
+2:38 Shan Burton authoritatively we can say
+2:41 is such and such customer ID lives at
+2:44 such and such address has had such and
+2:45 such transactions with us um and
+2:48 therefore be able to that that
+2:50 information can then be used for
+2:53 downstream uh consumption and we'll talk
+2:55 about that in a little bit in different
+2:57 ways. Um but having that confidence in
+3:00 the first place that data about Shawn is
+3:03 really data about Shawn, right? The
+3:05 completeness of that data is what we
+3:08 started out as to to to solve for. Um
+3:11 and that space is what we've grown into
+3:13 the data unification umbrella. And so as
+3:17 part of that unification, it sounds like
+3:18 you're having quality sounds like a very
+3:21 big part of that unification is
+3:23 Yeah.
+3:23 Yeah. making sure.
+3:24 Absolutely. Absolutely. Data quality,
+3:26 but data quality, it's a very
+3:27 interesting and important thing, right?
+3:29 You don't solve data quality for the
+3:30 sake of data quality.
+3:32 You create you you improve the quality
+3:35 of data because you want a certain level
+3:38 of performance out of a business
+3:40 process. Mhm.
+3:42 And this has been our approach from the
+3:44 very beginning that if you start with
+3:46 the business process, the business
+3:48 outcome that the enterprise is looking
+3:49 for and work backwards from there, then
+3:52 the data, the shape of that data, the
+3:54 the the connectivity amongst that data
+3:57 and the level of quality of that data
+4:00 can be refined to the point where it's
+4:02 meeting the business objectives. Yeah,
+4:04 100%. Yeah. So, so given how long have
+4:07 you guys been in this space just the
+4:09 data space in general? company started
+4:11 in 2011.
+4:12 Okay. So good. So how do you see it? I
+4:15 mean given that uh sort of AI what what
+4:19 we see in the conference I should say is
+4:21 we see an tremendous broadening out of
+4:24 of interest uh over over the last really
+4:27 this this year in particular
+4:29 and how do you think about like how is
+4:32 it changing for you guys? Because what
+4:33 we're seeing is companies that didn't
+4:34 even necessarily really consider
+4:36 themselves data companies before
+4:39 are all of a sudden looking at the
+4:40 capabilities of AI saying, "Wait a
+4:42 second, this thing can can make use of
+4:44 our data in ways that we really never
+4:46 thought about."
+4:47 So, how's that affecting your business
+4:49 considering you went all the way back to
+4:51 2011?
+4:52 No. And and and um it's a tremendous
+4:55 moment for everybody in the industry.
+4:58 And what we're seeing is enterprises. I
+5:01 think the big change in the last year as
+5:03 as you mentioned is with a genic AI
+5:06 specifically it's becoming very clear
+5:09 how AI will percolate through the
+5:11 enterprise
+5:12 right with generative AI there was
+5:14 clarity around certain tasks you know we
+5:16 talk about translations and
+5:17 summarizations and content generation
+5:19 that was fantastic we knew that would
+5:22 make its way into the mainstream
+5:23 especially on the consumer side maybe on
+5:25 the enterprise side but with Agentic
+5:27 it's very very clear that this is about
+5:30 reduction in toil This is about
+5:31 automation. This is the next iteration
+5:34 of you, if you will, of what started off
+5:36 as, you know, business process
+5:38 re-engineering. There was an RPA phase.
+5:40 There was a workflows phase, right? And
+5:42 and this is really the the ability to do
+5:45 those things in a manner that is uh that
+5:48 is not fragile anymore, right? That is
+5:50 not uh that is not processoriented, but
+5:53 really it is about um about bringing
+5:56 intelligence to the enterprise. And
+6:00 that's never happened before, right? Um,
+6:02 what we're seeing is that customers are
+6:05 now very quickly they've gone through
+6:08 the phases of experimentation. I I'm
+6:10 sure you you're hearing a lot about the
+6:12 MIT report that just came out that said
+6:14 95% of all AI projects fail. Um, that
+6:18 that's an interesting statistic, but we
+6:20 don't see it that way. What we're seeing
+6:22 is that there's a lot of
+6:23 experimentation. Yes. But the
+6:25 conclusions that are coming out of that
+6:27 experimentation are very clear. And one
+6:30 of those conclusions is that trusted AI
+6:34 has to be built on trusted data because
+6:36 that's the one missing ingredient. If
+6:38 you think about it, right? These models
+6:39 are so capable at this point. They've
+6:41 been trained on all the world's
+6:43 knowledge except the specific knowledge
+6:46 in your enterprise.
+6:47 Right.
+6:48 Right. And so that becomes a general
+6:50 open-ended problem. And there's a race
+6:52 right now um to to try to solve that
+6:55 from from a a software builder
+6:58 perspective, but also conversely the
+7:00 race from the enterprises where they see
+7:03 the potential now and really want to
+7:05 build into that promise because um what
+7:10 businesses are solving for are what
+7:11 they've always solved for, right? It's
+7:12 either either it's growth or it's risk
+7:15 management or it's efficiency, right?
+7:18 Those buckets always stay the same. And
+7:20 I think this is just a new capability
+7:22 that at this point enterprises view as
+7:25 being mature enough given that they can
+7:28 actually run it off of trusted data.
+7:32 So, how uh how long do you think it'll
+7:35 take everyone to figure out that that's
+7:36 that's the key?
+7:39 Oh, I I I think this is a long-term
+7:41 transformation, right? I I I don't I
+7:43 don't share the the six month to 18month
+7:46 uh kind of time frame. This is a
+7:48 generational shift. Um and and it's it's
+7:51 fundamental, right? It it's I I do feel
+7:54 it's a one-way door that that we're not
+7:56 going back on this technology. Um and
+7:59 the trends from a um you know the the
+8:03 other angle that is important is this
+8:06 has to be a commercially viable
+8:08 solution. So if you look at the cost of
+8:10 inference for example last three years I
+8:13 think the cost of inference has come
+8:14 down 900x
+8:16 that's a very positive trend and that
+8:18 means that we can really take this
+8:21 intelligence and plug it into our
+8:24 day-to-day mundane tasks and I recently
+8:27 read I think this was a venture beat
+8:28 article recently which said to be
+8:30 successful AI needs to mold to
+8:33 enterprise processes not the other way
+8:35 around
+8:36 right so there's commercial viability
+8:38 there's an under there's there's a
+8:40 understanding of enterprise process and
+8:42 there has to be this idea of
+8:44 psychological safety that within those
+8:46 processes this intelligence can actually
+8:49 um supplement um human activity. Uh and
+8:53 I think there's a lot of fear of
+8:55 supplanting human activity. I think
+8:56 that's that's a little premature. I
+8:58 think this is a 10-year cycle. Um
+9:00 anybody who spent time with cursor can
+9:03 attest to the fact that it's just not
+9:05 that smart.
+9:06 Right. Right. It's not. Yes, it's
+9:09 interesting. We get very excited about
+9:11 uh
+9:11 the ability to write a you know 50line
+9:13 Python script which which it can do
+9:16 really fantastically.
+9:17 Absolutely. and then we go to drop a
+9:19 huge project in that you know maybe it's
+9:21 been five or six years of human coding
+9:23 and yeah wonder why it's you know having
+9:25 some problems and
+9:27 absolutely
+9:27 yeah you're you're 100% right and when
+9:31 we think about agentic AI I mean I think
+9:34 that that's been a problem a for a long
+9:36 time is getting business owners to
+9:39 understand sort of the physics the
+9:40 underlying physics which you can't
+9:42 change if and comes back to data right
+9:44 so it's
+9:45 no no absolutely and I think The other
+9:48 angle to think through as as enterprises
+9:50 are adopting agents is that it sort of
+9:54 it becomes a numbers game in a way. So
+9:58 every process that you have encoded
+10:00 today as a as as as a as part of a SAS
+10:04 application. So you know something
+10:06 something as critical as code to cache.
+10:09 That's a process. It lives in a CRM
+10:11 system today. It just happened that the
+10:14 CRM system is built off multiple of
+10:16 those processes packaged together versus
+10:19 an ERP system has some other processes
+10:21 that are packaged together. Your
+10:23 customer success system has other
+10:25 processes that are packaged together.
+10:26 But what if the goal of agents which I
+10:30 see evolving is is to take each one of
+10:33 these processes and give you an agent
+10:36 that is the best possible thing for your
+10:38 enterprise to go solve for that process.
+10:41 Right.
+10:41 Right. Now certainly one agent is
+10:44 replacing um uh uh uh or or there's
+10:47 multiple agents that are replacing or
+10:49 augmenting or or these applications are
+10:51 morphing into multiple agents and all
+10:55 these agents are collaborating with each
+10:56 other as opposed to you know the SAS
+10:58 world right now is really made up of
+11:00 these silos of both applications and
+11:02 data that don't really talk to each
+11:03 other. It's very hard for them to to
+11:05 really communicate with each other. And
+11:07 I think that big transformation is also
+11:10 something to watch out for because where
+11:12 you have I think the number Octa
+11:15 published was 400 odd applications for a
+11:18 midsize uh midsize enterprise like
+11:21 distinct 400 odd applications. Yeah.
+11:23 Right.
+11:24 But um what happens if if the number of
+11:27 agents let's say there's 10 agents per
+11:29 application now. Yeah. Now we suddenly
+11:31 have 4,000 agents.
+11:33 Right.
+11:33 Right. So this order of magnitude
+11:35 increase you can make these agents at
+11:38 the highest level you can you can make
+11:40 them interact with your data in two
+11:41 modes one is to solve a problem the
+11:45 agent now goes and talks to these
+11:47 different sources of data I sort of the
+11:50 example I'd used with your record Sean
+11:52 which is distributed in four different
+11:54 systems right
+11:55 um either the agent can go and assemble
+11:57 these four in um in in in you know when
+12:01 it needs to produce the output like a
+12:03 researcher agent does today, you know,
+12:04 chat GPT or others.
+12:06 Um, and then it sort of presents an
+12:08 output to you
+12:09 or you can have all this data
+12:11 pre-assembled, unified in a way that the
+12:14 agent itself can be real time enabled.
+12:17 Right.
+12:18 Right. And so what is the practical
+12:20 utility of it? Well, imagine in the
+12:22 future you're calling into a call center
+12:25 and the call center wants to know what
+12:28 was our last conversation with Shawn.
+12:30 What was the emotional tenor of that
+12:31 conversation? Right? Was it a was a
+12:33 happy conversation or was Sean unhappy
+12:36 with us for some reason?
+12:37 Well, if it was he was happy and he's
+12:39 calling in, might be a good moment to
+12:42 position a product to Shawn. But we want
+12:44 to position a product only in keeping
+12:48 with Shawn's compl
+12:51 if if if he has given us the right to to
+12:54 position products or you know share
+12:56 product placements with us. Number two
+12:59 is we want to maximize the chance of
+13:02 placing the right or making the right
+13:04 sale. Therefore, we want to place the
+13:06 right product. And so product um
+13:09 suggestions that sort of pop up in that
+13:11 call center are very very important um
+13:14 in terms of being recent, right? Because
+13:17 you could have called in in the last
+13:19 hour and you would have been unhappy.
+13:20 And if the data that is powering those
+13:22 suggestions or or that interaction is 3
+13:25 hours old, well, guess what? they're
+13:26 going to try to sell you a product that
+13:28 you're absolutely not interested in. You
+13:30 are you're calling in to settle a
+13:31 billing dispute. Right.
+13:32 Right.
+13:33 So, so that those are the kinds of
+13:35 scenarios. Now, what will happen is in
+13:37 the future when you're calling into the
+13:39 call center, it's probably not a human
+13:41 who's answering your your your call.
+13:43 Right.
+13:43 Right.
+13:44 So, in a way, it doesn't matter if the
+13:48 the the entity responding to you is a
+13:52 human agent or is a machine agent. they
+13:56 still need to be powered by data that is
+13:58 relevant to you and relevant and
+14:00 upto-date to the minute.
+14:03 Yeah.
+14:03 So that's kind of our vision for where
+14:05 we want to go where we are with unified
+14:07 data today. And I think more and more
+14:09 enterprises are discovering that that's
+14:11 the substrate that they need um across
+14:14 all of their business operations to
+14:16 really be able to speed up and deliver
+14:19 um of of of today's expectations because
+14:21 the one thing that is unchanging fact is
+14:23 we are speeding up right because of AI
+14:26 the expectations are getting getting u u
+14:29 uh much more uh much higher in terms of
+14:32 how fast anything can be delivered
+14:34 really
+14:34 right and I think we're all sort
+14:38 I think that we're all waiting for that
+14:40 day to be honest that that these systems
+14:42 are intelligent and they are agentic and
+14:45 they can actually I can call American
+14:48 Express with a problem or Best Buy
+14:49 whoever it is and actually get real
+14:52 solutions because and and it's getting
+14:53 increasingly frustrating that that's not
+14:55 there yet in a way because we can we can
+14:57 touch them with you know chat GPT and
+14:59 all these different consumer um
+15:01 absolutely these apps. So then you go
+15:02 into these other experiences where
+15:04 that's not there and it feels very
+15:06 disappointing. Right.
+15:07 That that's right. Actually that's one
+15:09 of the tells. Um if if you call into um
+15:12 you know for for support and you get
+15:15 transferred from department to
+15:16 department and every time the next
+15:18 person picks up they're like what are
+15:19 you calling about?
+15:20 Right. Yeah. What's your phone number?
+15:22 Yeah.
+15:23 Yeah. And and and that that you know the
+15:24 way we view that is is this. It's about
+15:27 shared context right? We talk about data
+15:29 and we talk about unific unified data
+15:31 all day long. From an AI perspective
+15:34 though it is about shared context right
+15:36 how do we create this shared context
+15:39 make it available in native terms native
+15:43 language that language models understand
+15:45 and I'll explain that in a second um and
+15:48 then be able to update that in near real
+15:51 time right so it we use this term called
+15:54 data at rest versus data in motion
+15:55 that's really what we mean uh because
+15:58 this shared context you know it exists
+16:01 within reio for example as a graph,
+16:04 right? So
+16:05 languages uh sorry large language models
+16:07 they understand these graphs
+16:08 intrinsically because the graphs encode
+16:11 relationships. So it's so much easier
+16:13 for them to understand that um you know
+16:16 a customer is related to certain
+16:18 products because the customer bought
+16:20 those products in the past and because
+16:23 they bought certain products they have a
+16:25 certain propensity towards a certain
+16:27 kind of product and therefore placing a
+16:30 product with a higher probability than
+16:32 if you did not have the relationships if
+16:33 you just simply had tables that were
+16:35 listing products. Right.
+16:37 Right. So um that that is what we mean
+16:39 specifically by shared context. Um and
+16:42 then updating of that shared context
+16:45 means that when uh you know these sort
+16:47 of collaborating agents when we pass
+16:49 these calls from you know customer
+16:51 success agent to a sales agent again whe
+16:53 regardless of whether it's human or or a
+16:55 machine agent
+16:56 that context sort of seamlessly is
+16:58 available to each one of them. Right.
+17:01 Makes a lot makes a ton of sense. I'm
+17:02 I'm excited to get to this place.
+17:06 We're building it, right? We're all
+17:07 building.
+17:07 We are building. Yeah. It's going to get
+17:09 there and life's going to be a lot, you
+17:11 know, a lot better for everybody when
+17:13 they get to do these things. So,
+17:15 absolutely.
+17:16 What sort of stuff are you going to be
+17:17 talking about uh at the conference?
+17:19 Well, um I I want So, I wanted to know
+17:22 actually, Don, so who's who's in the
+17:24 audience? Are these are these mostly
+17:26 builders um executives? Like, give give
+17:29 me an idea about the makeup.
+17:31 Yeah, definitely. Yeah. So, so it's it's
+17:33 changing a lot this year. uh we actually
+17:35 have a real-time analytics system that
+17:37 is you know computing all this type of
+17:40 stuff looking at names and titles and
+17:41 companies all that kind of stuff
+17:42 but uh it's evolved quite a bit we have
+17:45 a very technical core so 2023 it was
+17:48 literally just researchers and engineers
+17:49 that that's it
+17:50 okay y
+17:51 um
+17:52 from the speaker perspective and the
+17:53 attendees
+17:54 uh 2024 we we saw it broaden out quite a
+17:58 bit in terms of attendees all of a
+17:59 sudden so we added a strategy track
+18:02 there's a lot of you know interest in
+18:04 things like governance and
+18:05 you know
+18:06 regulatory and just transformation how's
+18:08 this all going to work
+18:09 um and then uh this year we've we've we
+18:13 saw a new elevation or new broadening
+18:15 out of uh of the audience again and so
+18:18 where we are today is we we still have a
+18:20 very technical core so it's coming in
+18:23 right around 50% a little under 50% are
+18:26 technical of some sort and that that's
+18:28 uh like 28% of them are you know
+18:30 somebody that works every day and it
+18:32 could be the title could be software
+18:34 engineer or AI engineer, whatever it is.
+18:36 Y
+18:36 um and then the the the delta there is,
+18:39 you know, technical management, VPs of
+18:41 engineering, CTO's, those type of folks
+18:45 but still have that very technical core
+18:47 and
+18:48 now it's starting to branch out into a
+18:50 lot just a lot of a lot of leadership, a
+18:53 lot of leadership across the board. So
+18:55 we see
+18:56 large companies I mean you know Oracle's
+18:57 bringing
+18:58 you know Oracle's bringing 25 of their
+19:00 people plus 25 CEOs of of their
+19:03 customers for example
+19:05 um and these are these are you know
+19:06 these are companies that are large
+19:07 enough to be Oracle's customers so you
+19:09 know they're
+19:10 they're fast growing big companies or
+19:12 becoming big companies and we're seeing
+19:15 you know that that so you have that
+19:18 technical core we're seeing that other
+19:19 50% really broaden out into I mean we've
+19:22 got an HVAC company that has you
+19:24 40 or 50 offices and and this is what I
+19:27 meant earlier by I think and this is
+19:29 just a gut feeling but I think there are
+19:30 these companies that all of a sudden I I
+19:33 just don't know how much they really
+19:34 considered themselves to be even be data
+19:35 companies
+19:36 right
+19:37 three or four or five years ago they
+19:38 knew they had data but there wasn't some
+19:40 cohesive thing that you know could maybe
+19:42 make sense of all of it and
+19:44 right
+19:44 out you know without hiring McKenzie
+19:46 could
+19:47 you know give them some insights right
+19:50 so we're seeing this nice broadening out
+19:51 and then you know when you look at our
+19:53 tracks
+19:54 Um, we've got we've got that applied AI
+19:58 track which is really about war stories.
+19:59 It's sort of like, hey, we implemented
+20:01 this thing here
+20:02 and here's what happened. And that
+20:03 that's why it's new for this year
+20:04 because we did see a lot of
+20:06 that's a fantastic way to
+20:07 a lot of change in um
+20:09 in speaker uh speaker proposals and
+20:12 things like that.
+20:13 And then uh our frontiers track which is
+20:16 sort of like very forward looking what's
+20:18 going to happen in the next sort of six
+20:19 months to a year. Mhm.
+20:22 Um, and that's that's a that's that's
+20:24 our biggest track. It's our biggest
+20:25 stage.
+20:27 And it is is pretty broad in general.
+20:29 Like that that's why it's such a, you
+20:31 know, it's a big room.
+20:32 And then developers is, you know, just
+20:34 just what it sounds like. So we have,
+20:36 you know, dedicated developer track and
+20:38 a dedicated strategy track where you
+20:39 kind of like pair off. So So it's a good
+20:41 mix. But that's kind of like the the
+20:43 quick overview.
+20:44 Got it. No, that that's super helpful
+20:46 because then I can sort of tune what
+20:47 what I'm going to talk about. But in
+20:50 general, my plan is to um connect the
+20:55 connect data and AI together in real
+20:58 terms, right? And when people talk about
+21:00 data and AI, um at least for the last 3
+21:03 four years, a lot of the conversation
+21:05 has been about getting data ready to be
+21:07 able to build models or train models.
+21:09 Yeah.
+21:10 Right. Right.
+21:11 As AI comes into the enterprise, it's
+21:14 going to be very very inferenceheavy,
+21:17 right? It's going to be about how can we
+21:20 get maximum leverage out of these models
+21:23 and inevitably these models will then be
+21:26 acting on data which is specific to the
+21:28 enterprise in order to produce viable
+21:32 awesome results. Right. Right.
+21:34 And so there's a there's a natural
+21:35 friction there where
+21:38 there there's a lot of data science and
+21:40 thinking that has gone into organizing
+21:42 data to train the models. But now on the
+21:45 other side consuming this inference
+21:48 seems like a tant tantalizingly
+21:52 uh closed goal but again MIT says 95% of
+21:57 these pilots fail right so what is that
+22:00 gap right we we can see it we can smell
+22:03 it it's like you know you know how it
+22:05 goes it's it's it's a seeing distance
+22:07 smelling distance spitting distance
+22:09 right so it feels like we're within
+22:11 smelling distance of this
+22:14 uh this promise of agentic AI, but how
+22:18 do we actually get there at the highest
+22:20 level? That's really what what I want to
+22:22 talk about. Um there there there's going
+22:24 to be some talk about burgers. I promise
+22:26 you.
+22:27 Um you know, uh before a burger is a
+22:30 burger, it is data.
+22:31 Yeah,
+22:32 I'm going to bring that into the
+22:34 conversation. um and and really talk in
+22:37 um because in a way it's also very it's
+22:41 a technical change but it's a very
+22:42 deeply human change that is coming right
+22:46 because we feel threatened by this
+22:48 technology because we feel it is like
+22:50 us.
+22:51 Yes. And at the same time, we have very
+22:54 superhuman expectations of this little
+22:57 piece of technology, right? We saw that
+22:59 with self-driving cars. Um that because
+23:02 it is AI, because it it it has it has um
+23:07 sort of shades of being intelligent, we
+23:10 assume that it is intelligent and then
+23:11 attribute a lot of things to it, which
+23:13 it is not, right? Yeah.
+23:15 And so um so so my talk is really going
+23:19 to be about to the builders really how
+23:21 can they confidently build given all of
+23:25 this variety of expectations and push
+23:27 and pull and historical or or at least
+23:30 short-term failures of of adoption of AI
+23:33 in the enterprise? How can they be
+23:35 successful? That that's really if I can
+23:37 get that message across in a few minutes
+23:39 I'd love for that outcome.
+23:40 Perfect. No, I think that's so that's
+23:43 that's that sounds like you know it can
+23:45 be a frontiers style talk because that's
+23:48 what we're seeing with with the
+23:49 broadening out is that people are coming
+23:51 here to try to understand exactly that.
+23:53 They're trying to understand what is the
+23:54 solution and a lot of people that's
+23:56 that's really what's changed. There's a
+23:58 lot of
+23:59 uh even if it's just you know a few
+24:01 people within the company but or or the
+24:02 leadership itself they've experimented a
+24:05 bit and
+24:06 oftentimes have been disappointed right
+24:08 because we like you said the expectation
+24:10 is well I just plug this in and now
+24:12 we're done.
+24:13 Of course it never really works like
+24:15 that.
+24:16 Yeah. But we're finally at the point
+24:17 where, you know, we have this such a
+24:18 powerful engine now to understand all
+24:21 these things, right?
+24:23 Absolutely. Absolutely. We just got to
+24:24 build the car around it, you know.
+24:25 Yep. Exactly. Exactly. I love that.
+24:29 That's uh that's super cool. So, I think
+24:31 you guys when when when you when I first
+24:33 talked to your team, I I I got pretty
+24:35 excited about about it because, you
+24:37 know, that that's my history, too, is
+24:39 I did a
+24:41 before this I did a you know, AI for HR
+24:44 tech startup.
+24:45 Okay. And ré data is some of the most
+24:47 horrible data you'll ever see in
+24:49 of course yeah
+24:50 ré datab bases right where you have all
+24:52 those things you've said right there's
+24:54 yeah
+24:54 there's not just four shons there's 15
+24:56 shons you know that's right
+24:57 25 copies that
+24:59 and it's just interesting and so
+25:01 slogging through that data munching
+25:02 problem
+25:04 and and and it's unstructured data which
+25:06 is which has been anathema to to data
+25:09 systems so far right but all that is
+25:11 changing with this and how do we how do
+25:13 we unlock the treasure trove in in all
+25:16 of that data. Absolutely part of the
+25:18 equation. Yeah.
+25:19 Yeah. I think that's like super relevant
+25:21 um super relevant stuff for the concert
+25:23 conference and you like I said the
+25:25 attendees are there to whether they're
+25:27 engineers or or leadership.
+25:29 They're really there to figure this out
+25:30 from people that are that are soaking in
+25:32 it every day which
+25:35 super
+25:36 I'm really looking forward to the
+25:37 conference. I I'll try to stay for as
+25:39 much of the event as I can. Normally I'm
+25:41 in, you know, do the talk out, but I'm
+25:44 so interested in in everything that
+25:45 everybody has to say. It's it's amazing.
+25:47 And thank you, Sean, for actually
+25:48 putting it together, right? It's uh
+25:50 Oh, yeah.
+25:51 Um it's it's going to be it's going to
+25:53 be a great event. Looking forward to it.
+25:55 My pleasure. And yeah, thanks for thanks
+25:56 for taking time to chat with us today
+25:58 and
+25:59 really looking forward to your talk on
+26:01 and you know, thanks again for
+26:02 supporting the conference.
+26:03 Yeah, go. This is awesome.
+26:06 Bye.
+26:07 Thanks.
+26:09 And we figure out how to stop this
+26:12 recording.

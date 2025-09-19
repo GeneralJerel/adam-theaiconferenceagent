@@ -1,0 +1,290 @@
+0:07 I'm going to talk a little bit about crei who who knows what is crei here oh
+0:12 damn all right I remember when I would go to like this uh meetings and no one would like raise their hand so it's a
+0:18 good difference to have quite a few people knowing about it now well I want to start with a number 10 million
+0:26 62,000 that's a big number that's how many agents we executed Les
+0:33 Mone kind of like 60 days ago now it's even more but it's a quite impressive
+0:39 number and the reason why I bring this number up is just because I think most people don't realize how real this
+0:46 already is people like to compare uh AI with the internet like as big of an
+0:52 impact if you go back to the do com and the boom that we have back then it was a
+0:58 little crazy for sure but it all about it was all it was all about the promises
+1:03 right like hey if you build a website now you're going to have something great this is going to be a breakthrough and
+1:08 what you're seeing with AI right now is direct impact into the bottom line you go read some of the updates from almart
+1:15 and other companies on their 10 q's and they're already talking about how many millions they are saving because they
+1:21 are deploying AI in some way or another and now some of them already doing AI agents so for me it's quite impressive
+1:27 to see how different it is and how much pack this can have so I assume everyone
+1:33 here knows what an AI agent is but if you don't I'm going to catch you up in two minutes so you know gp4 Gemini son
+1:41 all those different models and the chat applications out there they're great at creating content so you can say hey
+1:48 write me an email or uh help me figure out my essay or write something for me a
+1:54 campaign a marketing campaign whatever it might be a matter of fact they're so good at writing content that they almost
+2:01 having cognition and what I mean by that is that they can make decisions you can say like hey should I go right or should
+2:07 I go left and the model will say well you should actually go right because of X Y and Z so you can ask this model all
+2:14 these different questions and it's going to be reasonable and it's going to reasonably React to what you're trying
+2:19 to do and the the the beautiful thing about this is that if you get this model to chat with itself or to chat with one
+2:26 another guess what an agent's born you can step outside the room now the agent
+2:32 can talk with itself it can reasonably take actions it can decide what is the best way to go about it so you have
+2:38 something that are autonomously trying to accomplish something for you and that's just
+2:45 incredible I think the thing that I like most about agents is the fact that they can react to all this information in
+2:50 real time so let's say that they're trying to for example do lead
+2:55 qualification if you're talking about a lead that is not necessarily your ICP or
+3:01 if you're trying to do something in real time these agents can basically understand the situation and find like
+3:06 like if if this this is not a good customer I'm not going to do too much research on it or no this is actually a
+3:11 great match I'm going to do a lot of research on this company so this real time reaction is something brand new and
+3:18 beforehand you would have to manually do it as Engineers you have to like have all these ifs and eles and switch cases
+3:25 and that's how headaches are born to some extent but um I want show you a
+3:30 quick example this is what agents could do let's say that we would have a meeting with Tom from zenes and the
+3:36 email is just his name at zenes a couple agents now are working are doing research on ton and zenas so I already
+3:42 know that ton has a background that sales marketing leadership I know that a zenas was created in 2007 that they
+3:50 really double down in Simplicity another agent already wrote a lending page I could export this a PDF I could send
+3:56 this to Tom this is explaining crew aai to Tom specifically and frame it due to
+4:03 the things that it's important to zenes So it's talking about zenas missions to
+4:09 simplify complexity in developer better customer relationships so again it might
+4:14 be not the most like a hard or complex example out there but you can see how I
+4:19 could export this and email this to Tom right after a meeting it's like hey Tom here it is you have like quite a
+4:25 description on how you can use CI and what are the benefits of using AI specifically for zenes so you can see
+4:32 some of this power between researching summarizing analyzing and putting together these
+4:39 reports well usually these agents start very simple right it's just an LM in the middle functioning as a brain you give
+4:46 it a tools you pass it a task and then this LM choose when and how to use the
+4:51 tools in order to accomplish your task but guess what this things got very complex on that you're talking about a
+4:57 production environment you now have to think about a caching layer because you don't want of your agents to using the
+5:03 same tools over and over and over again and killing your kodas on whatever Services you have you also want these
+5:08 agents to have some memory so they remember what they have done every time that you run them you make sure that
+5:14 they don't need to do the same thing again they already understand what is happening and then you also have the ability to train them teach them not
+5:21 only what to do but how you want them to do and even like guard rails so that they don't hallucinate and go crazy and
+5:29 then you can also so go multi-agents where now you only have not only one agent but two agents that can actually
+5:35 delegate work to each other so one agent can be great on research and you can actually use a specific model for that
+5:41 you can say hey you know what research is a simple task I'm going to use a smaller model I'm going to use GPT 4
+5:48 mini for that but the other agent's going to write a report but I want the report to be Rock Solid that one's going
+5:54 to be GPT 40 so you can have your agents using different llms and delegate
+5:59 questions and delegate work to each other in order to accomplish what we're trying to do and now those different
+6:04 features that I mentioned now play an even bigger role because the caching needs to be shared the memory needs to
+6:11 be shared if one one agent learns something all the agents on that crew should now learn about it so this makes
+6:17 like extra complexity on how you execute and run this agents and there's so many different ways that it can orchestrate
+6:23 them like think about them as like a small team you can have them behave sequentially hierar Ally in a hybrid
+6:31 manner or in parallel or asynchronously so many different options that you can hook it up this agents to work together
+6:38 and we have a new feature by the way disclaimer uh I hope my engineering team is not here but a new feature that we're
+6:45 going to be launching pretty soon it's called flows it's your ability to hook up Crews with python code and other
+6:53 Crews so you can get a data from an API pass that into a group of Agents get the
+6:58 results and push to another API so there's a bunch of different things that you can do in there all right let's take
+7:06 a brief real quick things got very intense very quickly so uh let me start by
+7:12 introducing myself my name is super hard to to say in Portuguese so I go by Joe
+7:20 that makes my sales calls easier uh and I'm the CEO and founder of CI so nice to meet you all we have a team that is now
+7:28 spread across the Globe we have people in Brazil we have people in the US and Canada in the UK and Australia and we
+7:34 are hiring so if you're looking for a job maybe find one of us um and
+7:40 everything started I started building this company back in Brazil funny enough it was actually my anniversary this is
+7:47 me and my wife celebrating our sixth year anniversary uh last October and I
+7:53 had this idea of beaing crew AI but my wife hates when I code during vacation
+7:59 and I was clearly having a lot of fun but what I do is I would sneak in late
+8:05 at 9: early in the morning what she sleeping and I would code my way into building crew Ai and you know what
+8:11 things starts to work out we saw the thing boom so many people start to using
+8:16 this this is not up to date we are over 19,000 stars now but with that success a
+8:22 lot of problems came with that then we have like all these rabbit rolls of the agents that were not working properly
+8:28 alucin and people were complaining about that to erors that were not working and
+8:34 things got a little crazy for a second uh and I was like you know what I I I
+8:39 need to figure out how we handle this the good thing is we got a community so
+8:44 we started to have people go on GitHub on Discord and Reddit now we have a discourse Community as well so the
+8:52 community really came together and helped us to get our ducks in a row and figure it out make sure that the things
+8:58 are working but I quickly realized that there was too much going on for me to do it alone and I was like you know I need
+9:04 to turn this into a company if I want this to make a real thing but how do you
+9:10 build a company in such a competitive market I was like you know what we need
+9:16 agents so we start building agents uh we started with marketing I was like well the first thing that you need as a
+9:22 company is for people to know about you so I'm going to do a agent to help me with marketing I put together for agent
+9:29 a content creator a social media analyst a senior content writer and a chief content officer make sure to review that
+9:36 everything was okay what I would do is I would send this agents a very high level
+9:42 rare idea I could say something like today I'm in SF I'm having a great time
+9:47 speaking one of the best conference out there I met amazing people and this is great that's it pretty high level you
+9:54 wouldn't necessarily share that online but then what these agents would do is they would search so social media what
+10:00 are other people talking about this conference how many people are in ASF what is trending in the city and what
+10:06 are people saying about this in LinkedIn and then they would search the internet like let's learn more about this conference who else is speaking on it
+10:13 and then they would look at previous posts and experiences it would would dig into my resume it would dig into my life
+10:20 experiences things that I have posted in the past and then would come up with this amazing idea would say wow this
+10:26 morning in San Francisco I was was thinking about when I had seven years
+10:32 old and how the world was full of possibilities and seeing the people in the AI conference today remind me of
+10:38 that and y y yada and and that worked we got 10x more views by posting now
+10:45 because before it would like we wouldn't post as much but with this we could post four or five times a week and was like
+10:51 five minutes because we just reviewed the thing before we published make sure that was actually something reasonable
+10:57 reflect the truth it's something that we wanted to share and then we did it and then we was like well now we have all
+11:03 this people uh now we have like 33,000 companies in the waiting list we're like well we need some help with
+11:10 sales so I was like let's do uh the next high impact lowrisk Automation and that
+11:16 would be lead qualification I want to qualify those people so I created three agents for that I said I want a lead
+11:23 expert analyst I want a industry research specialist and I want a lead strategic planner whatever that is
+11:30 and I put them together and I say hey I'm going to pipe my lead responses to this crew and I want them to analyze
+11:37 those answers I want them to compare that with my existing CRM data what are
+11:42 like similar customers that I have similar people that I have talk to you and then do a full research on the
+11:48 industry and at the end of it what I want is a complete analysis I want to
+11:53 score for this lead I want to score for the use case I want to score for how complex this will be I want a talking
+11:58 point so if I jump into a call with them right now I can basically say like hey I learned that you folks open a new office
+12:05 in Australia last week amazing let's talk about how you can use agents there so all this was being done for me and
+12:12 for a brief second I thought you know what a great idea would be get these agents to schedule my
+12:19 meetings guess what not a good idea or at least block lunchtime that's
+12:26 that's that's what I did wrong but well that that has a lot of fun we since then talking with 200 plus customers that's
+12:33 how why we build like all of our road map based of that and and this was super fun but now let's talk about building a
+12:40 crew real time because this is conference right let's get our let's get our hands dirty a little bit see what
+12:45 that would look like on the technical side of things there are a few different ways that you can build a crew and crew
+12:50 AI there is a low code UI where you don't need to know how to code anything
+12:55 uh but I'm going to show you the really like dirty like let's get in the code and you're going to see how simple it is
+13:00 even like that I want to do a crew to analyze support data you have all the
+13:07 support that is happening people were like sending tickets you have a support team is trying to help with those
+13:13 tickets customers are giving you feedback you're trying to understand like what can I learn from this well
+13:19 let's imagine that you have all this as a tabular data and through all this tabular data you have all this like NE
+13:25 peeks things like these golden gems that are in there that you want to drill well I want to have an analysis on this I
+13:32 want to know who are those customers I want to know who is helping them from our team I want to know what are the
+13:37 issue types that they are having what are their issues descriptions I want to know what are they frustrated about I
+13:43 want to know a bunch of information about this data this blob of data that now I'm not doing anything with it so
+13:50 we're going to do the following crew we want to do three agents a suggestion engine agent a report generator agent
+13:58 and the art specialist because I want this agents to plot some charts so that I can actually see visually what this
+14:05 data looks like and they're going to do a few things they're going to start by generating suggestions and generating
+14:10 tables and they're going to do that in parallel so when agent starts generating suggestions based on the tickets another
+14:16 agent start generating tables on how to represent the data then I want another agent to start generate the charts after
+14:23 those two things are done and then we wrap it up with a final agent that writes a full report so we have the
+14:28 whole thing well sorry about that one thing that is
+14:33 pretty special is that one of these agents are going to be a coder so the chart specialist will know how to code
+14:39 write and execute python code on the fly so this will make it extra interesting because it's going to use libraries like
+14:45 math plot Le or caborn in order to actually write those charts and plot this report for us so in the end what we
+14:53 want to do is go over the series of data generate the suggestions organize the data in table insights plot the charts
+15:00 to visualize it and write a full final report this is the data at least part of
+15:06 that you can see that a huge CSV you have ticket ID customer ID descriptions
+15:11 priorities everything is in there this is what our agent looks like in crew aai if you haven't used yet your
+15:18 agents are yo files that means that even if you're not that technical you can see what it's happening here so it has a
+15:25 role it has a goal and it has a backstory so this is our suggestion
+15:30 engine that goal is to generate actual suggestions and the backstory is that it's specialized and analyzed pasting
+15:37 resolutions now let's look at the tasks well this is an example of a task it's
+15:42 also a yo file so it's pretty damn easy for you to understand what is happening here basically it wants to generate
+15:48 actionable suggestion for resoling in each classified support ticket I want to know the issue type the historical data
+15:54 the customer feedback everything in there all right so we know the agent we know the tasks now this is how you
+16:02 would put them together you say like hey this is my agent and you can see that agent number one the suggestion
+16:07 generator agent has a tool it has a CSV tool so it can read and Par that CSV
+16:13 file the reporting agent also has a tool but most important the chart generation
+16:19 agent it can execute code and it uses a different llm the other two agents are
+16:24 using GPT for om mini but in order for Generate code I want this to be be a little more powerful so I said this
+16:30 one's going to be GPT 40 and these are the tasks the tasks are also super straightforward they are
+16:37 basically loading the content off that yo file but I want to also call out your attention for the final lines in there
+16:43 where for the final report we're bringing the results from all the other tasks into this one so the final report
+16:49 we get the results from the suggestions from the tables from the charts and it's going to put together the final report
+16:55 for us but then before we do this how you test an agent right like how
+17:02 know is this working is this good well guess what you can we have crei test it
+17:08 uses llm as a judge something that we have seen papers about where you can actually have an llm judge if you're
+17:14 doing if your agents are doing bad or doing are doing good and the main reason why we can do that is if you go back
+17:21 into our tasks you're going to notice that every task not only has a description but it also has an expected
+17:28 output so we can get the actual res and say how much this resuit actually match what the
+17:34 expected output was and using that we can tell you how good this is or not so
+17:40 let's run crew AI Tas crei Tas is a common line too but you can also run on a UI if you're using our Enterprise
+17:46 solution but we can talk about that later uh and you have a resuit so here you can see oh those are my tasks this
+17:52 is how well they behave this is how long it took you can see that we have like some eight some sevens some nines it's
+17:59 all within there I don't like this I want to make it better how do you do it
+18:05 you can spend hours and hours kind of like trying to change our agents changing our tasks that's not fun uh
+18:10 let's do crew AI train that's our ability to actually train your agents
+18:16 imagine that you just hired them you want to onboard them you want to teach them how they should do the work that you want them to do so you can run train
+18:23 and the way that train works is pretty chill so your agents are going to execute as usual right each agent going
+18:28 to do its task but what's going to happen is whenever it finishes a task it's going to stop right there and it's
+18:34 going to ask you for feedback like hey I'm doing did I did I do it all right did you like it is that is that how you
+18:41 wanted me to get things done and you can tell it like no no no you forgot the sorus no this is not the appropriated
+18:47 format actually I want this to be funny like you're not funny enough so you can give all these feedbacks these agents
+18:53 will pass that through a judge llm and they're going to then store that in into a memory and then they're going to
+19:00 remember that that's going to become intertwined with your agent so they behave like the same a every time so you
+19:08 have consistency and that is key for deploying the things in production once
+19:13 that you have consistency we can run again our tests and you can see that now we have different results if we compare
+19:19 both you can see that we went from eight to an hour was 9 from 7 to was 9 there
+19:25 is one that got a little down there test number three went from 9 to an 866 but
+19:31 we can probably do better that we could train it further if you want to and the time decrease it very considerably given
+19:37 like how much like we had to improve and how much more guidance we had to this agent so now it's not only better it's
+19:44 faster and more important it's consistent it's going to behave like that every time that I run it so this is
+19:50 great and this is the report so this is what our agents put together you can see it starts with a comprehensive report it
+19:57 give us all the issues types so a few API issues a few logging issues a few report generation issues you can see the
+20:03 charts in there showing the issue distribution and the priority level so you have a very good understanding you
+20:10 can see like what are the people that're actually doing this what like my support folks so you can see that you have five
+20:17 support people that are helping out and if you look at agent uh A1 in there he
+20:24 gets a lot of tickets done but look at the satisfaction rating it's pretty low
+20:29 agent5 the last bar in there got as many as many tickets done as aa1 but it has a
+20:36 way higher um satisfaction rating so now I have this visual that before was very
+20:42 hard for me to do and if I had to do it I would have to spend hours kind of like trying to massage this data get the
+20:47 thing that I want again another cool example now that this is ready I could run this automatically every week and
+20:53 then understand how my how my support team is doing where I should change things and then they also Alo bringing
+20:59 up the customer satisfaction there's more data in there to be analyzed and not only the customer satisfaction but
+21:04 also a bunch of suggestions like hey for your API issues this is the staral data this has been the customer feedback and
+21:11 this is what your agent should be doing now the people that actually working on our support team should be doing in
+21:16 order to help you gather better results so you get everything in there now again please if there's any
+21:24 create high engineers in there cover your ears a little bit we have a new feature that coming in the next version
+21:30 crei deploy what that means like all right we did this now what now you can
+21:36 go in your CLI and we create deploy and that automatically becomes an API for you it's an API it's production ready
+21:43 what I mean by that what I mean is auto scaling SSL bare token protected and a
+21:48 private VPC everything that you need in order to connect this to a front end or a back end and about front end you can
+21:55 actually export a front end right away you can export a react component you got a UI for free uh that UI is generated by
+22:01 a agents by the way so you can actually now get your uh that UI and you can have an internal product you can put in a
+22:08 stripe checkout Link at the front of it and have a product and try it around there's so much that we can do we could
+22:14 sell this and say like hey here's your support analysis 2.com like 50 bucks a month and you get some reports so
+22:21 there's so much that you could do it opened up so many doors uh and we are seeing a huge trend on how many people
+22:28 were actually executing crew now honestly it's a little insane how much traction we are seeing uh now we are to
+22:33 point at at least 100,000 crews are executed every day and every crew has at
+22:38 least two or three agents um someone's going as high as like 21 agents trying to work together so it's it is a little
+22:45 crazy and we're seeing a huge distribution of use cases a lot of operation automations marketing co-
+22:53 development research education support so many things out there but you might
+22:58 wonder about the future right like we talking a lot about like we got we got a little technical let's do a review real
+23:04 quick we talk about what are AI agents so we cover that we know the llms we
+23:09 know the twos we know how they work then we talked about how I came up with the
+23:14 idea and basically got myself in trouble to the point that I had to create a company which I love by the way uh and
+23:21 then with creating this company I told you how I use agents myself and how we are using agent ourselves to help
+23:26 scaling this company and then we got our hands a little dirty I can't do live coding in this setup but you could see
+23:32 like how you could build one of those screws together and how you can get them to run and using some of these features
+23:37 to make sure that you get them better so what about the future well as a larger language model I
+23:44 can't no I'm I'm kidding what happens is it's very clear that the genie is not getting back into the bottle right like
+23:50 people are not going to use less AI like this is not happening if anything people
+23:56 are going to use more and more so sometimes people are wondering like well what that means for my company what that
+24:02 means for my career what that means for my team I I can tell you we don't like to we don't like to assume that but the
+24:08 real is the real thing is we don't have as much control over that as we wish we had but we do have a few levers one of
+24:16 them is we can decide if we want to use this toes now or not I would say whatever happens in the future if like
+24:23 AI take the word and jobs got to replace it or whatnot uh whoever is actually using the now we're going to be better
+24:29 positioned and that's something that you do have control so i' say whatever it is crei or not you should be using ai2 out
+24:36 there you should be trying out people are getting actual actual value on their business and on their personal lives by
+24:42 using it I I actually got a tweet yesterday of a 12 year old boy that used
+24:48 crew AI to build an automation analysis for invoices for his mother businesses and I was
+24:54 like damn like I didn't know that that would be the case when I started this company
+24:59 so um I would say my suggestions for you would be be an early
+25:04 adopter uh don't wait for other people use cases I hate when people come to me and say like hey what are the use cases
+25:10 that I should be doing I mean dude I can tell you the use cases that we see I just told you about some but you should
+25:15 be thinking about all the cases that would benefit you the most um I don't know your business I can help for sure
+25:21 but it's your responsibility to understand how you could be using tools like that I would say start simple we started with a simple marketing use case
+25:28 doesn't need 100% accuracy like you can have someone review at the end and that's great and then you expend to low
+25:34 risk and high ring PCT making sure that you go for more complex use cases as you go we are now working with like major
+25:41 companies out there PWC KPMG aacon Caro starlink has been a lot of fun uh not
+25:47 only that now IBM is offering Services by using CI and that has being a very
+25:52 interesting experience uh we're also seeing big Partnerships with companies like they're now also crew and
+25:58 you're talking how to expend that with them and funny enough now people are hiring for crew Amazon and Cloud flare
+26:05 are releasing crew AI on their job requirements so in case you folks know CI are looking for a job there you go
+26:10 you have it uh if you want to know more about crei and technically about it and learn uh we did a very good curse with
+26:17 Andrew yank for food disclosure after this curse uh Andrew actually became an angel investor himself and we also
+26:23 recorded a new one that we're going to be launching in like a month or so so if someone asks you I and told you about it
+26:29 I I don't think I I could whatever um and I would say you can check uh more on
+26:34 learn. cre.com and you can you can learn more about how to use it I want to say thank you so much for you folks to have
+26:41 me it was a great time I think going to be around for a few hours so in case you want to chat you can come in and find me
+26:46 and we also have a few other ofas around the room so thank you so much thank you
+26:53 Joe we have very little time to take one question so
+26:59 so I see a question up here where where's the microphone
+27:07 please where did the microphone [Music]
+27:14 go hi all right sorry thank you Kathy uhan
+27:20 H thank you very much for your talk uh very incredible to see how the company has grown uh for the past few months
+27:28 and um great to see a fellow Brazilian doing great amazing stuff in this space
+27:34 I have a question for you uh I come from the open source side and you have a lot of like on the open source side how do
+27:40 you balance the open source side and the Enterprise where you need you generate revenue for your company like how do you
+27:47 balance both sides yeah I want to say uh when I look about open search I tell I
+27:52 tell this to all of our teams is open source is probably our biggest asset
+27:58 together with the team right now open source is truly awesome and has been like an unfair Advantage as a business
+28:04 because we can get to hire from open source we got to test things on open source we got to uh get people to
+28:12 contribute to open source so if anything like we want to invest in open source even further because it has been so
+28:19 tremendously helpful and it's such an unfair advantage that I just want to double down I think the other thing as
+28:24 well is that doesn't need to be such a clean cut like it's not end Enterprise or open source it's a spectrum you can
+28:31 have free tier you can have things there might be open source on different licenses so I definitely I want to
+28:37 explore the full range and the Spectrum there to make sure that we are giving back as much as we can while still
+28:43 making a business and honestly our investors happy hey do you have time for one more
+28:48 question sorry uh yes go for it he's already got
+28:54 the micophone okay so for the agents that you allow to to write and evaluate code like how are you validating that
+29:01 code and sandboxing it or I don't know if you can answer that
+29:07 question sure yeah so that code is run on our computer as pseudo no no I'm
+29:13 joking actually that all runs in a container it's an a Docker container so
+29:19 it's everything completely isolated it's not happening there and the good the beauty about these agents is their
+29:24 ability to self-heal right so many people in the Enterprise are familiar with other like older technology like
+29:29 RPA that is very brittle and breaks all the time the good thing about agents is like let's say that they write a code
+29:36 they try to execute it and that doesn't work what happens is that doesn't break your agents that a her is broadcast back
+29:43 to the agent and the agent learned from it like oh I wrote my code right I forgot a coma I guess I'm a senior
+29:49 engineer now so then he goes and fix it and execute the code again so your agents have some leeway and like
+29:55 learning from their mistakes as they helping and executed but everything happens on an isolated sendbox do
+30:00 container locally

@@ -1,0 +1,257 @@
+0:05 okay then let's get started so in real
+0:08 life my name is Tim defil engineer at
+0:11 runpod and in this role I'm actually
+0:14 making sure that our customers which are
+0:16 usually developers and researchers and
+0:18 creative um professionals can use our
+0:21 GPU Cloud platform and help them um to
+0:25 leverage what they are want to do on our
+0:27 platform and at the same time I'm
+0:29 helping like getting the feedback that
+0:31 they have and bringing this to our
+0:34 internal team so that we can actually
+0:35 improve the platform based on our users
+0:39 needs so what is serverless can you
+0:43 please raise your hand if you have used
+0:45 seress in the past for some
+0:48 projects awesome a few people and can
+0:51 you also please raise your hand if you
+0:52 have to used serus 4 AI in machine
+0:54 learning
+0:56 workloads also I guess the same kind of
+0:58 people thank you very much so
+1:01 with serverless you can focus on your
+1:03 code and you don't need to focus on
+1:04 infrastructure because you don't have to
+1:06 provision anything yourself you just
+1:08 write your code and it runs in the
+1:10 cloud what you also get is usually
+1:13 automatic scaling so when many people
+1:16 users are using your product um the
+1:19 platform or the infrastructure will
+1:21 actually scale so they can actually
+1:22 handle these kind of people and if there
+1:25 are no is no Demand on your product then
+1:27 it will actually scale down and yeah
+1:31 and you usually pay for what you use so
+1:33 if you have many requests you pay more
+1:35 money and if you have not many request
+1:38 you pay not so much and at runp pod we
+1:41 are calling this an endpoint so an
+1:44 endpoint is basically an API that users
+1:46 can use to interact with um with with
+1:48 this endpoint and it's also consists of
+1:51 a configuration and the docker image and
+1:54 it has something called a queue so when
+1:56 a request coming in into to the endpoint
+1:59 it will get put into the queue and when
+2:02 there are something in the queue we will
+2:04 spawn workers and a worker is basically
+2:07 a Docker container that is doing
+2:09 something so for example an open source
+2:12 thing like VM or some custom Docker
+2:15 image that you created so to give you an
+2:18 example if um your API if your user
+2:21 wants to generate an image for example
+2:23 and sending a prompt over the API then
+2:25 um it will put into the queue then the
+2:27 worker is spawned and then the worker
+2:29 could run com UI with flux and then
+2:32 generate an image and then delivers this
+2:34 to um the user and once everything is
+2:37 done and the worker has finished their
+2:39 job um the worker will then be um
+2:43 terminated and you don't have to pay for
+2:45 anything anymore so serverless is really
+2:47 awesome because um
+2:51 you have this awesome AI apis but you
+2:54 don't have to pay for the usage if
+2:55 there's no one actually using your
+2:58 product
+3:00 and now I want to show you some use
+3:02 cases and these use cases are actually C
+3:05 customers from runpod and we structured
+3:07 these in like two different sections um
+3:09 so first of all every use case has like
+3:12 a problem that the customer wanted to
+3:14 solve then a solution that our customer
+3:17 applied to this problem and the role of
+3:19 serus for this specific use
+3:23 case physical staging is costly and
+3:27 timec consuming because because if you
+3:28 are a real estate agent you have to like
+3:31 go into your properties and actually put
+3:33 the furniture inside and make sure that
+3:35 everything looks nice you actually have
+3:37 to be there and with virtual staging AI
+3:40 you can just upload an image configure
+3:42 some things for example what kind of
+3:44 room it is like a bedroom living room um
+3:47 and which kind of style you want the
+3:48 room to look like and then you get
+3:50 multiple designs and can you can send
+3:52 this out to your
+3:53 clients and serus serus made sure that
+3:58 quick that the customers of which
+3:59 staging AI have quick renderings of high
+4:02 quality images because um we they
+4:04 optimize the cold start time so that
+4:06 like when there are request coming in
+4:08 the workers spawn up quickly so they get
+4:10 quick responses when they use this
+4:17 product many users that are doing online
+4:20 shopping have a problem to actually
+4:22 imagine themselves um with the cloth
+4:24 that they see online so if they are wear
+4:27 wearing this cloth so that means that um
+4:29 um it leads to uh low conversions and
+4:32 high returns because people are
+4:34 unsatisfied with the stuff that they
+4:35 receiving via post Glam laabs created an
+4:39 solution where people can actually um
+4:42 virtually try on these products by just
+4:44 putting an image on um and you can
+4:48 integrate this into your online store
+4:50 and surus enabled them to have real-time
+4:53 processing with full cost control
+4:55 because like when many people are
+4:57 actually using this then a lot of
+4:59 workers are spawned up and if no one
+5:01 using this then they have no cost for
+5:03 this because nothing is running on on
+5:05 the serverless
+5:08 side vs spent a lot of time to actually
+5:12 do paperwork instead of patient care um
+5:15 and scribble wet automatically
+5:18 transcribes whatever they are saying
+5:19 when they having a case and then
+5:21 organizing the medical records so a
+5:24 process that usually took like a few
+5:26 hours to actually do per case is now
+5:28 only a few minutes because everything is
+5:32 automated
+5:33 and surus made sure that because like
+5:37 that's have their business hours and
+5:39 they're working in this specific amount
+5:41 time that during these times they have a
+5:43 lot of processing power to actually do
+5:45 their task and their transcriptions but
+5:48 afterwards it will just scale down so
+5:50 they can um have also the full cost
+5:54 control on
+5:57 this photographers spend a lot of time
+6:02 on repetitive tasks so imagine you go to
+6:05 a wedding and you take like 1,000 or
+6:07 more pictures and afterwards you need to
+6:10 actually find the best ones to send to
+6:12 your clients so with aftershoot you have
+6:15 automated calling and assisted editing
+6:17 meaning that for example it will filter
+6:20 out automatically all of the pictures
+6:22 where the eyes are closed of the people
+6:24 or where people are not in
+6:26 focus and with servoless they get like
+6:29 high performance and efficient cost
+6:31 control because they can choose the GPU
+6:34 that is perfect for the specific task
+6:36 they want to solve so they they selected
+6:38 like different ones for the specific AI
+6:40 Tas they have in their
+6:44 platform content creators want to create
+6:48 content and they struggle with complex
+6:50 editing apps um and they just want to
+6:53 have something that is working and
+6:54 helping them without like the um worries
+6:57 of the interface or the actual work
+6:59 workflows in these kind of apps and
+7:01 pixel created a suit of AI powered apps
+7:04 to help them and because of seress they
+7:07 can scale to thousands and thousands of
+7:09 users at the same time to handle the
+7:11 huge amount of workflows that are
+7:13 happening in these
+7:17 apps
+7:20 so if you takeaways from these kind of
+7:23 use
+7:24 cases if you are using serverless one of
+7:27 the most important factors is the code
+7:29 St start optimization meaning the time
+7:31 it takes until the endpoint the API is
+7:34 available for your specific request and
+7:37 you want to make sure that this is like
+7:39 as slow as possible so your users get
+7:41 the response very
+7:44 fast you also want to have real time
+7:46 autoscaling meaning that when a lot of
+7:49 worker a lot of requests are coming in
+7:51 to your product the workers should spawn
+7:54 automatically you don't want to wait
+7:55 like 20 30 minutes until like a new
+7:58 worker is there to handle the request
+8:00 you want to have this in real
+8:03 time flexibil flexibility is also super
+8:07 important so that you can actually have
+8:10 your workflow in the in the serverless
+8:12 API and not something that is predefined
+8:15 so you want to build your own Docker
+8:16 images and want to make sure that you
+8:18 can also configure exactly how this
+8:20 endpoint is working out for your
+8:22 specific use
+8:25 case and of course privacy is also super
+8:27 important you don't want that the data
+8:29 of your users is actually lying around
+8:32 on a server and that someone could
+8:34 actually take it you want to make sure
+8:36 that uh that everything is private and
+8:38 the data is not um spread
+8:43 somewhere and now some actual insights
+8:46 on the platform our platform so and
+8:50 until today like we served almost 5
+8:53 billion requests and um it would be
+8:55 really nice if you could help us to
+8:56 actually reach the five billion so
+8:58 please come to our booth and get some
+9:00 free runpod credits to actually use
+9:02 serverless that would be
+9:04 awesome the top three gpus that we have
+9:07 in our platform are actually from Nvidia
+9:09 like the 4090 the A40 and the a a5000
+9:13 because they provide a good ratio
+9:15 between pricing and
+9:18 vram and the top three workflows are
+9:21 basic actually like Customs so like most
+9:24 users on runpod are actually building
+9:26 their own Docker image because they have
+9:27 like a specific use case that they want
+9:29 to solve um the second place is image
+9:31 and video gen generation and the third
+9:33 place is actually
+9:37 llms and that's almost about it um like
+9:40 I said please visit our boost at 240 and
+9:43 get some runp pod credits and I also
+9:46 have a small video where no sound is
+9:51 coming can you please start it from the
+9:53 beginning
+9:57 [Music]
+10:02 sorry it's
+10:11 yeah so I'm sorry we have to do this
+10:13 like one more time because like I
+10:14 practiced this with like actually
+10:15 starting the video myself and it should
+10:17 be so please don't click on this I think
+10:20 that clicker should also be working and
+10:22 I'm sorry that I'm overtime but uh
+10:29 no please no no oh thanks
+10:33 thanks okay so I'm trying this now and
+10:35 it's like an performance between Tai our
+10:38 culture champion and myself actually
+10:40 singing and I'm not a professional
+10:41 singer I'm just speaking here so bear in
+10:43 mind this this might be horrible okay
+10:46 so
+10:49 run visit us at boo
+10:53 240 visit us at Boost
+10:57 240 thank you
+11:00 thank
+11:01 you thank you

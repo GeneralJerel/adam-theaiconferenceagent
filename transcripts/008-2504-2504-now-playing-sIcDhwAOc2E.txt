@@ -1,0 +1,550 @@
+0:07 today I'm going to like talk about like
+0:09 how AMD and hugging Faith are
+0:11 collaborating like in the like
+0:14 delivering the optimized llm Frameworks
+0:17 that's what like a hugging face call
+0:18 like a tax generation inference like AK
+0:22 like a TGI and I'm from uh AMD and AI
+0:26 group and my name is JR Jong where okay
+0:29 since we don't have like much time I
+0:30 will just like go straight to the like
+0:33 details okay first I will like briefly
+0:36 talk about like what kind of like
+0:37 software and Hardware do we have for the
+0:40 like llm
+0:43 inference okay we're at like at the top
+0:46 like a ecosystem and the toolkit we do
+0:48 have like a VM from ucle and the another
+0:53 like hugging Faith TGI Tex generation
+0:56 inference as as like our like an l
+1:00 inference software tool kits that's like
+1:02 a very like a super efficient and it
+1:05 provides like a very like a low latency
+1:07 and high dut you know LM inference
+1:09 that's why we chose like that to Cas for
+1:12 llm inference and underneath the the
+1:15 inference like to Kit we do have like a
+1:17 py compartible you know rum enablement
+1:20 and same as for like tensor FL Jackson
+1:23 and so on and below the below that like
+1:26 a framework level we do have like a rock
+1:29 environment
+1:30 like we we call it like a Rockham
+1:32 libraries that includes like many blast
+1:35 library and you know convolution related
+1:37 like Mi open Library as well and also we
+1:41 do have like compilers and other like
+1:43 debugging profiling tools as well and
+1:45 finally we do have like our high
+1:47 performance Instinct GPU devices and
+1:50 also the radun the graphic card as
+1:53 well so this is the like a latest latest
+1:57 m300x like GPU platform which has like
+2:00 eight you know
+2:01 gpus inside inside like one server and
+2:05 it's aggregated like memory like
+2:07 capacity is like 1.5 terabytes which
+2:09 means that each like one one like a one
+2:12 GP unit has like 192 GB and also the in
+2:16 floating Point 16 and brain floating
+2:19 Point 16 data types it provide like 10.4
+2:22 par flops and this number will be like
+2:25 be twice if the like data type is like
+2:27 an you know floating Point A8 bit
+2:32 okay for speaking of the like Al like
+2:34 inference challenges and optimization
+2:36 directions we the AL like workload is
+2:39 like an it needs special attention
+2:42 because it's like it behavior is like
+2:45 slightly not that typical I would say
+2:48 because for example like when we have
+2:51 like some prompts and after the like a
+2:53 promps prompts we need to generate like
+2:56 some tokens from the based on the like
+2:58 prompts in that case like we need to
+3:01 process like multiple different
+3:03 operations inside the like a model for
+3:06 in general like a Lama type of model has
+3:08 like this kind of like architecture when
+3:10 the like uh input with like a multiple
+3:13 batches are you know they came to came
+3:17 to the mod model that will be like
+3:18 embedded into like hidden stage and
+3:20 after that all the like processing will
+3:23 be like usually like matrix
+3:25 multiplication and some of the like a
+3:27 soft Max kind of like a nonlinear
+3:28 operation as well but finally like the
+3:31 after the like um you know the front I
+3:35 mean front end like the attention layer
+3:37 the next one will be the linear layer as
+3:40 well so majority of of the operations
+3:42 are like the linear operation which is
+3:44 like matrix
+3:46 multiplication uh and
+3:48 also yeah and also in case the like um
+3:52 when when we when the like a model is
+3:54 huge and we have like multiple devices
+3:57 we have to you know process like them
+4:00 that model like we have to divide the
+4:02 model
+4:03 and to like a different to like many
+4:07 like gpus so once like one operation is
+4:10 like finished we have to gather all like
+4:13 operations that's what we call like you
+4:15 know tensor parallel and you know inage
+4:17 like a all reduce operation between you
+4:20 know different gpus so this kind of like
+4:23 all the operations need like special you
+4:25 know attention or like special I mean
+4:28 you know treatment other wise like the
+4:30 performance will be like terrible even
+4:32 even if you have like a very like a very
+4:33 expensive
+4:36 gpus this is the like a typical you know
+4:39 like a token you know processing view
+4:41 when we have like a certain amount of
+4:43 the input prompts and the batch size the
+4:46 what we can find is that you know each
+4:48 behavior is is quite different like
+4:51 between you know prefill you know phase
+4:53 and the decoding phase pref phase is is
+4:56 when we have the AL the like a necessary
+4:58 like a prompt to talk tokens so that you
+5:01 know all the tokens will be you know
+5:03 gathered together and the like work like
+5:05 workload volume will be like very huge
+5:08 so the matrix multiplication from the
+5:10 like a llm model will be more like a you
+5:13 know like a very like a fat Jam meaning
+5:16 that the AL like dimensions are very
+5:18 huge and which is like usually a compute
+5:21 bound operation so but after the like
+5:24 prefer operations the like llm decoding
+5:27 is like an auto regressive you know
+5:29 decod in you know procedure which means
+5:32 that you know we cannot process like
+5:34 next token until the previous tokens are
+5:37 you know decoded and the problem of the
+5:40 decoding phase is that it is like
+5:43 an the like a GM operation are very like
+5:46 an you know very like a tall and skinny
+5:48 which means that you know it's like an
+5:50 arithmetic intensity is very low so that
+5:53 you know so so of like it is like a
+5:56 totally like a memory bound unless you
+5:59 have like a really like a high like a
+6:01 high B size so we so in summary like the
+6:05 GPU should be like a very you know it
+6:07 should be like a very efficient in the
+6:10 compute bound prefill and memory bound
+6:13 you know decoding so that's why like
+6:16 like we need like a really like a high
+6:18 like a very expensive gpus with like a
+6:21 very powerful computing power with like
+6:23 a high memory bandwith
+6:27 capacity so these are the like the key
+6:30 you know key optimizations points that
+6:32 we like AMD and you know huging face are
+6:34 like integrating in their huging face
+6:36 TGI you know to kit in terms of the alom
+6:40 inference so right I'm I'm going to like
+6:43 talk briefly like one by one from the
+6:45 next page but right generally like if
+6:48 you look at the like the typical llm
+6:51 model The Flash attention that that is
+6:56 like optimizing the like a qkv you know
+6:58 kind of you know operations and the page
+7:00 attention that you know that is for like
+7:03 increasing the throughput for the when
+7:07 when we use like a cation you know
+7:10 scheme and Gem
+7:11 operation for like a py tun for like a
+7:15 much much like a higher efficient h plus
+7:17 LT from AMD and yeah he plus and Rec and
+7:21 quantization or I'm going to you know
+7:23 I'm going to talk one by one from yeah
+7:26 next slide uh okay flash tension I guess
+7:29 like every everyone like every like llm
+7:31 pans are relying on this flesh attention
+7:34 module because you know the if you look
+7:37 at the yeah attention you know uh the
+7:41 like an you know it it's not that you
+7:44 know not that like a operation friendly
+7:46 meaning that you you will have to have
+7:48 like a soft math nonlinear operation
+7:51 right after like qk a quy and key you
+7:54 know matrix multiplication which is not
+7:57 you know not that ideal for like GP
+8:00 operations the what we what the what the
+8:02 like flash attention does is that it
+8:05 just tiles a tiny bit of the like a
+8:07 query and it it processed the like a
+8:10 partial you know partial outcome one by
+8:12 one so that like a partial outcome will
+8:15 stay more in the like a GPU cache
+8:18 instead of the hbm because you know
+8:21 definitely like GPU SRM bandwidth is
+8:23 much higher than you know hbm bandwidth
+8:26 and also like the another like advantage
+8:29 of using like flash attention is that we
+8:31 can pipeline the you know matrix
+8:33 multiplication and soft Max so that we
+8:35 can you know like a pack we can reduce
+8:38 the like total like a number of the like
+8:40 latency as well so yeah but the okay so
+8:45 like the question is like how can we use
+8:47 like this kind of like a fancy algorithm
+8:49 on AMD you know environment there it's
+8:52 quite like in fact is quite like simple
+8:54 because like we put like much effort
+8:56 enabling this like this kind of like
+8:58 high performance Corners in the like a
+9:01 roam GitHub so in the Like a Rock GitHub
+9:04 like github.com rock flash attention
+9:07 that's one of the like a choice that you
+9:10 know people can just you know quickly
+9:12 you know clone the reppo and just run it
+9:15 on the AMD device and we do have like
+9:18 another like one more like flash
+9:19 attention which is based on the open AI
+9:21 Triton conel con language but which not
+9:25 here but if you look at like a rock you
+9:28 know GitHub then you usually find like
+9:30 yeah two different like flasher tensions
+9:33 uh the like a much more like easier way
+9:37 will be like you can just utilize out of
+9:39 the box from the you know huging face
+9:41 Transformer libraries because we already
+9:44 integrated everything in the Transformer
+9:46 libraries so yeah in the like a
+9:50 Transformer Library API once you just
+9:52 specify like flash attention to then it
+9:54 will automatically run everything in the
+9:57 like a flash attention algorithm
+10:00 and the last one will be like you can
+10:02 just simply you know install like VM or
+10:04 you know huging face TGI that will be
+10:07 like another like out of the box
+10:09 experience that people can utilize flash
+10:13 attention Okay PTI attention like uh
+10:16 this one became increasingly more
+10:18 important because like uh OKAY model is
+10:21 like bigger the but the problem is that
+10:23 you know recent model has like very long
+10:26 you know it support like very long
+10:27 sequence length like like a old model
+10:30 support like a 2K you know total token
+10:33 length but the Lama 3.1 they started to
+10:35 support 128 you know kilo K you know
+10:39 inputs which is like which means that
+10:42 once you start to you know decode the
+10:44 llm models and you know the all the like
+10:48 memory capacity will be occupied by the
+10:50 like a c Cas not the model yeah model is
+10:53 huge but you know compared to the KV Cas
+10:55 KV Cas is exploding so that is the that
+10:58 that's why we have to use like a smart
+11:00 way of like a trating you know kave cach
+11:04 so the like what pay attention is is
+11:07 it's is doing is that instead of using
+11:09 the continuous memory space in hbm
+11:12 because
+11:13 like for like an you know like AK tokens
+11:16 or like 120 akk tokens you you cannot
+11:19 save you know you cannot store all the
+11:21 like a cash in the memory because you
+11:24 will easily be out of the memory so what
+11:26 it does is that instead of using the you
+11:29 know contigous memory is splits the like
+11:31 a cation to like small pieces of the
+11:34 block so that it usually like a you know
+11:37 like a what do we call like a block page
+11:39 table so it has like a virtual you know
+11:42 page of detention and like a physical
+11:44 page of detention table mapping and it
+11:47 what good like one of the like a key
+11:49 benefit is that it can prevent the like
+11:52 memory fragmentation that happens from
+11:55 The Continuous memory occupation of the
+11:58 of the KK
+11:59 so that's why like we are like an highly
+12:02 relying on this page detention your
+12:05 algorithm but yeah good good thing is
+12:08 that it's already like implemented in
+12:10 like TGI and you know VM so once you
+12:13 download it like everything is already
+12:15 you know it should be like out of the
+12:18 box uh py T this could be like um more
+12:22 like exclusive to the Like a Rock
+12:24 environment because usually like when
+12:27 once you you know once you
+12:29 yeah when you run like Matrix Matrix
+12:31 multiplication in pyr you know inside
+12:34 the Pyro you will have a like a holistic
+12:37 algorithm that pick up the like best
+12:39 performing gem out of the you know you
+12:41 know rock blast library or he blast
+12:43 library but the problem is that
+12:45 sometimes generally it's not the optimal
+12:48 you know
+12:49 performance is installed in your like a
+12:51 doer environment so yeah py tun like it
+12:56 has like you know first like a profile
+12:59 the workload and it it stored like a
+13:01 best performing gem like it could be
+13:04 like from Rock blast could be like a hit
+13:06 BL or hit plus LT so it records the best
+13:09 performing gam in a table so during the
+13:11 run time it pick up the like only the
+13:13 like best performing you know gems from
+13:16 the table that's why it always like
+13:18 guarantees you to have the best
+13:20 performing gem operation because you
+13:22 know like llm is highly you know
+13:24 depending on Jem so yeah pyro like a t
+13:28 of Ro yeah you will easily get like much
+13:31 higher like a performance boost and good
+13:33 thing is that you know like yeah same
+13:36 same as the other techniques we
+13:38 implemented everything in pyr so once
+13:41 you just download the like a latest like
+13:43 a nightly or like a stable version of
+13:45 the
+13:46 py once you just you know set that
+13:49 environment variable py Tes enabled then
+13:53 you know it's just out of the box it
+13:54 will it will behave like this way it
+13:56 will pick up the best you know perform
+13:58 performing G in your darker image
+14:02 so uh hip graph this is like a very
+14:05 similar to the like a Cuda graph you
+14:06 know the one of the like a key
+14:08 disadvantage of the like GPU operation
+14:11 is that you know like when they like a
+14:14 like a when the when the volume of the
+14:16 job is like very small then you know CPU
+14:19 could be a botle lag because like all
+14:21 like a conal launching will be from the
+14:23 CPU but you know when Once the CPU is
+14:26 like a really Beau for like a c
+14:28 launching the GPU has to be idle because
+14:30 it is just keep waiting from the like a
+14:32 command from the CPU so like okay prefi
+14:36 is okay because the volume of the job is
+14:38 like quite like high so yeah C CPU just
+14:42 like it is not necessarily to you know
+14:45 launch the colel frequently but decoding
+14:48 is a problem because decoding is like a
+14:49 very like it it's like a auto regressive
+14:53 likeing like super fast so yeah the CPU
+14:57 like CPU cannot handle all mod like you
+14:59 know kind of launching for like a
+15:02 multiple like gpus at the same time so
+15:04 what hip graph does is that it like it's
+15:07 same is like it profile profiles like a
+15:10 workload like before the like actual
+15:14 like actual inference what it profile is
+15:17 that it's toward the like you know like
+15:20 like many like a many like operations
+15:22 into like a small not small like it's
+15:24 just like one single you know C like a
+15:27 single graph so that like CPU can just
+15:29 launch just one you know one single you
+15:32 know corner to the like a GPU and after
+15:35 that like a GPU will handle like
+15:37 multiple operations from the like
+15:38 aggregated one single you know you know
+15:41 yeah single graph so this is like a
+15:44 super like an performance boosting for
+15:48 like a decoding and also in the like a
+15:49 multiple GPU
+15:52 scenarios uh I guess this could be the
+15:55 last one uh quantization many like M
+15:58 communities and you know research
+16:00 centers they they have like many like
+16:03 very like you know smart ideas about
+16:06 like how to you know how they can
+16:08 effectively quantize the parameters and
+16:11 quantize the like
+16:12 activations we speaking of the like
+16:15 activation and you know parameter
+16:16 quantization like a where like from like
+16:20 commercial like Direction could be like
+16:22 floating point to 8 bit native you know
+16:24 support but where in case like when we
+16:27 care about like memory band with for
+16:29 example you know like uh when we have
+16:32 like insufficient like HPM memory then
+16:35 what we can think of is that utilizing
+16:37 the like this like a full WID type of
+16:40 you know weight o compression that is
+16:43 provided from like gptq and awq and what
+16:47 it does is that just it just like a
+16:49 compress the like a you know data format
+16:51 like a two byte format into like half
+16:53 bite in the memory and during the like
+16:56 run you know inference it just under fly
+16:59 Recon convert back to the floating Point
+17:00 16 or bf16 so the competition is still
+17:04 in you know floating Point 16 operation
+17:07 but it still has like a huge benefit for
+17:09 saving the memory bandwidth and also
+17:12 also like a memory capacity as
+17:14 well uh well if the usage is is quite
+17:17 you
+17:18 know there are like many multiple works
+17:21 on about like how to enable like this
+17:23 techniques on you know mvidia GPU and
+17:26 AMD gpus but everything like every
+17:28 Library is like Upstream by now so in
+17:32 case of like yeah gptq and
+17:34 awq we do have like a the Transformer
+17:38 Library compatible you know you know
+17:40 libraries are ready so you can just you
+17:42 know clone the yeah clone the Doja
+17:45 library and you can just run top of the
+17:47 AMD GP out of the box but also yeah do
+17:51 are like recently integrated into native
+17:54 like a Transformer Library as well so
+17:56 you can if you just configure the like
+17:59 awq config or or to gptq config then it
+18:04 will automatically you know use the like
+18:06 an yeah the like awq or gptq Cornel
+18:10 underneath uh the last one is that you
+18:12 know we can just simply utilize like VM
+18:15 and TGI because like everything is like
+18:18 integrated right
+18:20 now okay commercial llm serving uh yeah
+18:25 hug the TGI from hugging face could be
+18:28 yeah one of like a best choice if you
+18:30 are considering the commercial
+18:32 deployment because where we already I
+18:36 mean we AMD and hering face we
+18:38 collaborated for a while we we enabled
+18:42 all the like high performance Corners
+18:44 into the TGI so yeah and also you can
+18:48 easily find like a latest like doco file
+18:50 so once you just clone the like doco
+18:52 file and that's it like everything will
+18:54 be you know every like a high
+18:56 performance libraries are already
+18:57 integrated so you don't have to worry
+18:59 about anything and the other thing is
+19:02 that in the VM is this is not from
+19:05 hugging face but this is the another llm
+19:07 you know tokit that we are you know
+19:10 we're heavily relying on because this
+19:12 one is also very like super like a yeah
+19:16 efficient for like a highr you know High
+19:18 batching scenario so yeah from AMD we
+19:22 are we prepared like many you know yeah
+19:26 collateral that you know people can
+19:28 utilize like like dig like digital K so
+19:30 recently we just published like some you
+19:34 know ROM you know ROM like VM Docker on
+19:38 the F right yeah that one should give
+19:41 you the like a really like high
+19:42 performance you know yeah high
+19:44 performance like a VM you know yeah
+19:48 inference like a throughput and lency so
+19:51 where I hope like people you know yeah
+19:53 try try that out and you know get like
+19:55 what is the like the latest like
+19:57 performance that we are Prov
+19:59 in okay back to the like TGI from huging
+20:02 face again you know the like optimiz
+20:05 optimizations that I you know that I
+20:07 talked yeah for a while they are all
+20:10 already like integrated inside like tji
+20:13 attention Jam page cicing and you know
+20:17 Rec quation and hip lity so if you just
+20:20 like you clone the you know yeah clone
+20:24 the like a TGI and clone the model then
+20:26 everything will run out of the box
+20:31 oh okay I think I have like four minutes
+20:36 and this is the one that
+20:38 I uh this is the like a demo that I
+20:40 prepared before I came here this is the
+20:43 Lama 3.1 like full five billion model
+20:46 running on H
+20:48 gpus uh
+20:51 maybe I guess somebody has to press the
+20:54 enter just give me a
+20:56 second oh sorry can you can you press
+20:58 enter this is a video clip
+21:18 so
+21:22 oh having troubles we focus in the the
+21:25 term window and prenter or how oh this
+21:28 still like a video clip embedded in the
+21:30 slide so yeah there should be a play
+21:33 button at the
+21:37 bottom oh
+21:46 sorry upload oh not uploaded oh okay
+21:49 well maybe I I should like explain
+21:52 instead okay this what it happened is
+21:54 that you know this video clip like what
+21:57 it know what it does is that you know
+21:59 you can launch a TGI from know Docker
+22:01 command and after that it'll
+22:04 automatically load the full 4 five
+22:07 billion from Lama 3.1 which is like
+22:10 about like 90 10 no more than like8 800
+22:15 gabt and those like 800 GB will be split
+22:19 across like eight gpus and it will you
+22:21 know process the like a token de yeah
+22:24 token processing for the prefi and
+22:26 decoding so well unfor fortunately you
+22:29 know from yeah due to the like technical
+22:31 like some issues it it doesn't not yeah
+22:34 yeah we couldn't play here right now but
+22:37 anyway like you know everything is ready
+22:40 so what you know is that you know you
+22:43 can just you know clone the like a TGI
+22:46 you know D D file and that's it like
+22:49 everything is already implemented here
+22:51 so yeah Rama 3.1 and everything will be
+22:55 run out of the
+22:56 box okay lastly like we prepared like
+22:59 many for the like for the like end users
+23:03 because like I I still believe that like
+23:05 ml is more about like participation from
+23:08 ml researcher and from many startup and
+23:11 many Research Center as well so we Pro
+23:14 provide like many you know like a
+23:16 fundamental libraries that people can
+23:18 you know utilize for
+23:20 example we have like a p like Upstream
+23:23 for like stable version and the nightly
+23:26 and many yeah different like doco doco
+23:29 base doco that rock libraries are
+23:37 pre-installed
+23:39 oh uh can you press the enter I couldn't
+23:42 go to the next slide oh okay and also
+23:45 like we do have like an we want to you
+23:48 know share share our like an you know
+23:51 stories about how we accelerate like
+23:53 many like multiple workloads on our like
+23:56 rock environment so we prepared like a
+23:58 rocken Blog and AMD Community AI blog as
+24:02 well so and also we have like many you
+24:05 know collaboration articles that you
+24:07 know that has like all the details that
+24:10 how we you know achieved the like higher
+24:12 performance like an llm you know
+24:14 optimization through the rum hugging
+24:17 facei and Optimum and hugging facei m300
+24:20 am you know blog as well and lastly we
+24:24 those are the like fundamental you know
+24:25 ROM you know key libraries so I hope
+24:29 like people just try them out and you
+24:31 know I hope that you know people you
+24:34 know participating in and you know
+24:37 optimizing yeah those like a key
+24:38 libraries so that we will have like more
+24:41 like user base in in yeah in this like
+24:45 area I think yeah thank you for like
+24:48 attending like yeah this session and I
+24:51 hope I I I give like any like yeah tiny
+24:54 bit of like information to you and thank
+24:56 you so much

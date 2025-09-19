@@ -1,0 +1,319 @@
+0:09 good morning and welcome everybody um I think AI regulation is something that has come up many times over the last few
+0:16 months especially and we have got the best people on stage to talk about this topic and the implications for the
+0:22 future of this industry thank you to Senator Scott weiner who introduced s1047 for joining us this morning and
+0:30 Ian sta who needs no introduction as well uh professor at Berkeley co-founder
+0:35 of data bricks so he knows more about AI than most I think we're going to have a great discussion but I want to get a
+0:43 little Vibe check first who here already has a take on sb147 if you support if you support the
+0:50 bill raise your hand all right that's I see literally
+0:56 two hands anymore and can you guys put them up again I just want to make sure I C everybody I see one now that has
+1:03 meekly gone up too okay all right does anyone here feel they are against
+1:10 s1047 a lot more hands everyone else here is it safe to say you've heard of
+1:15 it and you are listening to this panel because you want to actually get why everyone's so upset raise your hand if
+1:21 that's you all right so that's what I thought there's been a lot of hoopla around this
+1:27 bill there's been a lot of back and forth and many amendments over the last few months as well in response to
+1:32 Industry concerns so I do hope that one thing everyone can take away here is
+1:37 with all that confusion around what is this bill actually about we want everyone to actually understand that um
+1:43 what's unclear now is whether the bill will eventually become law in California it's on Gavin Newsome's desk waiting for
+1:50 him he has not yet given any public commentary on whether or not he's for it against it he's received many notes uh
+1:57 in various directions saying sign this veto this Etc so we have the two sides
+2:04 here Scott weiner introduced this bill and Ian has called this bill he has said
+2:11 that you know he's all in favor for checks and balances in AI development but that Senator Weiner's bill will
+2:17 result in a more dangerous rather than a safer world so two ends of the spectrum
+2:23 here first I want to know Senator Scott weiner can you let us know a little bit about the origin story for this bill
+2:30 every startup has an origin story every bill has an origin story how did you decide that you wanted to put this
+2:35 forward and where did that come from sure well first of all thank you for having me today and it's good to be here
+2:41 with uh with the professor and thank you for all of your work um and thank you all for uh for for being here and and
+2:48 participating in this conversation uh so I um uh for those who don't know I have
+2:54 the honor of representing uh San Francisco the entire city and part of Sano County uh in the state senate and
+3:01 it's uh uh just a deep honor to be uh representing uh the heartland of uh AI
+3:07 uh innovation in addition to so uh much other uh creativity and just amazingness
+3:14 if that's a word um and uh it's just I feel it's just very privileged to
+3:19 represent this amazing City uh and so I am and this was even before the uh the
+3:25 recent boom and generative AI um surrounded by uh just an enormous number
+3:30 of truly brilliant uh folks in the tech uh world uh people who work for large
+3:36 companies people who are at startups who are founders who are in acade Academia
+3:43 uh just Frontline Tech workers uh and about it was in early 2023 I think some
+3:50 uh a number of uh folks who work in AI uh started talking to me about um all
+3:55 the what we all know to be the the great promise of AI to make the world a better place and I believe that that is the
+4:01 case um but also about the need uh to really be try to get out ahead of
+4:07 potential uh safety risks uh and so we had a series of meetings conversations
+4:12 salons dinners with uh folks in AI talking about these issues with who had
+4:17 a spectrum of of views um and ultimately um we came up with an an outline of what
+4:24 became s1047 and we released that last September so about a year ago which is
+4:29 is not a normal thing to do to release the specific outline of a bill 6 months before you actually introduce it and I
+4:36 did that and we spread it around uh to try to get as much constructive feedback
+4:42 as possible uh and we started to have meetings and uh and then ultimately in February of this year we introduced the
+4:49 fully fleshed out uh version of the bill and then it took another 3 months for
+4:55 there to be broad awareness about it um sometimes you can beat the drum as much as you and people are going to pay
+5:00 attention when they're ready to pay attention and then uh sometime in late April there was intensive focus on the
+5:07 bill um with en you know tons of meetings for feedback and making many
+5:13 changes to the bill and response to that feedback so that's sort of the the trajectory of the bill and who from the
+5:20 industry if anyone who from the industry was involved in that very first version one that got released because I think at
+5:27 least from the public perception from the start this bill has drawn a lot of controversy I mean there we we talked to
+5:35 many many many people and and so there were a lot of people who were providing
+5:40 input when we Before we introd or released the outline between the outline
+5:46 and the formal introduction and then since then from large companies from startups um academics Advocates just
+5:54 folks who are you know work in the space uh and so an enormous um an enormous
+6:00 number of uh people and there were um as is always the case um in many areas lots
+6:06 of people start speculating on lots of conspiracy theories there were um you know people who were like this is
+6:12 written by the big tech companies to do quote unquote regulatory capture which a it's not regulatory capture but B uh
+6:19 because you know because it's the big companies they're going to be covered by it but be the big companies or other
+6:25 than anthropic um are opposing uh the bill so there's always a lot of conspiracy theories about who was
+6:32 involved there was a huge spectrum of people involved and we met intensively with a lot of people who don't like the
+6:38 bill to try to get constructive feedback and I'm appreciative that there are folks who are not fans of the bill who
+6:44 nevertheless provided us with very valuable feedback and we made changes to the bill in response to that including
+6:50 around open source issues and I want to make sure we get into the specifics of the bill as well so before we get into
+6:56 the details of who's been for it who's been against it and Ian's thoughts on it as well let's
+7:03 just outline a little bit of what the bill does say in its current format this bill is aimed at requiring companies
+7:09 that spend more than aund million training AI models to develop various
+7:14 safety measures that would prevent what's described as catastrophic harm um
+7:21 what do you think are the other top two to three takeaways you want this audience to know this bill I appreciate
+7:26 that and I actually I just want to and I'm not quibbling um with the word um
+7:31 prevent so the what the bill the heart of the bill is that if you are going to train and release an Inc huge incredibly
+7:40 powerful AI model I mean this is powerful powerful technology that it's going to have so
+7:47 many benefits but as with any powerful technology there are risks and that's always the case and the bill is not
+7:53 about eliminating risk or uh the bill does not require AI devel ERS to
+8:00 guarantee that their um model is not going to cause harm U life is about risk
+8:06 there's always going to be risk and we're not asking anyone to eliminate risk this is about evaluating and
+8:12 getting ahead and understanding what the risks are and then taking reasonable
+8:17 steps to reduce the risk uh so there's been there there been some of the opponents of the bills have talked about
+8:23 like a developer must certify that the model will not cause harm and that's not
+8:29 what the bill asks the bill asks the developers of these massive models which
+8:35 are you know not going to be startups it's these are the large Labs that are spending more more than aund million to
+8:42 train models um it ask them to do what they have all committed to doing
+8:48 publicly which is to perform safety testing on these models every single one
+8:54 of the large labs they all went to Congress to the White House most recently is soul South Korea and they
+9:01 made commitments that they would perform safety testing on large models which is fantastic we also know just from
+9:09 experience that self-regulation by industry doesn't always work uh you
+9:15 don't know who's going to be the CEO tomorrow and whether they're going to be as committed to safety as the CEO uh
+9:22 today uh and there needs to be some level of transparency just to ensure that the testing is actually happening
+9:28 so requires the safety testing and if it identifies a catastrophic risk and and
+9:36 again some some have said that we're focused on like the Terminator risk that's not what we're talking about here
+9:41 we're talking about um massive harm to critical infrastructure shutting down the electric grid for example uh
+9:49 facilitating the creation of of chemical biological nuclear weapons uh committing
+9:55 a cyber crime uh that creates more than $500 million and damages that if that
+10:01 risk is there and there are reasonable steps you can take to reduce the risk that you should uh do so the bill also
+10:07 requires that if a model is in your possession you have to have the ability
+10:13 to shut the model down um and we there has been some talk about how this will
+10:19 require open- Source developers to shut down models that are no longer in their possession and that was never the intent
+10:26 and we made an amendment to the bill to be crystal clear that that once you no longer control the model you've open
+10:32 sourced it other people have it you're not responsible to be able to shut down models that other people um uh possess
+10:41 um the the bill also creates something called Cal compute which will be a public private partnership um to create
+10:48 sort of public Cloud access and I definitely want to get into the Cal compute side of this as well but ion you
+10:54 have mentioned that AI should have guard rails should have safety built in but
+11:01 that this bill would create more harm and lead to a less safe World why yeah
+11:07 uh first of all uh just to say a little bit about myself I I wear multiple hats but here I am speaking more the quality
+11:15 of academic and open source developers uh during my career at berlay I've been involved in many open source projects
+11:23 including apachi spark Ray which was used to train Char GPT at open AI um and
+11:31 more recently VM probably the most popular inference engine for Li language models and maybe you know chbo Arina
+11:38 which is a very popular site to evaluate these large language models I also want
+11:44 to say you may yeah I'm not against uh safety I'm not against regulation and I should thank Senator Wier for uh raising
+11:53 the profile or safety AI uh you know discussion for general public I think
+11:58 debate we need to debate that um also you know just um as a matter of fact I
+12:04 am actually am doing also security research I'm also co-founder of op which
+12:10 is a security company just want to set the record straight here um I think that
+12:16 um yes in my mind the bill um
+12:22 it's in clearly too early in my mind and it does you know like the bill price and
+12:30 I doubt for a I I do not doubt for a moment the intention of um uh the
+12:36 proponents of the Bill of the creator of the bill to advance safety AI safety and
+12:43 uh Innovation however in my mind I don't think that the bill even after the
+12:49 changes and really appreciate the changes over the past few months is going to achieve that on the contrary is
+12:55 going to hurt the safety is going to hurt the in ation let me be more clear
+13:01 clear about about that you know the the one thing is about uh you you know if
+13:08 you train over one you know if you like like you heard if you train a model and
+13:13 this cost you more than 100 million dollar or you fine tune on existing models over 10 millions dollar then this
+13:23 law the bill will apply to you and I I can talk about what that means but just
+13:28 to make I want want to make the point is that right now um there are actually
+13:33 quite a few startups which can do that actually I know a startup Which is less than one year old which trains the $100
+13:41 million models and when you're talking about 10 Millions right about as a as a
+13:48 you know as a as a threshold for fine-tuning the model so if I take a model and I fine tun it and I spend 10
+13:55 million 10 Millions to F tun it then I'm going to be so to speak liable for the new model um you know it's it's it's
+14:03 accessible for many startups even for well-funded research institutions because this includes hard donation and
+14:10 things like that just like I want I want to make make it uh make it clear so the
+14:16 reason there are two reason I think this will uh not result in a safer world one
+14:22 one reason is that I do believe because and happy to talk more about that there is a little bit of you know a Shad
+14:29 of you are going to be um liable as an open open source developer if your model
+14:36 will be used in a bad way um I think that even that kind of doubt it's you
+14:42 know reasonably care and you know it's uh um then if I if for me if I am open
+14:49 source developers everything being equal why should I develop this open source model in California it's right it's you
+14:57 know everything being equal right so therefore what this happen um it's you
+15:04 are going to probably in one or two years if this bill is passed we are when
+15:09 it comes to open source we are going to use open source uh models uh developed
+15:15 outside of California and if the bill is successful in enforcing uh all this you
+15:21 know for everyone we doing the business in California and so forth probably you know foreign models right now I if you
+15:29 think about that I don't think that that's kind of a safer word the second point I want to make is is more about in
+15:37 principle so say you have to find you and you have 10 Millions dollars right
+15:43 what you are going to do you have this bar right maybe you don't want to trigger this to go over so you need to
+15:50 choose between building and a better model which may do better in Market or a
+15:57 safer model right so having a threshold when you are asked to develop something
+16:04 safe it's a little backwards because if you look in every other
+16:10 industry it cost more not less to develop safer artifacts it cost more to
+16:16 develop safer cars it it cost more to develop safer airplanes it cost more to
+16:21 develop secure right secure software so you know you shouldn't so what in all
+16:28 these other industry that people do they have the benchmarks they have other kind of Regulation which do not uh mandate
+16:35 any kind of cost limit exactly because what what I mentioned they have test
+16:41 like crash test and things like that so there is another way to do it so this I'm stopping here and obviously there
+16:46 are many other layers I'm going to be happy to go into but that's kind of the reason what I why I believe that um this
+16:53 may hurt actually AI safety instead of helping so something that comes up a lot
+16:58 when I talk to people who work in this industry is obviously AI is moving at a very quick Pace this is partly why folks
+17:06 are trying to be based in San Francisco where there's sort of an accumulation of knowledge in this space um everyone says
+17:12 this industry is moving so quickly that in some ways it's difficult to predict where it's going to be in a couple of years now that leads a lot of folks to
+17:20 believe that if you're setting this kind of Regulation now things may evolve much more quickly than a a new government
+17:27 sort of sub agent design to regulate this might be able to deal with um Jack Clark from anthropic I was at a
+17:34 conference last week he said on stage why would you want a DMV of AI no one has a good experience at the DMV and how
+17:42 do you respond to that Senator we why do we want a DMV of AI yeah well I'm going
+17:48 to take major issue with characterization of this as DMV of AI that is that is not true because Jack
+17:55 Clark's characterization Jack Clark who a great a guy who works for anthropic he works
+18:02 for anthropic and the CEO of anthropic submitted a letter to the governor saying that SP 1047 on balance is good
+18:10 that it's implementable that's addressing very real risks and that Congress is not going to act so it's
+18:17 appropriate for California to act that's what anthropic has said although although NIS did in in the days after
+18:23 the bill was passed M did put out um some agreements with open Ai and anthropic on safety so there has been a
+18:30 little bit of federal movement just in the last two weeks no they've agreed wait so anthropic and open AI have
+18:37 agreed to provide the federal government as a matter of National Security with access to their to their to their models
+18:46 and and that speaks volumes that you have two of the largest Labs who have
+18:53 agreed that there are for safety reasons that the federal government should have much more intrus access than what we're
+19:00 talking about here uh and so that that speaks volumes I also think it's interesting because the opposition to
+19:07 this bill is from people who are saying regulate us we want to be regulated please regulate AI but not like this so
+19:14 I want us to also get to the heart of why is it not like this right so well why has your bill like let's get to the
+19:21 heart of why has your bill in particular drawn all this malice from many parties yes because industry does not like to be
+19:28 regulated and so sometimes people running around and say sure we love regulation just not disregulation and I
+19:35 can guarantee you that if we proposed 20 different versions of safety regulation
+19:41 they would find reasons to dislike every single one of them that is just the nature of industry and that is why
+19:48 government sometimes has to step in but I want to go back to this DMV thing because it's actually a really important
+19:53 Point DMV means you are not allowed to drive a car
+19:59 unless you get a license from the DMV and permission you have to take a test
+20:04 apply get a license and if you don't have a license it's illegal for you to drive that is not what this bill does I
+20:10 specifically rejected the idea that a certain major AI CEO has proposed who
+20:17 name names I'm not going to name names a major one who went to Congress and said we should have to have a license to be
+20:24 able to release a large powerful AI model you should have to get permission from the government
+20:30 s1047 does not require you to get a license or permission you simply have to
+20:36 perform a safety evaluation uh yes it is fast moving technology but the idea that
+20:43 we would say as a society well we're just going to throw our hands up because the societ the technology is advancing
+20:50 and so just throw our hands up don't do anything uh that's what we did with social media look where that's gotten us
+20:56 it's what we did with data privacy look where that's gotten us and so how about for a change we actually for we try to
+21:03 get ahead of it and the way we constructed SP 1047 it is not
+21:09 micromanaging it is very flexible in what the safety testing is it refers to
+21:15 the standards issued for example by nist which will change over time it refers to
+21:21 Industry best practices so the bill is not like this sclerotic thing set in
+21:26 stone it is flexible and will evolve uh with the technology um I I do also just
+21:32 want to mention because the professor raised liability and that's really why there is
+21:38 concern um the liability created in the bill is extremely narrow only the
+21:46 Attorney General can sue only when there's been catastrophic harm and only
+21:51 if you didn't perform the safety testing that you're supposed to perform there's no private lawsuits compare that to the
+21:58 ex existing law today in California and probably in all 50 states if you release an AI model today and it helps create
+22:07 some sort of big harm someone uses it to do something terrible you can get sued today under existing law so what we're
+22:14 proposing is so why do we why this additional law then if the current law can apply why this additional law the
+22:21 state this law actually defines what your responsibility is existing law is
+22:26 going to be in flux for years and years and people are going to get sued ultimately they may win they may lose
+22:33 but in terms of the uncertainty and risk around liability that exists globally
+22:38 today um and what we're doing is trying to Define this is what you should do
+22:43 what we're asking you to do uh and and by the way and thank you Professor for acknowledging that the bill does not
+22:51 apply uh is not triggered by creating your model in California it's triggered
+22:56 by doing business in California so this notion that people are just going to move and do create their model in Miami
+23:02 they're still going to be covered by the law unless they do no business in California and that's why again Dario
+23:10 amade the CEO of anthropic was very clear and calling out this whole argument oh everyone's going to leave
+23:16 California he called that out as as completely bogus they said the same thing when we passed California's data
+23:23 Privacy Law in 2018 everyone's going to leave people didn't leave and so the
+23:28 that it's really a it's a red herring so in reading the bill the types of catastrophic harm described um over 500
+23:36 million right in damage to critical infrastructure um severe harm to
+23:42 society and then you get to sort of the punchline at the end which is if you C
+23:47 if you are so negligent that you don't build safety into these things and they can be used for harm the AG can sue and
+23:54 I sort of Wonder is that enough if catastrophic harm is caused to our society is a lawsuit from the AG going
+24:01 to help us well so the there is a form of prearm enforcement which we actually
+24:06 worked with folks on that there are ways that the AG can get involved if there is something that is like barreling down
+24:12 towards us and they there are limited circumstances where the Attorney General
+24:18 can intervene ahead of time uh with an injunction um and then after the fact
+24:23 it's damages But ultimately we don't want it to ever get to the point where is enforcement the goal here is to try
+24:31 to uh take reasonable steps get ahead of these risks and not have these
+24:37 catastrophic harms so I want to make sure we have time for audience questions because I know everyone here wants to
+24:42 learn more um we've only got a few minutes and we will head to the mic over
+24:51 here hi uh first of all thank you for very interesting conversation and
+24:57 discussion I have a question about the origin of the bill in a sense two two
+25:03 two parts of the question number one why exactly 100 million do you have any research that backs that threshold maybe
+25:10 it would be more efficient to lower it down to like 50 million or increase to 500 million like is there actual
+25:17 meaningful research that demonstrates that this specific threshold yeah is better than the others and to continue
+25:24 this line of thought why only L LS maybe it will make more sense to require
+25:32 to have a kill switch for gpus if there is a catastrophic impact I think that's
+25:38 inter cpuse right so was there any research that says that it's exactly the models that have to be regulated veres
+25:45 something else in terms of preventing that catastrophic harm and just because we're short on time I'm going to I'm going to quickly summarize and ask for
+25:52 Rapid Fire responses from both of you on how you feel about each of these questions so number one why this
+25:57 threshold and how do you of $100 million and also looking forward as the industry
+26:02 changes how do you know that that's the right one and then I on I also want your response and take on I I presume you
+26:09 have issue with the threshold right from from your previous comments so rapid fire so we can get through a couple questions um yeah so we the bill started
+26:16 out by it was any it would to be a covered model it had to be at at least
+26:21 10 to the 26 flop in terms of the size of the model um after enormous feedback
+26:28 from industry we also added in uh the100 million threshold and the goal there was
+26:35 this is about huge just massive models which frankly do not exist today but
+26:40 will exist soon and that was the goal there someone can argue it should have been 50 million it should have been 500
+26:46 million you can always debate the threshold we thought that that was a good faith um approach to like really
+26:52 limiting it to the largest models and 100 million goes up by inflation uh by the way so it will it will continue uh
+26:59 to go up and in terms of why so why I think he said why regulate it at the model why address it at the model level
+27:07 I think that's what the second question was there are opposition who said don't regulate the model only look at the
+27:13 application regulate deep fakes regulate algorithmic discrimination regulate
+27:18 misinformation and the answer is both uh that of course if someone if someone
+27:24 actually uses a model to commit a crime like a deep fake Revenge por or something they should be held
+27:30 accountable but wouldn't it be even better if we made it so that it was harder for people to actually commit
+27:37 those harms isn't it better to try to prevent a harm in the first place rather than say we're going to arrest you and
+27:42 prosecute you because you use the model to do something horrible with someone so like I mentioned first of all
+27:49 I do think that any kind of this threshold is a wrong way to achieve safety it's not done in any industry
+27:55 again um the second thing is about it's 100 million is not like I mentioned it's
+28:01 not that high right now uh the new version of the models we are going to be released very soon is going to be two
+28:08 order of magnitude one sorry one order of magnitude um or more higher going to
+28:15 cost to train them okay um so and and the other things I do think that you do
+28:22 have the correct me if I'm wrong but there is a board of Frontier models which can change the thresholds not the
+28:28 100 million right 100 million can only go up it can't go down okay so but this again I think that's number one I don't
+28:35 see how this going to achieve safety I mean you can develop your model right
+28:41 and someone else can find un it and we done that at Bly M many times we
+28:48 spending a lot of time very little to do wrong things and you are going to be according you are going to be liable
+28:55 right so it's it's you know it's not the right to to regulate again and I think the 100 Millions is not going to appear
+29:03 to be a big threshold very soon and I hope we have time to to sneak in one more question yes head to the mic hello
+29:11 everyone my name is Rachel before I ask my question they have a little tell to a
+29:17 little story to tell Once Upon a Time in Spring of 2002 I oned my professor at UC
+29:23 berley I want to run and take a selfie with him
+29:29 all right someone else jumped to the mic real fast so we can get in another question since we're short on time here
+29:35 I don't want to make the whole conference run late hi uh I'm Al YF I'm a bu door follow at stford University I
+29:42 just wanted to go back on what is safety and what is harm and since that we have a lot of Standards coming in about what
+29:48 is safety but we don't understand which measures are going to be true measures
+29:54 of safety and safety is a Continuum it's not a one one point stop so how is this
+30:00 going to help us and as we move forward yeah so I think this is one of
+30:06 the reason I mentioned earlier that this bill comes too early because in my opinion as a kind of scientist I really
+30:13 want to understand things and we need to understand and study these models study the the harm they can provide the
+30:19 marginal risks what they can enable that is not possible today and develop strong
+30:26 benchmarks for the safety before doing and advancing this this kind of
+30:31 regulations so I think that's kind of exactly the point we do not know exactly
+30:36 even how these models are kind of are working um and yes and typically as a
+30:42 humans We Fear about unknown but you know and there are a lot of developments
+30:48 but hey you know these developments yes are going to happen in kind of Step uh
+30:54 because if you look actually I have a question two question for audience if I may three actually how many of you use
+31:03 in for the in the last how many of you use say chat GPT or another chat chat
+31:10 more today than 6 months ago how many
+31:17 less okay how many the same okay so it's definitely going to
+31:23 have more by is going to have a lot you know it's going to have have a lot of impact but if you look in terms about
+31:30 what they enabl very bad for the past two years almost two years in jbt has
+31:37 been um has been released you know it's deep fake and things like that but
+31:43 nothing like people or like immediately after the release of chpt or worried about existential risk and things like
+31:48 that right so we need to keep a balance we need to study them and one one more
+31:54 comment so here where we have actually the opportunity as California the bill contains a cal compute right
+32:02 but Cal compute if you look at the bill is going to start and to trigger to get
+32:08 recommendation January 1st 2026 and to create that environment for
+32:14 the researcher and Industry to come together to study this models to study the security look going probably another
+32:20 one two years so if we are so you know um we want because we are worried so we
+32:25 want to act fast on one hand we Act fast with this kind of Bill but on the other hand when we try to invest in real
+32:33 innovation in trying to to understand these models in trying to develop the safety Benchmark there come this few
+32:39 years few years so I I don't I don't want to clearly we could talk about this all day long and all the details all day
+32:46 long but we are a couple minutes over so Senator weer final thoughts super quick I do just want to say there there's been
+32:51 sometimes um opponents of the bill will say that this you know we don't really know how to do this testing the testing
+32:57 is not real and and in addition to the fact that again every major AI lab all of them have committed to doing this
+33:03 testing uh I also just want to note that some of the leading Minds in AI uh like
+33:09 Yoshua Benjo and uh and Jeff Hinton and and steuart who was at Google and Stuart
+33:16 Russell uh UC Berkeley and lens Les and we just had a letter submitted a couple
+33:21 days ago by about 120 um uh AI technologists including
+33:28 quite a few of them who were working at large companies that opposed the bill so and I say this just there are different
+33:34 there are definitely different opinions within the AI world uh there are some who try to paint this this is like the
+33:40 politician versus the people who know about AI there are a ton of brilliant AI
+33:46 Minds who support this bill uh and so you know there is that disagreement I
+33:52 will acknowledge that disagreement we could talk about this clearly all day long thank you all for joining us for
+33:57 this thank you senator weer for explaining your bill to us thank you Ian stria for presenting the other side we
+34:04 really appreciate it and we really appreciate the engagement here with everyone and if you want to hear more we
+34:10 are at the standard hosting a live discussion with Senator weiner on our site on Friday uh just that little pitch
+34:15 because so much interest a Pala AI paloa thank you so much thank you

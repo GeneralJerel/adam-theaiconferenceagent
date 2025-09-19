@@ -1,0 +1,493 @@
+0:06 um welcome to escaping AI proof of
+0:08 concept Purgatory techniques for
+0:10 Enterprise AI Engineers I'm used to I'm
+0:13 very Italian I used to wandering around
+0:15 the stage and using my hands but I've
+0:16 been told I need to chain myself to this
+0:18 Podium so I so bear with me uh so in
+0:21 2024 we've seen this real um hype cycle
+0:26 going on with generative AI we're seeing
+0:28 a lot of these types of headlines about
+0:30 the AI Gold Rush and AI winter is coming
+0:33 and AI projects failing and things like
+0:35 that and in fact um Bane Capital
+0:38 actually created this data they looked
+0:40 at uh Enterprise adoption from October
+0:43 2023 to February
+0:45 2024 and if you notice in each of these
+0:48 categories the uh development use cases
+0:51 are actually increasing but the
+0:53 production use cases are going down uh
+0:56 and that's true of every industry except
+0:58 legal on this chart so what's going on
+1:01 there why is that well what we're seeing
+1:04 is that AI can become this gravity well
+1:07 for Enterprises where you start to go
+1:10 down this road and then just one thing
+1:12 after another just sort of sucks you
+1:13 back in from moving from proof of
+1:15 concept to
+1:17 production and that's generally because
+1:19 there's three big problems for
+1:20 Enterprises trying to get into
+1:22 generative AI low accuracy low
+1:24 efficiency and low
+1:26 adoption I'll let you take a picture
+1:31 and and these slides will be available
+1:33 and the talk is recorded so don't feel
+1:35 stressed about trying to take notes and
+1:36 everything um but how do we move from
+1:38 proof of concept to production how do we
+1:40 achieve escape
+1:42 velocity uh going from from proof of
+1:45 concept to production so that's what
+1:46 we're going to talk about in this talk
+1:47 obviously is a big complicated topic and
+1:49 I have 25 minutes to talk to you but I'm
+1:51 Sam julen I'm the director of developer
+1:53 relations for writer also wrote a book
+1:55 called getting started in developer
+1:56 relations uh and write a newsletter
+1:58 called developer micro skill
+2:01 okay so how do we achieve escape
+2:03 velocity for AI Engineering in the
+2:06 Enterprise uh at Ryder we've been around
+2:08 for several years and what's interesting
+2:09 is that we're actually seeing a lot of
+2:11 the opposite with our customers we're
+2:13 seeing lots of customers putting
+2:15 generative AI in production at scale
+2:18 solving problems so I wanted to build
+2:19 this talk to help share some of the
+2:21 lessons that we've learned uh about
+2:24 production AI at in Enterprises in
+2:26 physics there's this concept called
+2:28 Delta V which is the change in velocity
+2:30 needed to overcome gravity to uh escape
+2:33 a planet's surface and so I came up with
+2:36 the three components of Enterprise AI
+2:38 Delta V that I want to share with you
+2:40 Scope accuracy and Rapid UI so the first
+2:43 one is scope reconciling AI engineering
+2:46 scope so there's this interesting
+2:49 Paradox right now in Enterprise AI where
+2:53 on the one hand you have ai engineering
+2:56 infrastructure requiring this massive
+2:59 investment
+3:00 of time and resources and money and all
+3:03 of that but at the same time we're
+3:06 seeing that a lot of the most immediate
+3:08 return on investment in AI Engineering
+3:10 in the Enterprise is coming from these
+3:12 like scoped focused tasks at scale and I
+3:16 was actually having a conversation with
+3:17 someone at the booth earlier today uh
+3:19 about this very dilemma that they're
+3:21 going through so if you look at sort of
+3:23 the typical adoption life cycle of AI at
+3:26 an Enterprise a lot of the time it
+3:28 starts with these Point Solutions like
+3:31 you've got these uh different problems
+3:33 that you're trying to solve so you reach
+3:34 for these off-the-shelf SAS products to
+3:37 solve one issue at a time with
+3:40 generative Ai and these are great
+3:42 they're wonderful we use a lot of these
+3:43 ourselves um but the problem is you
+3:45 start kind of building this D janga
+3:46 structure of all these different SAS
+3:48 products and you're exposing yourself to
+3:51 different security risks you're dealing
+3:52 with it management overhead and what you
+3:55 start to run into is that the more
+3:57 complex use cases don't actually work
+3:59 with these off the shelf providers
+4:01 there's this uh sort of interesting
+4:04 scale where when you're at the Prototype
+4:07 phase and uh you're using simple data
+4:11 you start to see sort of AI working out
+4:13 of the box but then the more complex
+4:14 your data is the more accuracy you need
+4:17 the more bespoke your use case becomes
+4:19 you start to need more
+4:21 development so then you go down the DIY
+4:24 path you start figuring out okay I got
+4:26 to build out my infrastructure I got to
+4:28 build out my llm Ms my data pipelines my
+4:31 orchestration layer my inference and on
+4:34 top of that somehow needing to also
+4:35 build web applications so you invest all
+4:37 this time and all this money into your
+4:40 own AI engineering infrastructure and ml
+4:42 infrastructure and web infrastructure uh
+4:45 and then you've got an enormous pressure
+4:47 from leadership to actually do something
+4:49 with all of this infrastructure and all
+4:51 of this money that you spent so what
+4:53 ends up happening is that teams get
+4:55 stuck in this process of trying to boil
+4:57 the ocean okay we've spent all this
+4:58 money we've hired all these people now
+5:00 what so how do you get around that well
+5:03 one thing we've discovered at Ryder is
+5:05 to think in terms of microservices
+5:07 instead of monoliths now you can take
+5:09 that literally from an engineering
+5:10 standpoint if you want or you can take
+5:12 that metaphorically uh these are
+5:14 examples of like actual use cases that
+5:16 our customers are doing in production at
+5:18 scale and you'll notice that like
+5:20 they're spread across these different
+5:22 verticals uh but they're all these like
+5:24 small focused use cases that are saving
+5:26 lots of time so if you think of
+5:28 something like product as a vertical and
+5:30 you might need AI to help with things
+5:32 like formatting release notes which
+5:34 we've helped a customer with or
+5:36 generating user stories or onboarding
+5:39 material that kind of thing most of
+5:41 these are not going to be one monolithic
+5:43 application that you're going to put
+5:45 together that's going to cover all of
+5:46 these use cases instead you'll likely
+5:48 have these either kind of microservices
+5:50 or smaller more focused applications
+5:52 that you can uh
+5:54 use the second strategy that we found is
+5:57 to think in terms of a full stack
+5:59 approach roach so think in terms of
+6:00 building out your infrastructure and
+6:02 building out your platform and then on
+6:04 the one hand probably building out some
+6:05 pre-built applications for your um your
+6:09 users at your company and then providing
+6:11 them some sort of platform that they can
+6:12 also build on top of so that you can
+6:14 enable some of these other engineering
+6:15 teams to be more self-service this is
+6:18 the design that we've built at Ryder and
+6:20 we think it's really going to become the
+6:21 dominant design in this space feel free
+6:23 to steal it and use it yourself um so I
+6:27 love this quote from Shan Wang I don't
+6:29 know how many you know who Sean Wang
+6:30 swix is he runs uh the AI engineering
+6:33 conference he runs Laten space podcast
+6:35 he has this great quote that the
+6:36 software engineering life cycle is make
+6:38 it work make it right make it fast but
+6:40 the AI engineering life cycle is make it
+6:42 work on one thing make it work generally
+6:44 on most user queries and then make it
+6:47 efficient I think you can adapt that to
+6:49 full stack Enterprise AI so you make it
+6:52 work for one use case if you think about
+6:54 those one little box one little uh boxes
+6:57 generalize it to other use cases or
+6:58 verticals
+7:00 and then make it efficient for other
+7:01 teams to build on top
+7:06 of okay so that's the first one the
+7:08 second component is repeatable accuracy
+7:11 Enterprises struggle with two major
+7:13 issues with accuracy at least two
+7:15 actually uh major issues with accuracy
+7:18 in AI engineering the first is that llms
+7:20 are non-deterministic if you're at this
+7:22 conference you're probably well aware of
+7:23 that you put in a prompt you give it to
+7:26 the llm and then you roll the dice and
+7:28 like uh say some magic words and hope
+7:31 that you're going to get some different
+7:32 type of output and try to do some
+7:34 techniques with prompts so that you get
+7:36 the at least close to the same thing
+7:37 every
+7:39 time the second challenge with
+7:41 Enterprise data is that it's often dense
+7:43 and specialized so when you try to do
+7:45 kind of a normal approach to rag or
+7:48 something like that you uh you you run
+7:51 into this problem if you think about
+7:52 like a mobile phone company all of their
+7:54 documents are going to use the same
+7:56 handful of words about cameras and
+7:58 processors and batteries and things like
+8:00 that so if you're using like a k nearest
+8:02 neighbor search it becomes very
+8:04 difficult to make sure that you're
+8:05 looking at the right information at the
+8:07 right time so what do we do about this
+8:10 we found that there's basically three
+8:11 different layers that you tackle
+8:13 accuracy first is that the prompt in
+8:15 code layer the second is at the rag
+8:17 layer and the third is at the llm layer
+8:20 so on the prompt and code side uh how
+8:22 many of you heard of function calling
+8:24 and structured output so yeah good a lot
+8:27 of you have highly recommend you check
+8:28 this out basically you you uh expose
+8:31 some functions and describe them to your
+8:33 model and then that makes the it makes
+8:34 it available in the code execution
+8:36 environment for the llm to be able to
+8:38 augment their
+8:40 data at a very high level I'm skipping
+8:43 some steps for the sake of time but
+8:44 essentially what you do is you you
+8:46 describe a function using uh Json schema
+8:48 you have these functions defined
+8:50 elsewhere in your code and then you pass
+8:52 them to your model in an array and then
+8:56 you you execute those functions and come
+8:58 back and the model will give you the
+8:59 response that you want there's a couple
+9:01 of things left out of here for the sake
+9:02 of time but that's essentially how it
+9:04 works if you find this kind of thing
+9:06 interesting I highly recommend you check
+9:08 out what we've learned from a year of
+9:09 building with llms by a group of
+9:11 Engineers and researchers some uh really
+9:13 really smart people uh who are doing
+9:16 lots of work in this area check that
+9:19 out on the rag side of things what we've
+9:22 discovered is that you really need to
+9:24 combine multiple approaches uh graph
+9:27 based rag has been uh getting a lot of
+9:29 press lately we've actually been doing
+9:31 graph based rag for several years and we
+9:33 love it um so we found that the graph
+9:35 structure really helps to preserve
+9:37 relationships between the data but then
+9:39 we also found that by combining other
+9:41 techniques like compression techniques
+9:43 using some of the latest research like
+9:44 fusion and decoder you can actually
+9:46 really augment your accuracy and
+9:48 minimize
+9:50 hallucinations in our um rag Service uh
+9:55 we've actually been able to achieve 86%
+9:57 accuracy and three less than 3% huc
+9:59 ations which is you know very difficult
+10:03 it's it's not that hard to get up to 60
+10:04 or 70% with a proof of concept but it's
+10:07 very very difficult to get past that and
+10:09 we've published a benchmarking paper
+10:11 that you should definitely check out
+10:12 this uh link that's on here we also link
+10:15 out to the the archive paper um but
+10:17 essentially we combined a number of
+10:18 different techniques uh and we'd love
+10:20 for you to check it out and uh give us
+10:22 your feedback on
+10:24 it so and then at the llm layer one uh
+10:27 technique that we found really helps us
+10:29 to look at using specialized domain
+10:32 specific llms so these are models that
+10:34 are trained on industry specific data
+10:36 and because they're kind of more
+10:38 specialized and more focused they have a
+10:39 number of benefits like you have more
+10:41 control over sensitive
+10:43 information uh they take up less
+10:45 computational power and data storage and
+10:47 all of that sort of combines to help
+10:50 help you deploy these AI Solutions much
+10:52 much
+10:54 faster we recently released two uh
+10:57 domain specific models they're both open
+10:58 models you can check them out they're on
+11:00 hugging face uh they have open
+11:02 non-commercial licenses or you can get a
+11:03 license from us to use them commercially
+11:06 uh but these are great models we found
+11:07 them to be more accurate less time to
+11:09 deploy and cheaper to run than general
+11:10 purpose models so if you're in uh
+11:12 Healthcare or Finance definitely check
+11:14 out these domain specific
+11:18 models uh lastly on the llm side we've
+11:21 recently published a paper called
+11:22 writing in the margins which is an
+11:24 inference pattern that enhances an lm's
+11:26 ability to interpret long prompts um so
+11:29 check this out the the margins are
+11:31 basically a pendant to The Prompt um and
+11:34 uh We've we've seen some really awesome
+11:36 results with uh improvements in accuracy
+11:39 and um other things so I've got the link
+11:41 to the paper there for you to check
+11:44 out okay and then the final component is
+11:46 rapid UI and ux and this is the key to
+11:49 adoption because adoption is one of the
+11:51 hardest parts of implementing generative
+11:53 AI at an Enterprise first you got to get
+11:55 over the hurdles of actually building
+11:57 the thing and making it accurate then
+11:58 you actually have to have people use it
+12:00 so we have these non-deterministic llms
+12:02 but then at the same time you need to
+12:04 have really good UI and ux and you need
+12:06 to be able to do it at scale across an
+12:09 organization at the same time there's
+12:11 this wide Chasm between the different
+12:14 skill sets of AI and ml Engineers versus
+12:16 web developers uh this is the shift
+12:19 right diagram created by Sha Wang who I
+12:21 referenced earlier basically showing
+12:23 that as Transformer architecture has
+12:25 emerged we're seeing this new class of
+12:27 AI Engineers sort of ml engineer
+12:29 learning more crossing the API divide to
+12:31 get into web development software
+12:33 developers crossing over and learning
+12:34 more about ML and AI uh and so we have
+12:38 these different groups and there's only
+12:40 150,000 ml engineers and data scientists
+12:43 in the world but there's 27 million
+12:45 software developers in the world so
+12:47 somewhere we have to bridge that Gap and
+12:49 that's what we're seeing on the web
+12:50 development
+12:52 side so a few techniques as a recovering
+12:55 web developer turned AI engineer myself
+12:58 um some some techniques that we really
+13:00 found have been helpful when you're
+13:01 building rapid UI and ux for adoption
+13:04 first let to align on some tried andrue
+13:06 Technologies uh definitely prefer things
+13:09 like web standards perhaps you want to
+13:11 align on using python all the way up and
+13:14 down the stack there's a lot of great
+13:15 tools now that let you do
+13:17 that when it comes to building UI uh try
+13:21 to stick to a state driven UI with llms
+13:24 being non-deterministic it's very
+13:27 difficult to maintain state in your
+13:28 frontend end uh and so using a
+13:31 particular approach to State Management
+13:33 is really helpful as well as making sure
+13:35 that you're you have a separation of
+13:36 concerns you're going to want like your
+13:38 prompts separate from your business
+13:39 logic separate from your UI logic and
+13:41 that kind of
+13:43 thing uh it's also really important that
+13:45 you design with multimodality in mind
+13:48 nowadays you're not just dealing with
+13:50 text interfaces anymore you've got
+13:52 images and video and audio whether
+13:55 that's being transcribed or created and
+13:57 so you have to come at these web
+13:59 development approaches with
+14:00 multimodality in mind
+14:02 first and then lastly be sure to take
+14:04 advantage of all of these new power
+14:05 tools that are coming out as we bridge
+14:07 this divide between Ai and web
+14:10 development there's a lot of great new
+14:11 tools coming out if you're on the front
+14:13 end side and doing JavaScript I can't
+14:15 recommend you check out V v.d enough uh
+14:18 it's basically magic you uh chat with it
+14:21 and give it a prompt and tell it what
+14:22 kind of UI you want to build and it will
+14:25 generate the UI for you um it's an
+14:27 amazing product and great
+14:30 company if you're a python developer I
+14:32 want to introduce you to the writer
+14:34 framework that's our free open source
+14:36 platform for rapidly building AI
+14:39 applications at scale um it is an
+14:41 amazing framework that is built by
+14:43 Developers for developers and features a
+14:47 uh drag and drop UI Builder that's uh
+14:50 very easily customizable but then at the
+14:52 same time has the full power of python
+14:55 behind it you can either edit the code
+14:57 in the browser or using your favorite
+14:59 IDE whether that's vs code or cursor or
+15:01 whatever you want to do um but it's free
+15:03 and open source and we'd love for you to
+15:05 check it out and give us feedback on
+15:08 it okay I know I've like hit you with a
+15:11 lot of things on a very uh complex topic
+15:13 so let's review some of the the high
+15:15 points here so AI can become this
+15:18 gravity well for Enterprises because of
+15:20 accuracy efficiency and adoption and we
+15:24 saw this chart from Bane Capital uh put
+15:26 together by Benedict Evans that shows
+15:27 this weird decline that we're seeing of
+15:30 lots and lots of development use cases
+15:32 and fewer and fewer Enterprise use
+15:35 cases so then we looked at the three
+15:37 components of Enterprise AI Delta V to
+15:40 achieve escape velocity scope accuracy
+15:43 and Rapid UI and
+15:45 ux so the first was accuracy think in
+15:48 terms of microservices not monoliths
+15:51 pick a vertical solve one problem at a
+15:53 time uh and then make that platform
+15:56 available to other users at the company
+15:58 so that you can enable other teams to
+16:00 build on top of this platform that
+16:01 you've invested all this time and money
+16:04 into and then we talked about the three
+16:07 layers of improving accuracy so the
+16:10 prompt and code layer Rag and then the
+16:12 llm
+16:14 side on the on the prompt and code side
+16:18 we talked about function calling and
+16:19 structured outputs uh that way you can
+16:22 give functions and get either Json
+16:24 output or XML or whatever your heart
+16:26 desires and then on the rag side we
+16:28 talked talked about combining graph
+16:30 based rag with different research
+16:32 techniques and compression techniques to
+16:33 improve your accuracy and minimize your
+16:36 hallucinations and then on the llm side
+16:38 we talked about using domain specific
+16:40 specialized llms as well as the writing
+16:43 in the margins inference pattern
+16:45 technique and then lastly we covered
+16:48 some best practices for building UI and
+16:50 ux at scale for Enterprises so we talked
+16:52 about aligning on tried and tree
+16:54 Technologies uh like web standards using
+16:57 State driven UI and separation of
+16:59 concerns designing your ux with
+17:01 multimodality in mind and then taking
+17:03 advantage of new power tools such as our
+17:06 lovely rer framework in
+17:09 Python so lastly um I mentioned Ryder
+17:13 earlier we're a full stack Enterprise AI
+17:15 platform we build our own llms we build
+17:18 our own approach to rag we have an
+17:20 entire platform of tools for you to
+17:21 build on top of whether you're a
+17:23 business user and want to use no code
+17:24 tools or a developer and want to use an
+17:27 API SDK the writer framework we really
+17:30 make it possible for you to do anything
+17:32 and everything that you need at your
+17:33 company and we also have program
+17:35 management to help you actually drive uh
+17:37 implementation and Adoption of
+17:41 here and we're trusted by some of the
+17:43 biggest and best companies in the world
+17:45 across many different verticals uh many
+17:48 different spaces uh and we'd love to
+17:50 talk to you so I'm over at the ryer
+17:53 booth down uh downstairs yeah downstairs
+17:57 uh in the 200 aisle
+17:59 uh and I'm also on all of the social
+18:01 medias just at my name Sam Julene feel
+18:04 free to come talk to me ask me questions
+18:06 uh and I'd love to get to know you and
+18:08 help you out so thank you so much

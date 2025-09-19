@@ -1,0 +1,291 @@
+0:04 hello um I'm ches um co-founder and CTO
+0:07 at orb um orb as as I was introduced is
+0:11 a usage based billing infrastructure
+0:12 company um so we power Cloud billing for
+0:16 lots of companies across infrastructure
+0:19 um but specifically uh especially some
+0:21 of the faster growing ones in AI today's
+0:23 talk is not uh primarily about billing
+0:26 or even about orb it is about pricing so
+0:29 I just want to jump straight into that
+0:30 it's a lightning talk we only have so
+0:31 much time so let's start um pricing you
+0:35 should think of as friction ultimately
+0:38 your customers don't want to think about
+0:40 pricing they want to use your product um
+0:42 but friction can be good friction is how
+0:44 you assess customer value it's how you
+0:45 understand uh whether you're building
+0:47 something that's actually useful to the
+0:49 audience that you're targeting so if you
+0:50 start thinking about pricing like
+0:51 friction you can think of it as you know
+0:53 steps in a new user flow where adding
+0:55 some friction is good adding too much
+0:57 friction leads to drop off and so you
+0:58 need to think about how to balance those
+1:00 two things there's three key principles
+1:02 I want to cover today around pricing the
+1:04 first is thinking about your audience uh
+1:07 ultimately your pricing is for someone
+1:08 just like your product is for someone
+1:10 and and ideally those two things match
+1:12 your margin structure we are talking to
+1:14 a crowd of folks in Ai and and I'm sure
+1:16 that costs and margins are very top of
+1:18 mind for a lot of people here and then
+1:21 uh pricing flexibility I think this is
+1:22 one of the things that most companies
+1:24 think about uh not enough or or perhaps
+1:27 too late and it's something especially
+1:28 in a fast moving land landscape like AI
+1:30 you need to start thinking about early
+1:32 so let's start with the first you really
+1:35 need to think about your target audience
+1:37 for your product and your pricing U this
+1:39 starts by thinking through what is the
+1:41 segment that you are attempting to
+1:43 capture how are they thinking about the
+1:45 buying decision overall uh often times
+1:47 AI companies are selling to a
+1:49 combination of individual developers uh
+1:51 as well as big Enterprises and as many
+1:54 of you know big Enterprises have
+1:55 procurement teams and buying processes
+1:57 and if you try to deploy that same
+1:58 pricing and go to market and sales
+2:00 motion at an individual developer
+2:02 they're going to be like hey just give
+2:03 me the product I want to start using it
+2:05 and so thinking about how your pricing
+2:07 relates to your audience is really
+2:09 important um in in almost all cases uh
+2:13 having simple and predictable pricing is
+2:15 very important there are some companies
+2:17 that challenge this and I'll show you a
+2:18 few examples but uh you you can only
+2:20 challenge this with lots of Market pull
+2:22 and with extreme care uh and you should
+2:25 think about how your pricing is changing
+2:28 the behavior of your target audience
+2:30 because your pricing creates incentives
+2:32 and it causes your customers not only to
+2:34 buy in a specific way but also use your
+2:36 product in a specific way and and we'll
+2:37 cover some examples of that so maybe to
+2:40 start here's an example you all have
+2:42 probably seen this page uh it is the
+2:45 pricing page for AWS Aurora Aurora is a
+2:47 a database offering from AWS and this
+2:50 pricing page tells a story uh probably
+2:53 many stories one is it is varying the
+2:56 weeds so it is clearly targeted people
+2:58 who understand the context of Aurora
+3:00 it's a it's a pretty complicated pricing
+3:02 page um you can see that the pricing
+3:05 axes are in terabytes per month that
+3:08 tells a story about how Aurora is meant
+3:10 to be used at what data scale it's meant
+3:12 to be used that's that's very purposeful
+3:14 um and perhaps the thing that's
+3:16 highlighted with this Arrow data
+3:18 transfer in is free to AWS but data
+3:21 transfer out is not that tells a story
+3:23 of incentives and obviously AWS wants
+3:25 you to bring data into to their platform
+3:27 and so they're pushing incentives by by
+3:30 this pricing model um lots of people who
+3:33 think about pricing will see especially
+3:35 Engineers will see a page like this and
+3:37 be like ah this is shitty right like
+3:39 this is not a pricing page this is a
+3:41 contact us page I want a pricing page
+3:43 but I think it is worth saying that
+3:45 contact sales for a custom quote is
+3:47 about the audience it's it's just not
+3:49 meant for an individual developer
+3:51 service now is presumably not selling to
+3:53 you if you look at the page and say oh
+3:55 my God that sucks um and in reality
+3:58 probably in this case uh service now is
+4:00 trying to cross sell um their their new
+4:03 product to people who are already using
+4:05 service now so the value sale and
+4:07 understanding what the existing usage
+4:09 pattern is for that audience is very
+4:11 important and so talking to a
+4:13 salesperson is kind of a critical part
+4:15 of their goto market and sales process
+4:17 let's look at another example this is
+4:18 cloud flare um and this is pricing for
+4:21 R2 which is their product that um
+4:24 competes with or compares to S3 uh this
+4:26 is a good example because uh Cloud flare
+4:29 has done a bunch of work and we'll see
+4:31 it in in a couple examples later on to
+4:33 differentiate their product and their
+4:34 architecture and their pricing but you
+4:36 need to think about where people are
+4:37 coming from if someone is used to paying
+4:39 for S3 in a specific way whether that's
+4:41 API operations or storage and now
+4:43 they're trying to size up how would it
+4:45 look like to move this workload to R2
+4:48 it's important that you make that
+4:49 transition as easy as possible and if
+4:52 they can't predict how their workload is
+4:53 going to compare or how they're going to
+4:55 map quantities on S3 to quantities on R2
+4:57 they're going to have a much much harder
+4:59 time making the buying decision and so
+5:02 there's a very different pricing motion
+5:03 you have to go through when thinking
+5:04 through a lift and shift use case versus
+5:06 a net new use case where you know it's a
+5:08 new product that maybe people haven't
+5:10 thought about the pricing dimensions for
+5:12 before let's talk about the second uh
+5:15 structure which is margins and costs uh
+5:17 many of you have probably heard this
+5:18 quote your margin is my opportunity uh
+5:21 really getting at this idea that
+5:23 ultimately you know you can set pricing
+5:25 arbitrarily you can have really great
+5:27 margins but especially now when the cost
+5:29 of building software is getting lower a
+5:31 new company will come in and take that
+5:33 opportunity to undercut your margin so
+5:35 this is a an area that I think
+5:36 increasingly so you have to think
+5:38 critically about um I think the big
+5:40 takeaway here is think about your cost
+5:43 structure given the architecture of your
+5:45 product what does it scale with rather
+5:47 than thinking about the exact costs uh
+5:49 ultimately if open AI or anthropic or a
+5:51 different underlying model compute
+5:53 provider changes or or halves costs
+5:55 overnight which is prone to happen your
+5:57 literal cost will change um but your
+6:00 cost structure will probably stay the
+6:01 same so so a couple things think about
+6:03 the axis on which your cost scale and
+6:04 how that relates to your pricing and
+6:07 think about what architectural
+6:08 advantages you have that you can then
+6:10 pass on into your pricing ultimately
+6:12 that's going to be something that is is
+6:15 harder for other people to just track
+6:16 one for one so if you think about costs
+6:19 there's you know roughly three costs
+6:20 there's especially in AI uh there
+6:23 there's models there's the training of
+6:25 the models and then there's the devops
+6:27 around the model um so of course it
+6:29 depends on are you're operating but um
+6:32 you have to think about all of these
+6:33 costs when you're thinking about pricing
+6:34 your product because ultimately none of
+6:36 them are likely to converge to zero
+6:38 they're all going to have some marginal
+6:39 cost and um let's look at a few examples
+6:43 so in this case this is an example of uh
+6:46 cloudflare again and you can see they're
+6:48 charging for CPU milliseconds uh I think
+6:50 this is their workers product uh
+6:52 cloudflare made an early architecture
+6:54 decision to build on top of worker
+6:56 isolates which are much more lightweight
+6:58 ways of running serverless functions
+7:00 this lets them charge not for wall time
+7:02 but for CPU time specifically and I
+7:04 think this is a great Advantage compared
+7:06 to other serverless products and again
+7:08 it's an example of them taking an early
+7:10 architectural bet that panning out and
+7:12 then them being able to translate that
+7:14 to specific value for the use cases that
+7:17 they're trying to power for their
+7:18 customers another good example this is
+7:21 uh from modal modal has done a bunch of
+7:23 work to make uh very specific
+7:25 optimizations to their underlying file
+7:28 system and they they've done a ton of
+7:29 infrastructure lowlevel work and so they
+7:31 can charge at a very very granular level
+7:34 per second um and this is the sort of
+7:36 thing where imagine cold starts were
+7:39 really expensive on this platform
+7:41 charging per second just wouldn't make
+7:43 sense and so Translating that underlying
+7:45 architecture to a pricing decision
+7:47 sometimes costs aren't the high order
+7:49 bit this specific article has been
+7:50 debated many times over regardless of
+7:53 this example um you know GitHub charges
+7:55 for co-pilot on a dollar seat basis does
+7:58 that really make sense for margins
+7:59 probably not there are probably uh lots
+8:02 of customers who use co-pilot a lot and
+8:04 there are customers who don't use
+8:05 co-pilot at all so their margins are
+8:07 probably pretty funky but Simplicity
+8:08 matters too and so this is another
+8:10 example of slack charging for AI on a
+8:13 dollar seat basis because they're really
+8:15 trying to just push adoption of Slack's
+8:17 AI product let's talk a little bit about
+8:20 pricing flexibility um and so most
+8:22 companies think uh partially because
+8:25 they don't have the infrastructure
+8:26 tooling but partially because this is
+8:27 how SAS pricing has been they think of
+8:30 pricing as a set it and forget it
+8:31 exercise but in reality you're spending
+8:34 a ton of money on R&D your product is
+8:35 changing your value uh delivery is
+8:38 increasing and your value capture should
+8:40 increase too and uh you know if you all
+8:43 engineers in the room think of data
+8:44 migrations it's the sort of thing where
+8:46 if you start to do it very often it does
+8:48 become easier most companies uh they
+8:51 have a sudden price change which is bad
+8:53 for them it's bad for their customers
+8:55 whereas value is changing continually
+8:58 and so uh the more you can converge to
+9:00 the picture on the right where you're
+9:01 capturing that as time goes on the
+9:03 better uh so this is an example of pine
+9:05 cone uh both rolling out a serverless
+9:08 offering but also changing their pricing
+9:10 to match which can drive massive Roi a
+9:13 pricing model we see a lot that's
+9:15 related to this is being able to roll
+9:17 something like prepaid credits out um
+9:19 and this gives you a ton of axes of you
+9:22 know being able to differentiate and add
+9:23 levers to your pricing to account for
+9:25 fluctuating demand or Enterprise
+9:26 contract structures so being able to do
+9:28 this is can be really valuable there's a
+9:31 couple of technical challenges related
+9:33 to implementing pricing well of course
+9:34 there's the business logic there's the
+9:36 customer experience giving visibility
+9:38 there's the auditability and of course
+9:39 there's the kind of data infrastructure
+9:41 we work with companies that generate
+9:43 thousands or even millions of events a
+9:45 second that feed into their pricing so
+9:47 that's what orb does we we are a billing
+9:49 platform built purpose built for these
+9:51 use cases we help you both implement the
+9:53 pricing as well as evolve it over time
+9:56 so that you can change your pricing much
+9:57 more flexibly um
+9:59 and that's it um thank you for listening
+10:02 to the talk we are downstairs at a booth
+10:05 I think
+10:06 246 um happy to take questions then and
+10:09 maybe one question now

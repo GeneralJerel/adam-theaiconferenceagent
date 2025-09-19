@@ -1,0 +1,739 @@
+0:06 good morning everyone um welcome to the
+0:08 conference and um excited for the
+0:10 session today which I think is going to
+0:12 be a really really interesting and
+0:13 thought-provoking conversation um with
+0:16 with Dr Palm I'm going to go by um I
+0:18 think before we kind of dive into the
+0:20 content of this um let's um let's do
+0:22 some intros for everyone I'll I'll kind
+0:24 of lead off I'll I'll make mine quick
+0:25 and I think everyone would love to hear
+0:27 how you end up as as cdao and we'll have
+0:30 a kind of great free flowing
+0:31 conversation and then hopefully leave a
+0:33 little bit of time for some questions if
+0:34 there are some um and so um everyone as
+0:37 um as Ben mentioned I'm Brian Raymond
+0:39 founder and CEO of unstructured um we
+0:42 focus on ingestion and pre-processing of
+0:45 unstructured data we have an open source
+0:46 project and the commercial offering my
+0:48 background though um let's call it like
+0:50 a nonlinear career path so um started
+0:52 out at CIA as as an analyst um at the
+0:54 CIA for um a number of years then moved
+0:57 down and worked in the Obama
+0:58 Administration I was a director on the
+1:00 National Security Council and then um
+1:03 2018 time frame um back out here to San
+1:06 Francisco I'm from Northern California
+1:09 worked at a company called primary AI
+1:10 for a while where we were doing
+1:11 knowledge graft generation and um and
+1:13 then founded unstructured a couple years
+1:15 ago um but brought it over to you thanks
+1:18 um I too had a nonlinear career um I
+1:21 started uh I was I have a PhD in
+1:23 economics and I sort of started out on a
+1:25 traditional academic track was an
+1:26 assistant professor and then went um
+1:30 went off to Afghanistan to do some
+1:32 research um and and ended up through a
+1:35 series of events after that going into
+1:36 the government and working in in the
+1:39 Pentagon and then at the National
+1:40 Security Council and Department of
+1:41 energy really focused on creating sort
+1:44 of Applied analysis informing
+1:47 policy-making processes and decisions um
+1:49 left government in 2017 2016 and uh went
+1:53 out and and worked in Tech so I started
+1:55 out in Facebook I was a ux researcher
+1:58 and then ran a team of researchers and
+2:00 data scientists um went to Google ran a
+2:03 slightly bigger team um really focused
+2:05 on both on the business process side and
+2:07 then on the detection and sort of uh
+2:10 platform management side um in Google uh
+2:14 and then in 2021 went back into
+2:16 government somewhat unexpectedly um but
+2:19 uh as the deputy secretary's chief of
+2:20 staff and you know from that seat coming
+2:23 back into government having been out um
+2:25 working at tech companies was really
+2:27 surprised at the place in the data
+2:30 Journey the Department of Defense was
+2:32 maybe I'll put it that way um and what a
+2:34 lot of folks take for granted the kind
+2:36 of availability of analytics to drive
+2:39 decision-making the ability to test and
+2:42 build um different types of applications
+2:44 to meet internal or external needs
+2:46 that's a lot harder in the government so
+2:48 really have spent time in a variety of
+2:50 roles inside the government first on the
+2:52 deputy secretary's immediate staff sort
+2:54 of helping build some of the foundations
+2:56 and then in the acquisition roles um and
+2:59 now in um as a chief digital and AI
+3:01 officer really focused on trying to make
+3:04 concrete progress um along that journey
+3:07 to get the Department to be a place that
+3:09 has datadriven Cutting Edge solutions to
+3:12 all the full range of problems that
+3:14 they're trying to deal with well let's
+3:15 let's pick up on that for a minute and I
+3:17 think um you know for a lot of us out
+3:18 here in San Francisco could be um
+3:20 acronym soup um looking at like the
+3:22 Pentagon and this in incredibly large
+3:24 organization with the services nested
+3:26 underneath it can you just talk a little
+3:28 bit about the origin of the cdao um
+3:32 Mission today and then as you've come
+3:34 into the seat over the past 6 months um
+3:36 to to to lead it what are your
+3:38 priorities kind of looking forward yeah
+3:40 so I think the easiest way to think
+3:42 about the Pentagon is a trillion dollar
+3:45 War fighting and sort of uh Enterprise
+3:48 wide machine really focused on two
+3:50 things the sort of defeat adversaries
+3:52 and maintain National Security and then
+3:55 the manage uh you know 3 million person1
+3:58 trillion ENT and all of the business
+4:01 execution functions there in so just
+4:03 starting there there are lots of
+4:04 different parts of it there's an Air
+4:05 Force there's a navy and there's um
+4:08 what's called the office of the
+4:09 secretary defense the core thing to
+4:11 think about that is that's like the
+4:12 cross cutting core platform team that
+4:15 needs to build and maintain all of the
+4:17 pieces the budget and financing the
+4:19 Personnel that help all of those
+4:22 action-oriented pieces keep moving cdao
+4:25 really came from uh identifying when
+4:28 when we came in in 2021 with the deputy
+4:30 secretary the realization that we had
+4:33 these real pockets of progress in the
+4:35 Digital Data and AI spaces so we had a
+4:38 defense digital service we had this
+4:41 Enterprise analytics platform called
+4:42 advana we had um The Joint AI Center the
+4:46 Jake um and we so we had these teams
+4:48 that were really we had Maven doing
+4:50 really cutting edge work at the time on
+4:51 on AI we had these teams that had pet of
+4:54 excellence and we really needed to build
+4:56 the foundation and scale that to have a
+4:58 meaningful um ability to advance the
+5:00 Department's Journey so that's really
+5:02 the the where the cdao came from a
+5:04 couple of sort of pockets of excellence
+5:06 and the theory of the case that the sum
+5:08 of the parts was greater um if we put
+5:11 them all together so that you could have
+5:12 the data data infra really than the data
+5:15 analytics and the AI uh infra and the AI
+5:19 applications all together with the
+5:21 policies and Acquisitions that enable
+5:24 that to come into the government in
+5:25 scale and sort of that's where we are in
+5:27 cdao in terms of my priorities if think
+5:30 about cdao as in those functions to
+5:32 enable the department to accelerate its
+5:34 adoption to build the scaled foundations
+5:37 for that and then to accelerate priority
+5:40 applications our priorities are really
+5:42 in that order right which is do we have
+5:44 the right acquisition tools the right
+5:46 policies the streamlined process for
+5:48 atos all of the things that make it go
+5:50 to enable that and then do we have the
+5:52 right foundations the scaled data
+5:55 infrastructure this the compute the um
+5:58 the AI infrastructure the labeling data
+6:00 the dev environments and then what are
+6:02 our priorities in terms of applications
+6:05 that we want to take our kind of limited
+6:07 bandwidth and try to rapidly scale to
+6:09 prove the value proposition of those
+6:11 other two arms so the world's changed a
+6:14 lot in the last call 18 to 24 months
+6:16 November 22 um you know openi releases
+6:19 chat gbt which came on the hills of you
+6:21 know um gbt 3.5 and this explosion of um
+6:26 of activity um you know not only from
+6:29 the the model providers but also at the
+6:30 hardware layer um and then open source
+6:33 projects and an entirely new ecosystem
+6:34 of tooling that's um that's that's
+6:36 emerged since that time I know a lot of
+6:39 the problems have remained the same over
+6:41 the last several years um in terms of
+6:43 you know Computing data what's changed
+6:46 what sort of new opportunities are um
+6:48 you know are unlocked with this new kind
+6:50 of generation this paradigm shift and
+6:52 technology that we've witnessed um and
+6:54 how's the conversation shifted in
+6:55 Washington around uh around this
+6:57 technology there's a lot of enthusias
+7:00 about sort of generative AI sort of
+7:02 broadly but more the realization the of
+7:07 the value that AI um Place poses the the
+7:11 potential and some of the risk but a lot
+7:13 of potential for transforming how the
+7:16 government does business and and again
+7:17 just going back to the two missions that
+7:19 framing like it it has the potential to
+7:22 transform War fighting but it also has
+7:24 potential transformation on the
+7:25 bureaucracy side to really help us
+7:28 accelerate and um speed or um add rigor
+7:31 to a number of our internal processes so
+7:34 so the conversation is really focused on
+7:36 how does the government Effective
+7:39 Government generally and for us the
+7:40 Department of Defense specifically make
+7:43 meaningful progress into that to that
+7:46 end a lot of what has changed for us is
+7:48 focused on rather than buying things I I
+7:51 like to say the way we would buy things
+7:53 was basically from the app all the way
+7:54 down the stack so we would buy these
+7:56 vertically integrated hey I like that UI
+7:58 I'm going to buy whole stack I like that
+8:00 you I'm going to buy the whole stack a
+8:02 lot of overlapping Investments on the
+8:04 back end there because we're buying
+8:06 these fully vertically integrated things
+8:08 to having a more um Federated modular
+8:12 interoperable model that has a lot more
+8:14 providers and a lot more promise for
+8:16 allowing our user base inside the
+8:18 department decision makers or Warf
+8:20 Fighters or operators or financial
+8:22 planners to be able to selfs serve and
+8:26 identify the solutions they need with
+8:27 the underlying infrastructure investment
+8:30 that allow that self-service model Y and
+8:32 so I think that conversation has changed
+8:34 the realization there's just a lot of
+8:36 potential use cases yep and we need to
+8:39 build the the enabling functions and
+8:42 infrastructure to support users actually
+8:44 using the the applications they want
+8:47 that's that's really interesting so it
+8:48 sounds like a lot of like bottomup
+8:49 development and creating conditions for
+8:51 success of you know this particular you
+8:54 know airwing or this core may want to
+8:56 develop an application how can we
+8:57 provide the infrastructure to do that
+8:59 and
+9:00 broadly it's fitting into two different
+9:01 buckets one might be um kind of like
+9:04 back office business efficiency that's
+9:06 and the other one is instead of
+9:07 advancing like Topline uh let's call it
+9:09 advancing deterrence instead of that's a
+9:12 nice way of putting it advancing
+9:14 deterrence and um but either way it's a
+9:17 common set of potentially AI
+9:19 infrastructure that's that that might um
+9:22 you know sit underneath both of those
+9:25 kind of buckets emission sets is that
+9:26 right that's right um and you know you
+9:27 can think about it I'll use just the
+9:29 example of logistics because I think
+9:30 it's something folks can resonate with
+9:33 you know the department owns more
+9:34 aircraft than Southwest more ground
+9:36 vehicles and FedEx we have a supply
+9:39 chain that has three times as many
+9:40 suppliers as Walmart we have warehouses
+9:43 all around the country and we need to be
+9:45 able to move things around to them and
+9:47 that's true for supporting the military
+9:50 families who live on installations all
+9:51 over the world and it's true for
+9:53 maintaining fuel supplies for our ships
+9:56 and planes and ground Vehicles right and
+9:58 all of that
+9:59 is relying on whether it's on the
+10:02 operational side or on the management
+10:04 business management side relies on the
+10:06 same kind of underlying raw data sources
+10:09 how you put them together and deliver
+10:10 that for different uses is really the
+10:13 question and how you make that you know
+10:15 the the what the warehouse managers need
+10:17 is going to look different than what the
+10:19 fleet managers need when they're
+10:20 maintaining fuel supplies but we want
+10:23 them to have be able to build and have
+10:25 be able to Source solutions to all of
+10:27 their problems with a common uh set of
+10:30 infrastructure Investments that make it
+10:31 easier for them one thing that I'd love
+10:34 to hear you talk a little bit more about
+10:36 is that you know in the in the private
+10:38 sector um compute has been a constraint
+10:41 um and there's been enormous competition
+10:44 over access to compute but there's this
+10:46 like thriving ecosystem of players um
+10:48 ranging from like the cloud service
+10:50 providers to the hardware you know
+10:52 manufacturers themselves to like the
+10:53 core weaves of the world and others that
+10:55 are um that are you know stepping up to
+10:58 kind of meet that that demand um within
+11:01 the Department of Defense and across the
+11:02 services different environment right um
+11:05 You have classified networks um you have
+11:07 protected networks and um like priority
+11:10 number one is protecting those networks
+11:12 um but then you also need to kind of
+11:14 Step Up to meet the um meet the moment
+11:16 on how technology is changing and so
+11:18 how's the department been like looking
+11:20 at that unique challenge of how do you
+11:22 like one buy all of this deploy all of
+11:25 it operationalize it um so that you can
+11:28 enable the folks um you know on the
+11:30 front lines yeah so I we have we
+11:33 certainly have unique problems in the or
+11:35 unique um constraints in the department
+11:38 we have these classified networks as you
+11:40 said we have a sort of distributed
+11:41 operations we have a lot of cyber
+11:43 requirements rightly so um but I'll just
+11:46 note like those are all problems that
+11:47 exist in different ways in the private
+11:49 sector right like different having
+11:51 different people with different identity
+11:53 and U like access to different kinds of
+11:55 information is a problem that they solve
+11:56 in healthcare and in finance and so in
+11:59 the department I think there are a
+12:01 couple things we have tried to do to get
+12:03 better one is just try to have a clearer
+12:06 process that goes from Solutions all the
+12:09 way to fielding and the reason that is
+12:12 is if there are solutions that people
+12:13 have been thinking about in the
+12:15 commercial sector we want to be able to
+12:17 bring those Technology Solutions that
+12:19 technologists into our environment to
+12:22 help us solve them in order to do that
+12:23 we need to have a process that walks
+12:25 from we have a requirement we go out to
+12:28 Industry and explain that re requirement
+12:29 people come to us with potential
+12:31 Solutions we can give you initial
+12:33 funding whether it's through sort of
+12:34 these small business or um smaller
+12:37 contracts cbers are the common example
+12:40 but there are a range of different
+12:41 authorities see how that works test it
+12:44 out if that looks good fund a prototype
+12:47 if that looks good have a process to get
+12:50 to either Enterprise scale with licenses
+12:52 or to use it in the right environments
+12:54 we need to be able to step through that
+12:56 process in cdao we've been doing a lot
+12:58 we have this initiative called dagger
+12:59 it's a long acronym that relates to
+13:01 having government-owned interoperable
+13:03 repositories um for data and
+13:05 applications um but the idea there is to
+13:08 have this end to- endend process that
+13:10 technologists can see from the beginning
+13:13 getting all the way to the solution so
+13:14 that's one big piece is just having that
+13:16 the second is to try to start buying our
+13:20 pieces of infrastructure in more modular
+13:22 ways right so we don't want that
+13:23 vertically integrated stack because it
+13:26 creates a lot of constraints on what
+13:27 Solutions are available to end users and
+13:30 it buys the stack for the solution
+13:32 rather than creating a stack and letting
+13:34 more different kinds of solutions come
+13:36 in and sort of democratizing that
+13:38 process so what we're trying to do with
+13:40 things like we have a program called
+13:41 alpha 1 that's our AI infrastructure
+13:43 program to actually try to fund okay
+13:46 what are the pieces that need to come in
+13:48 here data labeling or mlops right like
+13:50 what are what are the core pieces we
+13:52 need in that AI infrastructure how does
+13:55 that fit with our data infrastructure
+13:56 right now our data is very focused on
+13:58 Analytics so we're also making some
+14:00 Investments to have a more flexible back
+14:02 end on the data side to enable um more
+14:06 of that AI infrastructure to interact
+14:07 with it but but you know so we but we
+14:09 have to buy these in pieces and so we're
+14:11 working our way through that in a couple
+14:13 of different lines of effort we've done
+14:14 it on our what we call Strategic command
+14:17 and control that's on sort of
+14:18 operational data we're now doing it on
+14:20 Enterprise analytic data that has the as
+14:22 I mentioned the warehouse data the
+14:24 logistics the finance the Personnel data
+14:27 and then we'll you know look at
+14:28 different areas do that but that's kind
+14:30 of the overall approach that's that's
+14:32 really interesting and I think like what
+14:33 is coming out of this conversation um is
+14:36 that a lot of like when you know our
+14:37 company um we we do a lot um with
+14:40 private sector and especially like large
+14:41 Enterprises and um the broader the broad
+14:44 approach um seems very similar which is
+14:47 like hey I'm going to you know they want
+14:49 modular and interoperable solutions they
+14:50 want to be able to um you know compose
+14:53 their own AI platforms quickly um and be
+14:56 able to swap in and out different
+14:57 different providers the switching costs
+14:58 are still pretty low right now right
+14:59 there's not a lot of sunk Investments
+15:02 necessarily on um like which LM you're
+15:04 using or which vector or graph or
+15:06 relational database you're may be using
+15:08 or orchestration framework there still
+15:10 like this is we're still in this this
+15:12 period of like let's call it extreme
+15:14 experimentation right and um and this
+15:17 thriving ecosystem of companies many of
+15:19 which are uh are represented here today
+15:22 um you know are are adding to that and
+15:24 advancing that and so like that's that's
+15:26 great to hear around um you know kind of
+15:29 aligning acquisition and broader
+15:31 strategy towards making it you know easy
+15:33 and fast to to plug in these
+15:35 capabilities against these these
+15:36 different Mission sets um maybe for the
+15:39 benefit of everyone here and for for
+15:40 myself just practically speaking how the
+15:43 does DOD like at the cdao level
+15:46 interface with what maybe Army's doing
+15:49 and navy and Air Force um it can get a
+15:52 little dizzzy just to understand who's
+15:54 responsible for what and how do I plug
+15:56 in being like a San Francisco based or
+15:58 West Coast based tech company well the
+16:00 short answer is we have a lot of
+16:02 meetings a lot of them in 30 minute
+16:04 increments um the the longer answer is
+16:07 we have a couple of different I will
+16:09 call them sort of bureaucratic
+16:10 structures intend to pull intended to
+16:12 pull these things together so the first
+16:14 is we maintain inside cdao these
+16:18 defense-wide program lines what that
+16:20 means concretely is Congress gives us
+16:22 money we get all our money from Congress
+16:24 Congress gives us money for defense-wide
+16:26 investments in infrastructure and
+16:28 Enterprise licenses that allows us to
+16:31 take needs from other folks like armies
+16:33 or the combatant commands like Special
+16:35 Operations Command or Central Command or
+16:37 european command to come to us to say
+16:39 hey you guys were given resources to
+16:41 help us we have this significant need we
+16:43 validate those needs and we fund them
+16:44 and then buy you know Enterprise
+16:46 licenses at scale to try to maximize
+16:48 buying power but also to get a common
+16:50 sort of set of tools available for folks
+16:53 so through that process of sort of
+16:55 budget review and allocation and needs
+16:57 Taking in we get to understand the
+17:00 enterprise-wide requirements so that we
+17:02 can just like just like really any large
+17:04 organization right prioritize racket
+17:05 stack the second piece and probably more
+17:07 interesting for this group is CDO one of
+17:10 the functions we serve is as the chief
+17:11 data officer for the department and in
+17:13 that we just have a a lot of uh powers
+17:16 of compelling people to do things just
+17:19 handy give us your data yes data I have
+17:22 a actually a my 5-year-old made me a
+17:23 magic wand which I can I like to cadow
+17:26 things the DAT yeah like cadow
+17:29 um and so but in that context we spend a
+17:32 lot of times working with the military
+17:34 departments so the Army and the Navy and
+17:36 the Air Force um and and understanding
+17:39 what they're doing and building where it
+17:41 makes sense to have uh sort of
+17:44 foundational layer of investment that
+17:46 connects the different data sources and
+17:47 where there are service unique service
+17:50 specific activities that they should be
+17:51 doing and how those architectures
+17:53 connect um I talk about it in the
+17:55 architecture sense because in some ways
+17:58 we we don't need to and it's actually a
+18:00 feature not a bug that we're not
+18:02 involved all the way at the application
+18:03 side right by the time we get to the
+18:05 applications unless it's so ubiquitous
+18:08 like that everyone needs to have it for
+18:10 us to all operate together think you
+18:12 know document sharing Etc but beyond
+18:15 that we really want to allow and enable
+18:17 this sort of self-service application
+18:20 procurement and deployment and testing
+18:22 and experimentation so that people are
+18:24 getting fit for purpose applications we
+18:26 just don't want to duplicate where we
+18:28 can want to minimize duplication on the
+18:30 layers below that so we spend a lot of
+18:33 time with the with the military
+18:34 departments making sure that their
+18:36 service Centric architecture that's
+18:38 focused on feeding those application
+18:40 needs intersects effectively with our
+18:43 department-wide one that they're
+18:44 interoperable that the data can flow
+18:46 between them and that we're not
+18:47 duplicating Investments for folks who
+18:49 are kind of at the infrastructure layer
+18:51 what that means is two things one CDO
+18:54 can be a helpful front door which is
+18:56 even if you we don't Your solution isn't
+18:58 a solution that is for a Enterprise
+19:00 level solution knowing what is available
+19:02 and out there in the marketplace is
+19:04 helpful for us because we can be a
+19:06 useful Matchmaker and the second is in
+19:08 Reverse which is if you're working with
+19:10 clients in you know in the military in
+19:13 the army or in the Navy and you've got a
+19:15 solution that you think can Port we can
+19:17 help Port that we have things like you
+19:19 know atto reciprocity we have our own
+19:21 authorizing official we have our own
+19:23 acquisition authori so we can help pull
+19:25 things across that transm where it can
+19:27 be hard when you've got a solution for
+19:30 one particular customer in the
+19:31 department to help figure out if it's
+19:33 appropriate to scale how do we scale it
+19:35 what do that look like makes total sense
+19:37 I think um one thing and we'll make sure
+19:40 we budget a little bit of time for for
+19:41 questions here but um one thing I wanted
+19:43 to touch on is that this um this tension
+19:46 um red between an imper and I I see this
+19:48 in the um in the private sector a lot is
+19:51 an imperative to adopt competition among
+19:53 you know um among companies for one um
+19:55 in within Industries um with also a need
+19:58 do it responsibly and responsible Ai and
+20:00 so how's the administration how is the
+20:03 department how is cdio kind of
+20:05 approaching um those twin goals and and
+20:08 how they navigate that it's a good
+20:09 question I'm actually just coming from
+20:10 Soul where there was a sort of U
+20:12 multinational responsible AI conference
+20:15 reame um and I say that to say this is a
+20:18 huge topic for governments across the
+20:20 world industry and civil society and
+20:22 it's a I think an opportunity for us to
+20:24 fit together I um you know DOD was the
+20:28 first milit in the world I think to
+20:30 adopt these ethical principles of AI in
+20:32 2020 we have a responsible AI team
+20:35 that's really focused on Translating
+20:37 that strategy into implementable things
+20:40 we have a toolkit um that toolkit is
+20:43 really intended to cover the full life
+20:44 cycle of tools across you know from
+20:47 initial design and development sort of
+20:49 responsibility by Design all the way
+20:51 through to test and evaluation
+20:52 deployment and Fielding to make sure we
+20:54 have things like hey if you want to
+20:56 monit monitor your model once you
+20:57 fielded it like what is does that look
+20:59 like what should you look for in model
+21:00 monitoring services so all the way
+21:01 across that that is like kind of at a
+21:04 tactical level the how because I think
+21:06 AI is a good example of a technology
+21:09 where policy the words policy isn't
+21:12 isn't enough you need to know the words
+21:14 you need to have those values based
+21:16 principles but you need to translate
+21:18 that into Technical Solutions or it's
+21:20 not going to be baked into the actual
+21:22 digital Solution that's deployed and
+21:24 fielded but at an even higher level I
+21:27 think you know a lot of times people ask
+21:29 like oh how you know are what are you
+21:32 doing to to deal with the fact that
+21:34 responsible AI slows you down or
+21:36 inhibits adoption or limits what you can
+21:38 adopt and I I just I challenge folks to
+21:40 really turn that question around which
+21:42 is what is it we're slowing down if
+21:45 responsibility things like traceability
+21:47 and governance of your AI what are you
+21:48 slowing down irresponsible AI like
+21:51 models that don't perform the things you
+21:53 want or in the ways you want in ways
+21:55 that you can't verify and validate like
+21:57 so the question isn't really are we
+21:59 slowing things down the question is how
+22:01 do you translate those values and
+22:03 principles that are really like
+22:05 Universal they're not super
+22:07 controversial they're not really owned
+22:09 by a particular country or company how
+22:11 do you translate those into actions so
+22:13 that people know how to from the get-go
+22:16 build in the design and the deployment
+22:19 all the way through the life cycle and
+22:20 that's really where the toolkit comes
+22:21 from which is we know we need these so
+22:24 let's just tell you how to do it so we
+22:25 can get on with the development and
+22:27 deployment makes sense awesome okay I'm
+22:30 looking at our clock we got uh we got
+22:32 about 3 and a half 4 minutes left um
+22:34 organizers are we able to do a couple
+22:36 couple questions does that does that
+22:37 work I know we got a big crowd here but
+22:39 we love to make time for a couple at
+22:42 least um go for
+22:44 it yeah you know there's a lot of
+22:47 startups here and we would love to work
+22:51 with you or with the federal government
+22:55 especially the urgency of you know the
+22:57 ad
+22:59 said you guys have a lot of data I'm
+23:00 sure you want to operationalize it so
+23:03 how can many startups and you know many
+23:06 of them are vent funded they just don't
+23:08 know how to work with federal government
+23:10 so can you give us some email or
+23:12 somebody you talk to or your
+23:15 email let's give them let's give them
+23:17 Dan's email yeah so we're I'm not going
+23:19 to give you my email but uh so just for
+23:21 the purposes of folks who might not be
+23:23 able to hear because there wasn't
+23:24 there's not a mic the question is like
+23:25 how do you work with the federal
+23:26 government and the Department of Defense
+23:27 in particular um two two answers to that
+23:30 one is uh we we have a process in
+23:34 general it's an acquisition process
+23:36 inside cdao we have a particular
+23:39 acquisition toolkit we're using called
+23:41 trade win so if you Google tradewins AI
+23:43 it will come up it has contact
+23:45 information it has information on our
+23:47 industry days and and how to access Us
+23:49 and how to work with us and how to sign
+23:50 up for those we have the next one I
+23:52 think next week in DC but I think we
+23:54 have one planned for California later in
+23:56 this fall I'm going to roughly say
+23:58 november-ish but you should check the
+23:59 website cuz I don't recall off the top
+24:01 of my head um so that's like just one
+24:02 bucket to understand like that we do
+24:04 have a front door there we also have a
+24:06 front door with uh we have an Mo uh
+24:08 memorandum of agreement with the defense
+24:10 Innovation unit um to help them to sort
+24:12 of serve at for them to serve as a front
+24:14 door for us here in California so that's
+24:16 just a second option and again that is
+24:18 also available on the tradewin site so
+24:20 you don't have to go somewhere else more
+24:21 broadly though I'll just say um the
+24:25 whole part of what we're trying to do in
+24:26 CDO is make the government less hard to
+24:28 work with which is a lofty goal but I
+24:30 think what what that means is really to
+24:33 try to set up the point of these
+24:34 industry days the point of having that
+24:36 website is to sort of demystify the
+24:38 process look the bottom line is we have
+24:40 money and we need to put those on
+24:42 contract vehicles and then get the right
+24:44 approvals to use technology so the first
+24:46 step in the contract vehicle is getting
+24:48 initial funding so that you can prove
+24:50 your technology solution works we do
+24:52 those through challenges inside CD but
+24:54 those are relatively small dollar things
+24:56 that just help us test your environment
+24:58 if your tool seems like it's a good idea
+25:00 or your technology solution then we can
+25:02 move to a prototype and those are
+25:04 slightly longer contracts slightly
+25:05 bigger dollars and relatively low
+25:07 thresholds the term we use is these
+25:09 other transaction authorities OTAs um
+25:12 and they just are a streamlined process
+25:14 and the trade win site again is intended
+25:16 to uh streamline the way you can get
+25:18 into those by having more normal pitches
+25:20 like videos and and uh streamlined
+25:23 documents rather than the longer
+25:24 traditional contract pitches that I will
+25:27 just now Trail off when talk about um
+25:29 and then once you get there then you
+25:30 know you have your evaluation and your
+25:32 authority to operate again we've tried
+25:33 to in cdao we have an authorizing
+25:35 official so if we have useful Solutions
+25:38 we can figure out how to approve them we
+25:40 have Enterprise level contract vehicles
+25:42 and we know the ones that we don't have
+25:44 so we can help match you to those longer
+25:46 term Vehicles if the solutions prove
+25:48 scalable but there's just kind of steps
+25:50 along in the process um and you know the
+25:53 last thing I'll just close with is a lot
+25:54 of times we talk about the defense
+25:55 budget with the planning is really far
+25:57 out and it you know makes it hard for
+25:59 startups the truth is that is for scaled
+26:03 large programs that need billions of
+26:06 dollars to sustain and those don't
+26:08 happen overnight so the steps I'm
+26:10 talking about are really ways where we
+26:12 can knowing what we're going to need to
+26:14 years from now we can start investing
+26:16 going on the investment pathway for you
+26:18 know 24 to 36 months beforehand with
+26:21 clear contracts and approval processes
+26:24 to meet the budget where we get to to
+26:26 help close that Gap and so that's kind
+26:28 of the arc we're trying to bring folks
+26:29 on with having a front door like the
+26:31 trade wi site amazing time flew by thank
+26:34 you so much thank you everybody for
+26:36 leaning in and um have a great
+26:38 conference
+26:40 thanks I dropped it

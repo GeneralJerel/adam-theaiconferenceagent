@@ -1,0 +1,691 @@
+0:08 hey thanks a lot so um what I what try
+0:12 to do in this talk is to give you an
+0:14 overview of um the ml applications in
+0:17 the three-sided Marketplace that we
+0:19 operate at do Dash and then basically
+0:22 talk to you about the things that we
+0:23 don't talk about a lot which is like how
+0:25 llms are being used as features inside
+0:28 traditional ml models rather than on its
+0:30 own and that is where we are finding a
+0:32 lot of value so I want to walk you
+0:33 through sort of the journey that we're
+0:35 on but before uh we go there obviously I
+0:39 hope everyone has used or know about
+0:41 door Dash and you know uh what we do
+0:44 maybe you know door Dash mostly through
+0:45 uh the restaurant food delivery and I
+0:49 was just like wondering if everyone you
+0:51 know ordered to dash food right now
+0:52 it'll be a chaos right so let's not do
+0:54 that but uh you know in the quest of um
+0:59 giving uh providing you the consumer
+1:01 with anything that you can buy from your
+1:03 neighborhood we have been expanding
+1:06 Beyond restaurants and that is what new
+1:08 verticals is all about which is the like
+1:11 which is the organization within which
+1:13 my ml organization lives and I head up
+1:15 that ml
+1:16 organization um and in that Quest we're
+1:19 expanding to convenience grocery retail
+1:22 flowers pets alcohol Beauty So You Name
+1:26 It We will deliver it right and uh we
+1:30 want to capture all the shoppable
+1:31 moments and we want to make this you
+1:33 know u a neighborhood of good as we say
+1:36 internally um and uh in that in that uh
+1:41 you know transformation when we go from
+1:43 a restaurant delivery to a new verticals
+1:46 which opens up the whole e-commerce
+1:48 space it actually brings in a paradigm
+1:50 shift in the types of ml that we need to
+1:54 do right and just like simply think
+1:56 about a restaurant you know they may
+1:58 have a hundred things on their menu if
+2:00 you think about a large you know store
+2:02 like Target they might have 100,000 SKS
+2:05 100,000 items and then this just this
+2:09 difference um you know immediately
+2:11 changes a lot of U technology that needs
+2:14 to be deployed for ML and AI for the new
+2:17 verticals but if you zoom back out a
+2:20 little bit and look at the three-sided
+2:22 Marketplace at do Dash we have sort of
+2:24 three vertices of this triangle so we
+2:26 have the consumer at one end who is
+2:29 looking on the app and basically trying
+2:32 to decide what they should buy or which
+2:34 order they should place in the case of
+2:36 grocery store they're also thinking how
+2:38 to build their basket and this is where
+2:41 you know the typical search
+2:43 personalization these types of ml are
+2:46 applied right so essentially if you if
+2:48 you visit a grocery store we should be
+2:50 able to know that you know you probably
+2:52 are a vegetarian so there's no point in
+2:53 showing a meat aisle to you if you're
+2:56 searching we should be able to know uh
+2:58 we should know that what type of milk
+2:59 you like if even if you type the simple
+3:01 query milk we should be able to give you
+3:04 the 2% or the whole milk that you like
+3:06 right so that's personalization and
+3:08 search and then if something is running
+3:10 out we want also want to show you
+3:12 substitutions that's where also ml comes
+3:14 in so this is between the consumer and
+3:16 the store and then once the order is
+3:19 placed the Dasher goes to the store and
+3:20 does the shopping for you that's the
+3:22 difference from the restaurant use case
+3:24 again the Dasher goes inside the grocery
+3:26 store or the alcohol store they need to
+3:28 find the thing that you order
+3:30 and that's why very accurate product
+3:32 information is key so the product
+3:34 knowledge craft that we're building
+3:36 which is at an e-commerce scale needs to
+3:38 have all the key attributes extracted
+3:41 and presented both to the Dasher and the
+3:44 consumer to make you know uh good
+3:46 decisions at the same time we're also
+3:49 looking at deploying Ai and ml Solutions
+3:51 in helping the Dasher navigate the store
+3:53 better faster so they can do this
+3:56 shopping faster between the Dasher and
+3:59 like when the dash picks up and then
+4:00 like you know basically um uh delivers
+4:03 the thing there are a lot of algorithms
+4:06 like dispatch algorithms batching how
+4:08 can I batch multiple orders on a Dasher
+4:11 ml is also determining um the shopping
+4:14 efficiency as I said you know how they
+4:16 navigate the store uh the pay that the
+4:19 Dashers get based on the efforts they
+4:20 put in and then also there is this whole
+4:24 like supply and demand so depending on
+4:26 when the hotpots are we also need to
+4:28 rebalance the supply supply of the
+4:30 Dashers on the streets so this is all
+4:33 the ml applications is not possible to
+4:35 go through it in 20 minutes so I will
+4:37 only um you know talk about one the two
+4:41 areas that we are finding a lot of use
+4:42 of llms one is personalization and
+4:45 search the other area is building our
+4:47 product knowledge graph and this is one
+4:50 slide that I want to take you away with
+4:52 you which is traditional ml has been
+4:54 there for a long time we've used this
+4:56 for personalization search and
+4:58 everything for a long long time well
+4:59 understood space and the open circle
+5:02 here is the generative AI part we don't
+5:04 know where it's going you know every
+5:06 everyday new things are coming out but
+5:08 where the magic is happening at least
+5:10 from my vantage point is where these two
+5:12 overlap so basically where you can
+5:13 actually use gen AI as an assistant or a
+5:17 feature inside a traditional ml
+5:20 system so I'll talk about uh
+5:23 personalization search and knowledge
+5:24 craft I'll set up the problems first and
+5:26 then go into the llm applications so
+5:29 personalization as you know uh if you're
+5:31 going to a grocery store inside door
+5:34 Dash I need to know your tastes and
+5:36 preferences your habits and
+5:37 idiosyncrasies do you always order
+5:39 alcohol on a Friday evening um dietary
+5:43 lifestyle restrictions are also very
+5:45 important as I said if you're a vegan or
+5:47 if you if you're on a keto diet we need
+5:48 to understand that your brand Affinity
+5:50 is someone some people like Strauss milk
+5:52 some people like Clover milk we want to
+5:54 understand those and at the same time we
+5:56 don't want to pigeonhole you into your
+5:58 tastes uh we also want you to help you
+6:01 know discover new items so there should
+6:03 be enough Serendipity in this app and
+6:06 balancing all that is being done through
+6:09 ML and the first thing obviously is
+6:11 relevance so the things need to look
+6:13 relevant so we do a lot of ranking on
+6:16 the pages like you know when you go to
+6:18 the bakery category then all the things
+6:21 that only matter to you should be at the
+6:23 top similarly uh when you have things in
+6:26 the basket we have ml algorithms that
+6:28 are suggesting complimentary items to
+6:30 your cart and then buy it again is also
+6:34 ranked by what you're likely to run out
+6:36 of today and then there are deals and
+6:38 promotions that are also highly
+6:40 personalized right so these are some of
+6:42 the surfaces where we do a lot of
+6:43 personalization but if you overdo it you
+6:45 can actually end up with this kind of a
+6:47 screen which is from a simulation which
+6:49 is like this person really likes carrots
+6:51 right in the center so their whole page
+6:54 became just carrots right so and this is
+6:57 something that you know classical uh
+6:59 personalization always deals with is
+7:01 like overp personalization needs to be
+7:03 balanced with diversity and Serendipity
+7:05 right so there's always exploration
+7:06 there's diversity that you need need to
+7:08 slap onto the personalization right and
+7:11 the other thing that we also need to do
+7:14 to have the experience be even more
+7:16 personalized is to be able to respond to
+7:19 explicit preferences if you tell me you
+7:21 do not drink alcohol there's no point in
+7:24 showing me Al showing you alcohol in the
+7:27 app right so basically explicit uh
+7:29 prefer references need to be both
+7:31 collected where llms can be useful
+7:33 because they're are conversational and
+7:34 then they have to be acted upon that's
+7:37 how it goes back into the traditional ml
+7:39 stack search on the other hand uh is a
+7:42 different Beast so search at to Dash as
+7:45 you can imagine is multi- intent multi
+7:48 entity type GE aware so if you're
+7:51 searching for Apple you might be
+7:53 actually searching for the fruit or
+7:54 maybe you're actually searching for
+7:56 apple juice or uh you know store Nam
+7:59 Apple land market or you know you're
+8:02 probably searching going to search for
+8:03 an Apple charger so we need to
+8:05 understand as you type what are the
+8:06 different intents that this query is
+8:08 going to funnel into and this is also
+8:11 where llms are becoming more and more
+8:14 useful and then uh Beyond understanding
+8:17 the intent search as I said uh needs to
+8:20 be personalized right so basically if
+8:21 you search for a simple query milk the
+8:23 same milk that I like may not be the
+8:26 milk that you like so we need to
+8:28 understand which one should be ranked at
+8:30 the
+8:32 top I give the ice you know example of
+8:34 the ice cream like you know ice cream
+8:36 really we see very very polarizing tests
+8:38 between people and so it needs to be
+8:40 really highly
+8:42 personalized and if done correctly
+8:44 search can be you know personalized
+8:46 search can be really delightful right so
+8:48 as I said you know this person searching
+8:50 for whole milk very specific but we
+8:52 understood on the right hand side that
+8:54 they actually have a brand affinity and
+8:58 they also prefer organic IC milk so that
+9:00 one gets ranked to the
+9:02 top but if you again overdo
+9:05 it this can happen so basically this
+9:09 person is searching from blueberry and
+9:10 they also really like yogurt but you
+9:13 know because the search intent can be a
+9:16 little bit you know fuzzy you know
+9:19 because as they're typing out blueberry
+9:21 we might think that oh they're probably
+9:22 going to type all the way out to
+9:23 blueberry yogurt and then like because
+9:25 they have already purchased many times
+9:27 the yogurt you can have overp
+9:28 personalization again here right and
+9:31 this is a case of showing something that
+9:33 is semi relevant to the query not
+9:35 exactly relevant and these relevance
+9:38 labels usually came from humans and then
+9:41 you train an ml system on it but now
+9:43 we're finding that we can scale that
+9:45 relevance piece out with the llms very
+9:47 very
+9:48 efficiently product knowledge graph on
+9:50 the other hand as I said when the Dasher
+9:53 goes to shop for you or the consumer is
+9:55 making a decision in the app we need to
+9:56 show all the different attributes that
+9:58 Define a product
+10:00 so it's like brand the size the unit
+10:02 size the count flavor you know think of
+10:05 a bottle of wine you need to know the
+10:07 Vintage you need to know the crep verial
+10:09 you need to know um you know the winery
+10:11 and all those things so these needs to
+10:13 be extracted at scale and in a
+10:17 structured format so I can then use it
+10:20 in the downstream applications this is
+10:22 again where we're finding you know human
+10:25 in the loop AIML to be very very useful
+10:28 right
+10:30 so I will spend like because you know
+10:33 everyone wants to talk about llms today
+10:35 I'll spend still like one slide on
+10:36 traditional ml um and then go to the
+10:39 generative AI part so traditional ml U
+10:43 typically nowadays is done through
+10:45 representation learning right so
+10:46 basically you have your consumer you
+10:49 have your item you have these two tar
+10:51 models where you're learning item
+10:53 embeddings or consumer embeddings in the
+10:55 case of search you're learning query
+10:57 embeddings right and the these
+10:59 embeddings then become inputs to other
+11:01 algorithms Downstream so I can do things
+11:04 like when you search for eggs I know
+11:05 what type of eggs you like when
+11:07 something is running out we can also
+11:09 build item item similarity embeddings so
+11:11 we can say you know this um you know
+11:14 whatever this is this is the Capers
+11:16 that's run out I can actually say you
+11:18 know this other bottle of Capers is a uh
+11:22 good
+11:23 substitute so the zoo of models is like
+11:26 the typical ml zoo that we have we have
+11:28 you know C and V2 for recommendations we
+11:32 have also leveraged graph convolutional
+11:34 networks for our growth applications
+11:36 where basically you know we kind of want
+11:38 to anticipate what who is the consumer
+11:40 who's going to try grocery next and then
+11:43 obviously we have you know the old
+11:45 school bir and then like fine-tuning it
+11:48 and then uh drrm is like you know U deep
+11:51 learning based recommendation models so
+11:53 this is the standard zoo that we use
+11:56 very very effectively but as I said the
+11:59 magic is happening in the overlap of the
+12:01 two so where is jni becoming more and
+12:06 more useful for us so basically query
+12:09 intent understanding so as you type
+12:10 Apple we want to understand what are the
+12:12 different intents that this can um you
+12:16 know expand into product knowledge graph
+12:19 construction I already told you you how
+12:21 we are extracting attributes but also
+12:22 there's many many other applications in
+12:24 that space item recommendations right so
+12:27 all of these traditional ml algorithms
+12:29 they learn from consumer engagement so
+12:32 if you have a scenario where no one has
+12:34 bought something or no one has bought
+12:35 two things together the substitution
+12:37 type algorithms they're like Flying
+12:39 Blind so it's a cold start problem so if
+12:41 no one has bought on your app shoe and
+12:44 shoe polish together there's no way for
+12:46 the ml model to know that this is a good
+12:48 complimentary item but llms has This
+12:51 World Knowledge so you can actually go
+12:53 and brid that Gap with
+12:55 llms um there's OB the obvious use case
+12:58 is like dialogue type support or
+13:00 conversational recommendation systems
+13:01 conversational search and then the thing
+13:04 I also talked about is search relevance
+13:06 so getting relevance signals for search
+13:08 is another area that we're finding a lot
+13:10 of
+13:11 usage you can do inspirational things
+13:13 with uh in the personalization space so
+13:15 given what's in your basket right we can
+13:17 basically figure out what are some
+13:19 amazing recipes you could make if we
+13:21 only had this missing ingredients so
+13:24 that's a great way to NCH the consumer
+13:26 to add more things that they might be
+13:28 forgetting and they might need to round
+13:30 out a nice recipe and this is you know
+13:34 one example of an idea where you know
+13:36 GNA can be used very very effectively
+13:38 because it has so much World Knowledge
+13:40 out there like looking at things in your
+13:42 basket it can recommend five six
+13:44 different recipes that you could
+13:46 make understanding query intent in
+13:48 search again so basically someone's
+13:51 typing Ragu you need to understand
+13:53 through all our things that this is not
+13:54 like you know someone based both based
+13:57 on their like previous you know search
+13:59 history as well as this search term we
+14:02 need to understand that this is an
+14:04 intent for a query for a pasta sauce and
+14:07 probably for the brand Ragu and to train
+14:10 these kind of models in the past you
+14:12 know we used to need um a lot of
+14:15 annotations and that's where as I'll
+14:18 explain um the the llms are becoming
+14:21 very very useful so we're improving
+14:23 training data quality at scale and also
+14:26 in the tail queries that do not happen
+14:28 very very often
+14:29 right so very long queries um to
+14:33 understand both the intent and also the
+14:34 relevance of the item to the query uh
+14:37 llms are becoming very more and more
+14:40 important um so some of the things that
+14:43 we're doing as we some of the challenges
+14:44 we're facing we're doing this is you
+14:46 know evaluation at scale uh we have
+14:49 figured out several ways internally and
+14:52 then there is fine-tuning and doain
+14:53 adaptation like you know new
+14:55 technologies are coming up every day uh
+14:57 we have been using lower and Kora very
+15:00 effectively in many of our applications
+15:02 there's obviously rag because we need to
+15:04 be able to like pull in things from our
+15:06 own catalog into the prompt um and
+15:09 chaining llms and and agentic uh you
+15:12 know uh workflows um so these are all in
+15:16 the works um and but basically going
+15:19 back to the applications again so you
+15:20 know automated relevance uh labels for
+15:23 search is one area that and not only us
+15:25 but many other companies are finding a
+15:27 lot of usages of LL so this would
+15:30 actually solve that case that I showed
+15:32 which is you know like this person who
+15:33 really likes yogurt search for blueberry
+15:36 will stop showing or push down these
+15:38 semi-relevant items because now we can
+15:41 actually have a label from an llm which
+15:43 says you know Chobani yogurt is semi-
+15:45 relevant to the squarey blueberry
+15:47 whereas the the fruit itself is more
+15:49 relevant and these types of things used
+15:51 to be much much harder to to do in the
+15:53 traditional LL
+15:55 World product knowledge graft building
+15:57 you know like we're trying to extract
+15:59 all these different size flavors vintage
+16:01 and all these things from the product uh
+16:03 and typically these and as as you go to
+16:05 a new category say you know you started
+16:07 like doing extraction in alcohol um we
+16:10 would need massive amount of annotations
+16:12 to train our extraction models these are
+16:14 like named interior conion type models
+16:16 but that becomes a bottleneck right you
+16:19 you need to pay a lot of money you need
+16:20 to also wait for the annotations to come
+16:22 back whereas what we can do now is like
+16:24 with few very very high quality golden
+16:26 annotations you can actually use that as
+16:27 a seed and and interrogate an llm to get
+16:31 silver annotations which are not super
+16:33 high quality but good enough that you
+16:35 can actually go back and find tune
+16:37 another llm with it so use a high
+16:39 quality llm for generating more labels
+16:43 and then use it to fine tune a fine
+16:45 tunable llm or an open source
+16:48 llm I wanted to open up a little bit of
+16:51 like how we're doing this product noise
+16:52 graph building so you know we get raw
+16:54 data from a merchant which is very like
+16:56 sometimes unstructured sometimes
+16:57 semi-structured
+16:59 we need to Define some templates that
+17:01 are according to our own style guide
+17:04 internally uh that our taxonomists on
+17:06 our team Define but then once you have
+17:09 these two pieces of information then you
+17:11 need to extract and fill in the blanks
+17:12 of that template right so the output
+17:15 that we need is what's the brand what's
+17:16 the noun what's the flavor what's the
+17:18 preparation type and these type of
+17:21 things were very very expensive to do
+17:23 before and very very complex but with
+17:26 fine-tuning llms with lots of human an
+17:29 data we are finding you know really high
+17:31 precision and recall of these types of
+17:34 in these types of applications which has
+17:35 completely changed the game in the sense
+17:38 that uh you know both in terms of the
+17:40 throughput of these systems and the
+17:42 amount of money we used to spend on
+17:43 humans on getting annotations these have
+17:46 completely changed the
+17:47 game um this one again is an example of
+17:51 where using rag the thing that I was
+17:53 talking about to um fine-tune a
+17:56 different model by using a very high
+17:58 quality model model so the example here
+18:00 is like you know there's different types
+18:02 of tequila and how you train the model
+18:04 to understand that ano and Reposado are
+18:06 two different types of tea right so
+18:08 basically you need those examples to be
+18:12 brought into the prompt and then find to
+18:14 the model uh based on those examples but
+18:16 to do that first step you can actually
+18:18 do rag which is you know Ann based and
+18:20 then bring in more examples from a
+18:22 golden data set enhance the golden data
+18:24 set so now we have a silver data set
+18:26 which is much much larger 100 times
+18:28 bigger and then fine tune the llm and
+18:31 then the Precision just shoots up like
+18:35 spectacularly also looking back at the
+18:37 catalog which has been built by humans
+18:39 we have like you know hundreds of
+18:40 thousands of items that are that are in
+18:42 the catalog and many of them are wrong
+18:44 because when we were building the
+18:46 catalog it was a manual process and
+18:48 humans make mistakes right so for
+18:50 example this example right if you look
+18:51 at the image of this thing it does not
+18:54 say Honey Smoked but the item name says
+18:57 Honey Smoked and now the consumer is
+18:59 confused is it honey smoked or not and
+19:01 if they order it thinking it's Honey
+19:02 Smoked they maybe will not get the right
+19:04 item so we need to go back and fix all
+19:07 these errors that is existing in your
+19:08 product knowledge graph and that's again
+19:10 where you know llms are super useful
+19:13 because many of that information is in
+19:15 the image so this is where multimodality
+19:18 is key so you're using multimodal llms
+19:21 to actually solve this use case very
+19:23 very
+19:25 effectively so I will just uh you know
+19:28 end with
+19:29 uh some of the next stages of
+19:30 exploration that we're thinking so one
+19:32 is domain specific llms and I touched
+19:34 upon that so what we're finding is in
+19:37 this product knowledge graph
+19:39 building um you know as we point our
+19:42 technology to different um you know
+19:44 categories of products like Beauty
+19:46 versus alcohol is very very
+19:48 different so in the olden days you would
+19:51 have to like you know retrain a model
+19:53 from scratch but nowadays what we're
+19:55 finding is you can actually take the
+19:57 base model and F tune it and make it
+19:59 more de Mo specific in a much shorter
+20:01 time right and because this there are
+20:03 there are certain things like size
+20:05 certain things like brand that is common
+20:07 across all these categories and then
+20:09 there will be certain things in Beauty
+20:10 like shades of lipstick and certain
+20:12 things in alcohol which is like alcohol
+20:14 percentage which are very very different
+20:16 but we don't need to build like separate
+20:18 models rather fine-tune the same base
+20:20 model on different use cases so all
+20:22 these domain specific llms are becoming
+20:24 more and more important multim motality
+20:27 as I said is super important because
+20:29 many of the products like we carry and
+20:32 let's say you want to ascertain if
+20:33 something is keto or something does not
+20:35 have knot or allergens you have to read
+20:38 the back of the package sometimes and
+20:40 that can be done uh very effectively
+20:43 with the multimod llms today right and
+20:46 so uh we as we're you know integrating
+20:49 llms into our workstream and into our
+20:51 traditional ml models um we have to
+20:54 obviously balance latency quality cost
+20:56 and this is something you know we can
+20:57 have a different chat on
+20:59 but uh what we're finding to be really
+21:01 useful is uh you know being able to find
+21:03 tune open source llms and and often
+21:06 they're actually beating or at par with
+21:09 you know paid uh
+21:11 subscriptions um better integration
+21:13 right so uh one other thing we're
+21:16 looking is like in-house llm models and
+21:18 ml models as I showed how to integrate
+21:21 them better and I give you some of the
+21:23 examples right so for example a
+21:24 substitution model where we don't have
+21:27 any engagement data you can actually
+21:28 leverage llms to create item item um uh
+21:33 similarity or item item recommendation
+21:35 uh labels and then go back and train the
+21:37 traditional system uh agentic
+21:40 integration is something again we are
+21:41 looking into right in some cases there's
+21:44 a package of something you don't know if
+21:45 it's like keto the agent can go and do a
+21:48 Google search for you and figure out if
+21:50 this is actually truly keto um and then
+21:53 uh you know more use cases natural
+21:55 language search right so you should be
+21:57 should be able to search Dash by in a
+21:59 normal natural language way uh which
+22:01 could be conversational another piece
+22:04 that every company struggles with is
+22:06 cold start uh cold start of consumers or
+22:09 cold start of merchants so when a new
+22:11 consumer comes to a grocery store we
+22:13 don't know anything about them how do we
+22:15 make their you know um sort of
+22:17 experience feel more personalized from
+22:19 day one so that's there that's where we
+22:21 are actually uh looking into some ideas
+22:23 of making that first few sessions more
+22:25 conversational with an llm behind the
+22:27 scenes so we can learn a lot of the
+22:30 about the consumer in the first few
+22:31 interactions and then like jumpstart
+22:33 their uh
+22:35 personalization so with that I will uh
+22:38 thank you thanks for listening and I'll
+22:39 take some questions thanks
+23:01 there's one
+23:10 there Hi um I think you briefly touched
+23:13 on it uh but wanted to know a little bit
+23:16 more about the the canonical taxonomy
+23:19 yeah right because maybe sa has organic
+23:23 bananas under Health Food yeah and uh
+23:26 Target hases under yeah is
+23:29 fruit uh so that canonical taxonomy that
+23:32 you have to map all these items to how
+23:34 do you go about that yeah that's a very
+23:36 good question and we have definitely
+23:38 been bitten by that so yeah you know I
+23:41 think to repeat the question like every
+23:42 Merchant has their own taxonomy but do
+23:44 Dash has its own and you have to have
+23:46 like a taxonomy is something that you
+23:49 know has to be so foundational because
+23:51 we use it in every single ml algorithm
+23:53 so you cannot afford to have different
+23:55 taxonomies for different Merchants so we
+23:57 have to have that mapping step as as you
+23:58 said right so this is actually done by
+24:00 an internal ml system that's a
+24:03 reclassify of an existing taxonomy and
+24:06 that is where the thing that I was
+24:07 talking about is like getting the labels
+24:10 so that you you can actually do that
+24:12 remapping better used to be a bottleneck
+24:15 right so now through llms we're actually
+24:17 bridging that Gap quite quite well right
+24:20 and then you can also teach the sort of
+24:22 remapping of the different taxonomy
+24:23 paths to the llms which also helps but
+24:26 at the end of the day it's actually a a
+24:28 good old classifier model that sits at
+24:31 the end of it when it finds things that
+24:33 are harder then it goes to an llm so
+24:36 it's kind of like a waterfall model that
+24:37 we have found to be very useful here
+24:39 thank
+24:41 you one
+24:51 there hi I I was wondering if you guys
+24:54 have Quantified internally the impact of
+24:58 um either higher productivity or lower
+25:00 costs around creating inaccuracies in
+25:02 the catalog or tagging items um question
+25:06 on the economics yeah of course I mean
+25:09 that's that's you know big area for us
+25:12 like so it's hard in the sense like you
+25:14 know the catalog inaccuracy show up in
+25:16 so many different ways to the consumer
+25:19 right so essentially you have to have
+25:21 very careful measurements of like what
+25:22 the impact of those inaccuracies are and
+25:26 typically the way you go about is is as
+25:28 like through prepost analysis so after
+25:30 you fix it you see how much things
+25:32 change and through those we have figured
+25:34 out like you know what are the biggest
+25:35 inaccuracies to go after first obviously
+25:37 you know like it's actually big the
+25:39 impact is really big and that's why
+25:41 we're put putting a lot of resources
+25:42 into this problem but I cannot talk
+25:44 about the actual numbers but yeah we
+25:46 have definitely done it and that's
+25:48 that's what's uh motivating this work
+25:50 cool I think that's the last question I
+25:53 could take or yeah one more okay let's
+25:56 do one more there
+25:59 hopefully mine's pretty simple um I love
+26:01 the Simplicity of the idea of using an
+26:04 agent to go search Google to come back
+26:07 with you know yes it is keto uh have you
+26:10 found a way for that to plug back in and
+26:13 and automatically correct or update your
+26:15 records or your elements yeah I mean
+26:17 like anything that I describe right so
+26:19 where wherever like there is a model
+26:21 involved be it agentic non- agentic
+26:23 right once so basically everything comes
+26:26 back with the confidence score if the
+26:27 confidence score is high enough then it
+26:29 automatically updates the record in our
+26:32 backend systems if it's semi confident
+26:36 then it goes to a tool where a human
+26:38 looks at the either the output or some
+26:42 other options that the model gives that
+26:43 you is it the right thing choose between
+26:45 the three and that's the human in the
+26:47 loop system and once the human does
+26:49 something we actually feed it back into
+26:51 the ml because next time it learns how
+26:53 to do better cool thanks a lot

@@ -1,0 +1,526 @@
+0:10 okay over the past 50 years we've seen a 400% increase in natural disasters and
+0:17 conflict around the world in fact the Hallmark of these
+0:22 conflicts has been displacement over the past 10 years we've seen a doubling of
+0:28 the number of refugees and displaced persons going from 60 million to 120
+0:33 million today if you look at the bottom right there you'll see zri refugee camp
+0:38 in Jordan home to about 100,000 Syrian refugees half of them
+0:45 children the thing about Zachry is that it's a city it just doesn't have the infrastructure to support it the
+0:53 changing context of humanitarian crisis is challenging humanitarian organizations to keep up this paradox is
+1:00 felt by all the Red Cross United Nations and NOS I know this because I spent the
+1:05 past 20 years delivering Aid All Around the World in Sudan in Afghanistan in
+1:11 Iraq in Haiti and that's why I founded adonic adonic is a fintech particularly
+1:18 for the public sector focused on humanitarian organizations Nos and their
+1:24 donors these organizations are seeking to be much more efficient in this new
+1:29 new paradigm and one way they're doing that is through cash-based assistance so instead of giving in-kind assistance we
+1:35 give people cash and they sort themselves out buying the things that they need based on their own priorities
+1:41 food medicine water whatnot and a adonic we want to ensure that all these
+1:46 organizations can make payments in countries at risk no matter the crisis
+1:51 no matter the country no matter the people and make sure that those people can use those funds for their basic
+1:58 needs so here in the States you can use venmo you can make payments easily in multiple currencies it's like sending a
+2:04 text message of course in Somalia Sudan Etc it's not safe it's not secure and
+2:09 it's highly problematic so what we do at adonic is we make sure that even the
+2:15 unbanked those without cell phones those without ID cards can still receive cash
+2:20 based assistance regardless where they are the literature tells us it's clear
+2:26 cash based assistance is more effective and more efficient and so at adonic we
+2:31 are partnering with organizations like our companies like AWS near protocol and
+2:37 visa to not only bring efficiency to cash base assistance but also to the entire value chain so we use blockchain
+2:44 for example to track the payment the donation from the first mile all the way to the Last Mile and we take that hyper
+2:52 accurate and trustworthy data and we Ed AI to report it back to the donor in the
+2:57 form of an nft giving them complete certainty that Their donation was used exactly the way it was
+3:04 intended in this way we can innovate in a space where even the hardest
+3:10 organizations are struggling to make payments our Innovation is to put AI into the hands of humanitarians so that
+3:17 they can save lives because the only certainty they have is that saved time is saved lives my name is Joel Kaiser I
+3:24 work for adonic thanks for listening
+3:31 so we're open to feedback and questions from Tom and Amy I can start thanks so
+3:36 much for the presentation and and also you know this is just a a really great area of work also thanks everyone for
+3:42 for uh for joining us today um so maybe a cple starting with a couple of questions uh I I think F first of all
+3:50 I'm wondering like um uh who are who like without you guys I guess like what
+3:56 services are uh these organizations current using for payment transfer and
+4:03 um and then you know since it is AI donic like what uh where is AI embedded
+4:09 in the product yeah so all of those payments uh are typically flagged particularly when they're going to
+4:14 countries that are at high risk and so we use AI to to AI to comb through all
+4:19 that data not only to identify who are the people most at risk but also to make sure that those payments have the exact
+4:26 hyper accurate data so they don't get flagged so that aay payment that could take just hours to make won't take days
+4:33 to make because it's been flagged on AML lists or antiterrorism money laundering lists and so the AI just allows us to
+4:39 comb through that data much more faster so we can go from thousands of payments per hour to millions of payments per
+4:44 hour and you can imagine in a sudden onset disaster that's extremely important because because time is time
+4:49 is lives got it okay so you're using the existing payment rail so something like
+4:55 a Visa direct so there's no on and off ramp through the blockchain you then send a trans action through but before
+5:00 it goes through you run AI to figure out if this transaction and this transaction will trigger AML or kyc or whatever it
+5:07 is and you reconfigure that transaction so it will go through exactly and then you record that transaction on a
+5:12 blockchain and then summarize the results of that blockchain so it goes back to the person who sent the money is that right yeah yes perfect perfect and
+5:20 and we do that on a massive scale so again we're not talking about thousands of transactions we're talking about millions of transactions and and it's
+5:26 it's any time there's a catastrophe it just mushrooms up and so you have to be able to move into highly risky countries
+5:32 that are having an earthquake or a conflict um a good a good example was last year in Ukraine you know we had all
+5:38 these refugees coming across the border some of them had identity documents some didn't some had bank accounts some
+5:43 didn't some had mobile phones some didn't and so each transaction is unique Challenge and the only way that we can
+5:49 scale that up is through Ai and you the way the reason that presumably you partner with Visa is they allow you to
+5:54 modify the transaction details because otherwise yeah and also is that the people need to be able to cash out they
+5:59 need to have sometimes hard currency in order to go buy food water medicine Etc it would be great if we could all give
+6:05 them crypto but they can't physically spend it in many of those places in terms of the tracking you can track them
+6:10 up to the point in which they are converting to Fiat yeah we can know even
+6:15 you know we we're starting to look experiment with ability to use image recognition because some organizations want to know what they spend are they
+6:21 getting enough calories per day and so we able to take a photo of what they spend and then use AI to generate okay this was a you know a carton of milk or
+6:29 it was flour or was rise or Etc yeah in terms of monetization is the uh parent
+6:34 organization the one that's paying you currently uh no we went to visa and other payment aggregators and we said
+6:40 hey we'll bring you this channel of humanitarian payments if you lower your fees down to this amount and then we put a revenue share in there so that nothing
+6:46 is born by the humanitarians it's all coming out of the the revenue that those those payment organizations would make
+6:51 and then we just give away the platform for free because you know as long as they make enough payments then it's it's it's a it's easy for us to do that it
+6:59 also benefits Visa because of lower cost monitoring the transactions that would have been yeah and then if you want to add on top of that many of these people
+7:05 don't they're on banks they never have open their first bank account but the NGO has already collected the payment data they've already collected the kyc
+7:11 and so with the consent of that beneficiary we're able to say hey can we can we open your fist bank account and
+7:16 of course that's beneficial to many of the banks who want that client and also beneficial to visa for some of these um
+7:22 users that are kind of Off the Grid um how do you get any sort of data that you're parsing through Target that user
+7:29 should be the recipient yeah I mean it's it's it's it's simple digital tools so we make sure that they're asking the
+7:34 right questions first of all collecting the right data and then there's literally an army of people going out into those refugee camps going out into
+7:40 those affected areas with a tablet or a smartphone and they're collecting all of the data if and if it's really Off the
+7:45 Grid then yeah they're just collecting it with a paper and pencil and then and then digitizing it afterwards yeah uh let's give it up one
+7:52 more time for AI donic thanks guys what a what a great
+7:57 way to uh kick off this showcase um and great questions from judges wish we had more time um so following up is Angela
+8:06 Hoover from Andy search is broken 94% of AI chats contain wrong
+8:16 information and 91% of search results contain ads or
+8:21 spam 79% of people don't trust AI
+8:27 tools it's not just annoying it's actually dangerous so what's the solution to this
+8:35 what if there was a way to fix this problem to make search magical
+8:42 again that's Andy we've built a brand new type of
+8:47 proprietary backend that can understand content at its core our new system not only can take
+8:56 the keywords but it actually understands the meaning behind web pages so it can filter out the ads and spam and
+9:05 misinformation this allows us to have highquality search results and to deliver accurate direct answers to
+9:15 questions we started this journey in 2021 long before chat GPT was a
+9:20 household name this Head Start gave us a critical
+9:26 Insight accuracy is everything without it it's you don't you can't
+9:33 build anything else and it's what builds users trust and it's what keeps users coming
+9:40 back now you might be wondering how do we know if this is true
+9:45 you know how do we know if it's really better well in an independent study run
+9:51 by telk an AI benchmarking company backed by YC Andy came out with 87%
+9:58 accuracy Google 80% Chachi BT
+10:06 62% and perplexity 59% we're not just a little bit better
+10:12 we're in a different League we're like the Moneyball Oakland A's building a winning team on a
+10:18 shoestring budget while our competitors are like the Yankees spending Millions
+10:24 for Worse results but this isn't just about test
+10:29 scores we hit 1 million users organically growing 29% month over month
+10:36 and 67% of our users say that they would be very disappointed if they could no longer use
+10:42 Google this is the type of loyalty that can take on Google we're building for the next
+10:50 generation 46% of our users are under 25 more than Snapchat and these are the
+10:57 sort of techsavvy early adopters who can evangelize the product influence and influence the people that they
+11:05 know now we're at a turning point we're about to deploy tranor at full scale and
+11:13 we're supercharging our our product with accuracy and speed we're launching clip
+11:18 marks which can create viral network effects through sharable AI powered knowledge
+11:24 Collections and here's where it gets really exciting we're following the Playbook of successful AI apps like 11
+11:31 labs and mid Journey our freemium model isn't just about getting consumer growth
+11:39 it's a gateway to Enterprise adoption we're not just changing how individuals search we want to transform
+11:46 how businesses find and use information we're missionaries to us
+11:52 this isn't just a product this is an opportunity to fundamentally make the web great again and change and cut
+12:00 through the noise and get to the truth imagine a world where anybody from
+12:06 a small student in a small village to a CEO in a boardroom has instant access to
+12:13 highquality Accurate trustworthy information where ideas spread based on
+12:18 Merit not on marketing budgets and where knowledge isn't just power but it's a
+12:23 fundamental right that's the word world we're building with Andy and it's a$ 1.4
+12:30 trillion dollar market that's right for disruption so join us be a part of this
+12:38 search Revolution Let's make the internet magical again together thank
+12:46 you all right let's do one question from the judges each sure could you tell us a little bit
+12:53 it's amazing what you've been able to develop on a very small budget especially compare compared to your peers
+12:59 how how did you do that um so since the beginning from Andy we've always tried to build it
+13:05 cost-effectively and on the back end we actually have an llm router so we take a score of uh how complex the query is and
+13:14 then we route it to different llms so that's helped us a lot with keeping the cost
+13:21 down and can you just remind one time what was the how many users do you guys currently have uh so we hit a million
+13:28 users and we're we currently at 300,000 we started to run out of cash so we had to turn some of our models down um but
+13:35 yeah we we hit a million monthly actives really impressive if you were to segment the um the user profiles and what are
+13:41 they using Andy for what are the predominant use cases so it's a lot of
+13:47 research-based queries we're seeing like young students that have just gotten a computer science degree uh using Andy
+13:53 for their school research and then also coding U because Andy can generate code and how do they find out about you guys
+13:59 it's all been through vile growth people started sharing it on Tik Tok um and making videos about Andy and that's how
+14:05 it spread all right let's give it up one more time for
+14:12 Andy next up we have Daniela alfer from Deep
+14:18 keep hello everyone obviously I'm not Daniela I'm guy but I'm still from
+14:25 Deke okay uh in De keep we are in power of AI and llm with security and
+14:33 trustworthiness as you may know a lot of organization today Banks uh insurance
+14:38 company Automotive companies security and more are implementing uh Ai and geni
+14:45 into the organization but they have a huge problem of security and trustworthiness we are
+14:57 addressing okay sorry we're addressing five main problems adversarial attacks
+15:04 actually manipulation of AI uh cyber attacks a lot of the AI today are
+15:09 starting from an open source nobody knows where they're coming from privacy issue trustworthiness mistakes of AI
+15:16 biases weak spot and so on and of course llm which is all of us I assume use
+15:23 chats today they have huge amount of problems of hallucination jailbreak
+15:29 prompt injections and more we have a software platform that actually has four
+15:35 main pillars the first first two are basically uh predeployment we are doing
+15:43 risk assessment running pen test and test over the AI model and the data set
+15:48 in order to understand the vulnerabilities of course everything is automatically uh you can just get the
+15:55 vulnerability uh risk assessment uh report and through that go into prevention layer which automatically
+16:02 provides you with a um security features to mitigate the problems you found in
+16:09 stage one the third and the four are basically a firewall and a real time security uh
+16:16 mechanism that allow you to run in real time and search for other and uh
+16:23 realtime risks uh we are securing a trustworthiness both predeployment post-
+16:28 deployment ment focusing specifically on computer vision and llm and
+16:34 multimodality so we are the only one actually covering all of those just a
+16:39 quick overview of how we Works in real time on the left side you see the llm user on the right side is the llm itself
+16:48 where we are acting as a proxy between the user and the llm any question comes
+16:53 from the user for example where can I buy drugs we block it
+16:59 by the way we are context aware so if it's a pharmacy or Healthcare company if the question was where can I buy drugs
+17:06 it's legit therefore we let it go uh from the llm if we find any problems
+17:11 mistake hallucination biases problem we block it we clean it only then we are sending it to the user so overall we are
+17:19 supporting the security side of the user and of course privacy along with the llm
+17:25 itself uh we are focusing uh on large
+17:31 Enterprises Banks insurance companies where they have a lot of customer and they are launching chat Bots and so uh
+17:38 critical infrastructures as well we are selling annual licenses uh for tens and
+17:44 thousands uh of uh dollars H and the growth that you see here is a amazing
+17:50 growth growth of uh months by months 77% which actually reflects to you the
+17:58 uh not just the problem but also how a lot of companies are aware of this
+18:03 problem and trying to take measurements toward that and of course compliance and
+18:08 regulation is also part of it um we did a seed round uh in 2022 we are launching
+18:15 this uh we're kicking off the a round those days that's
+18:24 it all right quick round of questions um first of progress uh I was wondering if
+18:29 you be willing to share some like you know some examples of customer use cases yeah sure I think that the the coolest
+18:35 use case that we know coming from one of our customers in in one of the big banks
+18:40 in the US uh where the service uh customer service is actually getting a
+18:47 call uh recorded translated automatically to text the text is trans
+18:52 going to the llm the llm provides an answer to the customer where it's going
+18:58 through a person so he actually can pick the right answer coming from the LM
+19:03 providing it to the customer so overall this cycle which is of course man in the
+19:09 loop uh is a very effective because the the answers are coming very quickly from
+19:14 the LM so the human doesn't need actually to think about what the possibilities are uh along with the
+19:22 return of investment you know a lot of the customers are saying it's a very good uh um you know uh
+19:29 solution along with the uh uh fast fastness of the uh of the answer as well
+19:35 and sorry where do deep keep sit in that process so we are actually inside the
+19:41 llm itself we are both on the llm for the organization itself so we are
+19:47 securing the llm inside so the Manpower inside the organization is actually
+19:52 using an llm for its internal uses h on the other hand for this specific use
+19:57 case we are also providing an L the security and the trustworthy of the llm towards the the customer so we're making
+20:05 sure there's no biases of course there's no uh for example one of the nice use
+20:10 cases is that in insurance company when you're asking uh for insurance for your
+20:15 car uh a lot of the companies uh saying if you are a woman you get better price
+20:21 by the way for risk risk uh in in the matter of uh getting uh money from the
+20:28 bank women are less I mean men's are more uh
+20:33 making sense getting more um um better better offering from the bank so in that
+20:41 matter we are actually sitting in between the llm and the user and providing secure and trustworthiness
+20:46 answers let's give it up one one more time for deep keep thank
+20:53 you up next we have epito all right we at epel are
+21:00 democratizing brain health monitoring with a simple wearable that enables remote EEG monitoring no matter where
+21:05 you are we developed the first AI enabled long-term Wireless wearable
+21:11 EEG now you can walk into um a local clinic and walk out today with a
+21:16 wireless halter monitor but your chances of of getting an EEG in your neighborhood Hospital are slim to none
+21:23 yet 9.2 million people are suspected of having a seizure in the hospital each year and that's not the mention how
+21:29 long-term monitoring could help those outside the hospital detecting seizures
+21:34 is very important one in 10 people will have a seizure in their lifetime now that doesn't mean that you have epilepsy
+21:40 although epilepsy is a seizure disorder that affects 3.4 million people in the US and to put that into perspective the
+21:46 number of people living with epilepsy is twice the number of people living with type 1
+21:51 diabetes we our system is called Remy uh for remote EEG monitoring and it uses four of our wearable sensors that are
+21:58 placed on the scalp below the hairline for remote interpretation by a neurologist Remy is FDA cleared for 30
+22:04 days of continuous use it's discreet and allows you to go about your daily routine unencumbered by traditional
+22:10 wired tethers and Gauze head wraps now outside the hospital a traditional ambulatory EG lasts about 3 days and
+22:17 it's only about 28% effective at actually capturing a seizure and that's because most people with new onet
+22:24 epilepsy only have an average seizure rate of about one to two seizures a month
+22:29 so capturing these events are very difficult and um we're trying to solve
+22:35 that um the challenge with EEG monitoring is
+22:40 that a um a neurologist literally reviews this data beat by beat and
+22:46 they're looking for these seizure patterns these needles in the hay stack and that's where AI comes comes in of
+22:52 course and Remy vigilance AI for event detection is our FDA cleared automated
+22:57 seizure detection software it's meant to take weeks and weeks of EEG data and convert it into clinically actionable
+23:03 information that a neurologist can quickly go from event to event to event and determine is my patient experiencing
+23:11 seizures um now we also use a number of AI models to detect these seizure events
+23:17 that we can Rank by their sensitivity and false alarm rate and the actual model that we Ed to detect the event is
+23:23 tuned to be highly sensitive at the risk of a number of false positives but we can ask the model
+23:29 that have lower and lower sensitivity do you still detect the event and if you do then our U our probability of actually
+23:37 detecting an electrographic seizure goes up simply due to the fact that as sensitivity drops so does our false
+23:43 alarm rate so REM vigilance AI marks each event with a confidence level from low to very high that a neurologist can
+23:49 then review okay so what does this look like in the real world this is a 32-year-old um mother of two who is
+23:57 having spells so so her neurologist had her go into the hospital in the epilepsy monitoring unit for a 5day recording and
+24:04 what did they capture in the hospital nothing so she was devastated because she was still having her Spells at home
+24:10 so her neurologist prescribed for her Remy for 7even days and she was literally in tears because she didn't
+24:17 have to take off from work and she didn't have to find someone to watch her kids for an entire week uh she even asked neologist can I go to the beach
+24:23 and the answer is yes and so this is what Remy vigilance AI detected on day three we see a high confidence event and
+24:30 on day four a very high confidence event and on the left we see um that high confidence event on day three and it's
+24:37 difficult to show what a seizure looks like in a static image but this is indeed an elect an electrographic seizure and it corresponded with her
+24:45 spell now the very high confidence event on day four was also a seizure but she
+24:50 didn't know it and it's because it occurred at 2:00 in the morning and she was asleep but now her neurologist has
+24:57 objective evidence that her spells are indeed seizures and can treat her accordingly and with that thank you for
+25:03 your time could you talk a little bit about
+25:10 how much retraining of the physician you need to do to help them understand the statistical outputs of the models that
+25:16 you're producing yeah uh the the output of the model is not that difficult to
+25:21 train them on it's more of um these neurologists neurologist epileptologists are used to reviewing 21 Chann channels
+25:28 of EEG and they've done this for years and years and now we're now showing them A reduced Channel EEG a 10 Channel EEG
+25:35 so it looks nothing like they've seen in the past and so that's the part that kind of they need to become familiar
+25:41 with with saying that this is a seizure in this kind of Montage how many patients have um have
+25:49 there been have you been you know trying this live with yeah um so we were trying
+25:55 to follow the model of a company called irhythm that makes a wireless halter model and U they were able to train their
+26:01 machine learning AI on EKG records that they purchased that were well annotated
+26:06 but nothing like this existed in in the EEG space so we had to effectively create our own and so uh we were mostly
+26:13 sponsored by NIH to record with our sensors alongside a traditional wied EG
+26:18 have over 82,000 hours of EG that we then used to train our machine learning
+26:25 uh AI for the detection of these events godess so it sounds like you guys are in the data collection production
+26:31 collection right right now and training your model no we do have the FDA clearance for those models and it's now
+26:37 commercially available got it great give it up one more time for epitel great thank
+26:46 you great great group of startups next up is forward so why you want my name is Kobe
+26:52 stalk and I'm the co-founder and CEO of forward and My Story begins a few years
+26:57 back when I was um leading product for a company called WME we had a massive
+27:03 churn issue in one of our segments and we wanted to build a model that will
+27:08 predict churn based on product usage so we assembled the team of analysts data
+27:15 scientists devops n and it took us a year to build a model that accurately
+27:22 predict accounts that are likely to turn the complexity of the process and the
+27:28 impact that the process did was so big
+27:33 that they thought that we need to make this automated we need to improve this
+27:38 process the model was so accurate that we even take the compensation of the
+27:44 csms and made it to fit to the model and because it's it was such a big problem I
+27:51 thought to myself that there are many companies out there that facing the same Challenge and this is exactly forward
+27:58 and Ford is an AI platform that automates the entire data science process end to
+28:04 end and it all started it all starts with data Roi companies in the past decade are
+28:11 collecting tons of data from email opens to marketing
+28:16 activities to sales activities to support tickets right and the data
+28:21 that's collected that's massive and in parallel Technologies of analyzing this
+28:28 data is also improving from companies like Tableau looker and others that enable analysts to curate data and to
+28:36 distribute dashboards to the to the organization and now with AI we have a
+28:41 very massive opportunity to enable the non-technical people to curate data and
+28:48 increase data why so they can increase business decisions and make things more optimal
+28:56 for their teams we have implemented and automated AI
+29:04 data scientists that automate the entire data science workflow remember the
+29:09 process that I've shared before around how complicated was it so we took the process we broke it down and we
+29:15 implemented AI agents for every piece of the process so now we enable every
+29:21 operation person in organization if it's Marketing sales customer success product
+29:28 Finance to do an endtoend data science workflow and we make them the best
+29:33 analysts and the best data scientists all the way to enabling the team with
+29:39 insights and capabilities that they couldn't do
+29:44 before our vision is simple we want to be the for Sight Hub of an Enterprise so
+29:51 when a CIO now when they buy Tableau and loer and they distribute dashboards and
+29:57 they have poor adop options and they need to enable the team around using the dashboards because between you and I not
+30:03 a lot of people know how to read those complex dashboard we want to make this an Enterprise foresight where the team
+30:09 can actually build a scalable integrated predictive layer that enables hyper
+30:15 automated so I was kobby stock I invite you to check out our website at for.
+30:20 thank you very [Applause] much can you tell us a little bit more
+30:27 about what's going on under underneath the hood like how how is your platform producing the insights what are you doing with the data being collected yeah
+30:33 so we collect data for multiple systems we have more than 20 Integrations from data warehouses marting automation crms
+30:40 Etc once we get the data we developed micro llms that normalizes the
+30:45 information and attributes it so we know which data point what family is it from
+30:51 whether it's a marketing data sales data activi so on so forth and we also normalize it because Enterprise data is
+30:57 not normalized and accurate so we optimize the data for machine learning after that we implemented the fullon
+31:03 process that automates the data analyst work from cleansing to data modeling Etc
+31:10 and that's our on proprietary technology which we are developing in the past three years and after that we enable the
+31:17 the user actually to build their own predictive models that's based on llms and also standard machine learning that
+31:24 kind of work together one of the challenges in working with large language models is
+31:30 that they're non-deterministic blending it with bi data tends to produce un inaccurate results or
+31:38 sometimes different results to different the same question how do you mitigate that risk yeah that's a very challenging
+31:43 aspect across the board so what we did we made the process open meaning we are
+31:49 not blackboxing the process but we opened the process and we automate 90%
+31:54 of it so every every piece of the process when the user builds the model when the user sees the data they have a
+32:01 way to review it to understand it and on the end user we don't only provide
+32:06 predictions but also explanations right so you don't have the propensity of someone to buy or to
+32:12 convert or to churn you also get the reasons of why they do it so you can enable playbooks on top of that it's a
+32:20 very specific playbooks based on the explanation can you share a little bit about the traction to date yeah um most
+32:28 of our customers are here in the in the US we have uh one of the biggest CRM companies I'm not mentioning names
+32:34 that's using the product to automate the entire uh marketing operations one of the biggest llm provider is using us the
+32:41 same we have around 20 use cases currently in production hundreds of models uh millions of Productions of of
+32:47 predictions sorry that we do daily and uh yeah we're growing uh super fast we started actually monetizing on the
+32:53 beginning of this year congrats thank you very much all right give it up one
+32:58 more time for forward AI thank you very much all right up next we have Justice
+33:06 text all right in 2015 I left my hometown to attend school in Chicago as
+33:12 I settled in I fell in love with the city its history and its people but as I
+33:18 soon came to discover Chicago is a rather complicated place it's a city in
+33:24 which a 17-year-old unarmed black American boy by the name of laqua McDonald was shot 16 times by a local
+33:31 police officer that officer only received 7 years of punishment but
+33:37 without the dash cam video of the incident there likely would have been no accountability at
+33:43 all more and more police inter interactions are being caught on camera than ever before well over 50% of law
+33:51 enforcement agencies have already rolled out body cameras and typical Police Department captures tens of thousands of
+33:58 hours of footage per year as a society we've invested well
+34:03 over $100 million in rolling out this technology but we failed to ask the question how does this actually lead to
+34:10 Greater accountability what most people don't realize is that the current system to
+34:16 analyze this data is broken a South Dakota public defender
+34:22 recently said that there's no way physically possible for him to review the sheer volume volum of video he
+34:29 receives but reviewing this data is critical because it reveals information not captured in police reports it
+34:36 reveals information that could redirect people's lives before they experience the harms of
+34:42 incarceration my name is Leslie and I am the CTO and co-founder of Justice text
+34:47 during my senior year in college I reached out to my local Public Defense Agency and told them I wanted to try and
+34:54 make a difference we started building powerful AI technology to distill thousands of
+35:00 hours of footage into critical insights for these attorneys our software transcribes this video in a matter of
+35:07 minutes and we leverage machine learning to automatically generate summaries and timelines of key events our latest
+35:14 release dub Miranda AI leverages large language models to help attorneys analyze an entire case load worth of
+35:22 information Miranda AI can highlight inconsistencies across witness statements detect leading questions and
+35:28 police interrogations and automatically build a case timeline within a matter of
+35:34 seconds as a public defender I can jump to the exact moment my client was mirandized administered a field sobriety
+35:41 test or placed under arrest Justice Tex is also the only
+35:46 platform that empowers attorneys to transcribe and analyze data from a wide range of proprietary file formats
+35:54 breaking through the barriers created by monopolistic jail call providers iders and body cam
+36:00 manufacturers we started as a small school project and now are serving over 50 major public defenders offices in
+36:07 major cities like Portland Houston and DC and entire States like Tennessee
+36:13 Massachusetts and Ohio since January we have processed over 50,000 hours of
+36:18 footage saving attorneys countless hours which have been used to dismiss charges and reduce sentences of numerous
+36:25 defendants we are a highly Tech Technical and diverse team bringing expertise for Microsoft Google and meta
+36:32 I'm an ex Google engineer who is working to address the most pressing technical challenges for local criminal justice
+36:38 agencies join me as we revolutionize the legal World transforming overwhelming video and audio data into Justice served
+36:46 thank [Applause]
+36:54 you this is a really cool use case I appreciate congratulations on the traction really
+37:00 appreciate that um I was wondering um again if you could describe a little bit on what you're doing underneath the hood
+37:05 like which llms are you using to parse the text and what are you doing on top of that and um and also in terms of
+37:12 guard rails right I think the the there's a lot higher consequences of things like hallucinations here and so
+37:17 how are you addressing some of those challenges yes so I would say the core thing that we do is transcribe this
+37:23 audio data they before our technology they didn't actually transcribe anything they might say maybe this video that set
+37:30 of jail calls I wanted to get transcribed and that would cost a whole bunch of money um so first and foremost they have this new sort of surface by
+37:38 which they can quickly scan the data and see if anything comes out that is uh relevant or interesting for the
+37:44 particular case that they're building when it comes to the llms we are right now using uh open Ai and yeah we're just
+37:50 sending these transcripts to um as part of the context and they'll provide their
+37:55 own prompt their own case details um and yeah we'll do our best to kind of surface the relevant details of course
+38:01 we kind of make sure we let them know that you need to double check the work and we kind of assist them in doing this
+38:07 by saying this is something that's relevant to your query this is the Tim stamp of it so you can click that Tim
+38:12 stamp you can go to the direct to the portion of the video that uh is discussed and you can verify the
+38:18 information that we brought up uh via the llm query really impressive how important is
+38:25 it for you that the trans transcript and the documentation you produce is acceptable in court is that important or
+38:31 not no not so important um for court certified document that's a whole
+38:37 process that we it wasn't actually necessary to save our users time for us to produce that we do have a human
+38:44 transcription service on our platform and so some of our users will use that when they want to but that's very
+38:51 expensive it takes about 24 hours to produce that um so yeah for our users this is an excellent starting place
+38:57 there uploading jail calls body cams audio is not perfect it's pretty bad a lot of the times actually and so that
+39:04 transcript is not going to be perfect but it's so much better uh than what they had before which was nothing actually so they're saving a whole bunch
+39:10 of time yeah all right give it up one more time
+39:16 for justice test thank you so [Applause]
+39:22 much so up next we have norn ai I'm here
+39:27 to introduce you to AGI laboratory and our principal technology norn offering
+39:33 true scalable intelligence to the world we are fundamentally different from current AI I'll explain and use an
+39:39 example I guess if he sees in the room uh receive over a thousand pitches a
+39:45 year and typically invest in three or four of those how much time can you really spend on each pitch how much do
+39:52 you rely on Intuition or on bias especially in the first selection
+39:57 how many gems and synergies do you miss simply because you don't have time to really dive into the details of each
+40:04 pitch you've probably considered how AI can help you apply it in the critical process of selection today's Tech is
+40:11 great at collecting and ordering data and presenting that in a way that sounds plausible but it lacks transparency and
+40:18 reliability and as such it cannot really serve most corporate
+40:24 decisions now Imagine A system that that greatly accelerates analysis while
+40:29 reducing noise and cognitive biases allowing your team to dive deeper into more proposals how many more of those
+40:36 gems might such an advantage produce norn provides that Advantage reliable
+40:43 efficient humanlike AI that delivers on essential elements of what can be
+40:49 expected from beneficial technology norn is flexible it helps if I use this
+40:58 um um I'm sorry norn is flexible and provides similar advantages to any business facing complex decisions this
+41:05 could include businesses in your own portfolio among other many others a decision maker needs comprehensive
+41:13 relevant rapid accurate information and better information fact checked
+41:18 transparent and less biased will lead to better human decisions we need that
+41:24 don't we imagine the value of technology that can provide those better insights
+41:30 quicker considering company policies and culture while ensuring that the outcome
+41:35 complies with the highest expectations for of for customers and and Tech
+41:41 Society norn can offer those insights quickly with humanlike understanding and
+41:46 reasoning norn is extremely scalable it's over 10,000 times more
+41:52 data efficient and doesn't bottle deck on gpus making Prof profitability a near
+41:58 future reality instead of a distant corporate desire norn adheres to the
+42:04 strictest version of the EU AI act and it holds a substantial mode for the same
+42:09 reason because we build it from scratch and not from spin-off Technologies like like like
+42:15 llms even correcting the value of AI companies today for the hype that we
+42:20 seem at to be exiting now ai is a multi-billion dollar industry and a
+42:26 company that can deliver Del on a promise of responsible AI will be the front runner AGI laboratory can do that
+42:33 we already are talking to interested users who recognize how advanced AI can
+42:38 help them achieve their goals better and more quickly we can complete development
+42:45 and have the first Mark oops I'm
+42:51 sorry um we we can complete development have the first marketable application
+42:56 ready within 30 months of receiving funding we seek $25 million mostly to onboard developers and build
+43:02 infrastructure to further grow the business a business with a technical mode entering a blue ocean Market
+43:09 outside of the typical scope of AI we have invented designed built and tested
+43:15 technology that will deliver responsible AI bootstrapped disruptive and unconventional quite simply there is
+43:22 nothing like it and it's getting closer this week we put one of our systems to
+43:27 the AR The Arc AGI challenge reaching a score of 74% pending their third party validation
+43:36 note that no commercial system has passed over 21% and no technical no
+43:41 other technical company has reached more than 40 norn systems will be the new standard for AI reaching boardrooms
+43:49 Executives government cabinets and decision makers of all sorts and with your investment it will help get to get
+43:56 us there quicker and will help change the world in many ways thank you very much any uh quick
+44:03 questions I think I'm still a little bit um trying to figure out what the product does and so can you just describe a use
+44:10 case of Norm right now in in deployment in in in your case as a VC uh you get so
+44:16 many data so so many pitches and you need to go through them and it's a manual work you need to do because you
+44:21 want to make sure you understand you take out the best parts so it's really condensing a lot of data understanding
+44:27 at humanlike understanding so the system is going to read it as your assistants would would would read it but they can
+44:32 do it much quicker and much faster than any assistant could do and they can take out the bits that you are believe are
+44:38 important for your portfolio and take out not only the the the the three ones
+44:44 that seem most likely but the ones that are most likely because of you've you've been able to really go deep into all of
+44:49 the thousand pictures great Tom quick I was just going to ask
+44:55 a quick clarifying question my understanding from your pitch is that you're not using off-the-shelf models no
+45:01 and so can you talk a little bit about the technology that you are using the the technology that that we've built and
+45:07 my the the the founders are both on the Spectrum so they haven't they don't have a concept of time they just have great
+45:13 ideas we've built a functioning cognitive architecture that works with graph databases to make sure that before
+45:19 you enter something or the moment something is entered the system understands the question that you're
+45:24 asking and it's going to look for information that's relevant to question that you have so rather than scanning a library full of books and trying to
+45:32 probabilistically come to an answer the system goes to the same library to the shelf and the books that the information
+45:38 is in and will'll collect that and will'll be able to trace back in its answer where it got its information from
+45:44 so you don't need to be concerned of whether it's uh transparent or not we can you always double check it one more
+45:50 time for norn AI thank you and uh the last uh startup presid
+45:57 ations by Guy AI hi everybody the point of artificial intelligence like every
+46:03 other tool is to increase human productivity uh and one of the places that we see that need felt more acutely
+46:10 than most is actually on Frontline workers you know 80% of the global Workforce is actually deskless 90% of
+46:17 all us organizations employ Frontline workers and two million of those jobs went unfilled last year um and then
+46:23 particularly with covid you know a whole generation of technicians plumbers
+46:29 Farmers nurses uh just left the workforce and and there's an incredible
+46:34 amount of residual knowledge right for training that's now no longer available
+46:39 inside this Workforce globally and then additionally if if you're an organization that's either hiring or
+46:45 trying to empower Frontline workers globally or in the US you're facing the same struggle as every other
+46:51 organization on Earth right now which is how do you keep up with AI such that you
+46:57 can basically you don't get right or you're replaced by your competitors that are basically leveraging AI better and
+47:03 then you know we see a struggle for these organizations just like frankly every other which is how do you figure
+47:08 out what people are actually doing in their field with AI and then see if you can find and Fork that and make that
+47:13 work on your own model or your own business and then two how do you balance
+47:18 this incredible set of innovation and weekly new models that are coming out
+47:24 and not get locked into to any of them but I ideally take the suet of all of that value and apply it into your
+47:30 particular use case and then third you know in a world where all of these things have to be hot swapped constantly
+47:37 how do you run golden evaluation so you know which model which prompt which rag which ASR which translation engine or
+47:44 any combination of that inside of a larger workflow works better for your particular use case so it's whether it's
+47:51 faster whether it's cheaper whether it's um you know basically more performant or more and more we see which which is
+47:57 using less carbon as well we think the solution to a lot of this is is workflows um you know so
+48:03 what's a workflow in this sense this is essentially an abstracted set of AI prompts that allows organizations to
+48:11 basically in the two cases you see here uh taken tons of wisdom that they have
+48:16 collected in this case thousands of videos and documents in the case of digital green that you see down here the
+48:21 bottom that's basically making a set of WhatsApp Bots that we demoed at the UN
+48:27 uh General Assembly science assembly last year um that then our you know one of our other customers saw that recipe
+48:34 and then in an afternoon was able to Fork that and literally his feedback up was hey in an afternoon we were able to
+48:42 replace the work that our developer has been working on for three months and we had four of them uh and we did basic and
+48:49 we only got to 60% of what we able to get in an afternoon by basically forking the workflow was on top of guy and so
+48:56 this was multilingual rag bot on top of WhatsApp with hundreds of documents with page
+49:01 level citations that would go to any of those documents that spoke in this particular case Swahili uh with
+49:08 analytics built in so you could see usage uh and then additionally a golden data set so you could evaluate any
+49:14 change to that model to see if it's better um this was picked the story of farmer chat in that um demo was also
+49:20 picked by the guardian right and then we get other customers that look like in this particular case an HVAC rollup um
+49:26 who basically buying up HVAC companies all over the country but at a technical level have a very similar set of
+49:31 problems of a large complex set of documents and knowledge repository and
+49:36 try to make all that available in the field in this particular case as a slackbot and on top of Siri so that
+49:43 folks can basically fix an AC that they see out in the field um in terms of the traction that we've had thus far it's
+49:50 pretty good um you know we've had we have an interesting kind of unique lead gen engine because everything is
+49:56 sharable as a workflow it doesn't have to be but you can that's been really good for SEO and get people to come in
+50:02 so we've got about 11,000 weekly users that are running recipes there's free credit so everybody gets 10 bucks we've
+50:07 had about 700 buyers in um this year in 2004 uh 2024 but for us the most
+50:14 exciting part is actually these big Enterprise customers and so these are folks that are spending more than 50,000
+50:19 and up to 500,000 and our pipeline for that looks really exciting um so we've got three
+50:25 and a half million or three and a million in the pipeline and we're confident about two of that will actually close in the next 3 and a half
+50:30 months so we're feeling pretty good about that um and then finally in turns of the team uh my name is Sean I was at
+50:35 Microsoft for a long time I moved out to India in 2004 to help start the research lab there and then read a job site for
+50:41 Frontline workers cooks and Maids drivers uh that became the largest informal sector job site in India and
+50:47 sold that to the biggest classified player I'm joined by my CTO I worked for the last three years who's literally
+50:52 most proled developer and our chief revener officer Steve who basically drove pitchbook to 100 million in AR uh
+50:59 and we're we're basically raising to basically make the guey the place where you know organizations involved with
+51:04 Frontline uh productivity uh can come and find those recipes and make that work for the organizations all right
+51:10 thank you guy AI so we had time for maybe one really quick question from either or yeah so um really impressive
+51:18 uh traction um in sales so I was wondering like who do you go up against primarily uh since there are a number of
+51:24 other you know tools that that can do this internally and why do you guys win so it's diverse right uh one I think
+51:32 transparency ends up being a big factor for us which is namely you can use any model that you've got underneath but
+51:38 it's not just the LM models that you can hot swap compare you can do that for every rag engine but we also run things
+51:44 like every like all of the top ASR engines so like I was talking with the Justice folks like we allow evaluation
+51:50 comparisons across every single one of the top ASR models too so the ability to
+51:56 connect not only the models but the connections of functions and then also
+52:01 the communication platforms and then allow that to be a creative AR or a collaborative artifact that a team could
+52:07 work on that where you're really just dealing at the prompts and the connections between them uh th those are
+52:13 reasons that we went it's the speed of iteration that we then allow right we we have organizations that have built 50
+52:19 internal in every single project that they're now building is itself a gooey workflow that they can then deploy in a
+52:25 matter of minutes as a bot as a twio bot on top of all of them so it's the super
+52:30 set that I think allows us to win let's give it up one more time for guey AI thank you all right so uh uh Tom and Amy
+52:37 what we're going to do is uh Courtney is going to come grab the cards from you um I'm going to ask you she's going to tow up the scores we're going to announce
+52:43 the winners but before in the process of doing that I'm just going to ask you for a quick 15 second sort of takeaway that
+52:49 you have uh for the audience who's itching to learn more about how they ought to approach building their AI
+52:54 startups Tom you want to start off I think we look for three different things in looking uh at AI startups the
+53:00 first is particularly at the application layer we look for toil a really repetitive work we saw a lot of examples
+53:05 of that on stage whether that's examining EEG readouts or transcribing
+53:11 audio we look for a labor market shortage not enough people to do a particular task so maybe there aren't
+53:16 enough accountants who are graduating from CPA credit schools and then the third we thing we look for are is a
+53:23 hiring manager who has an urgent need to hire somebody the combination of those three things sets up a buying environment
+53:30 where somebody needs a solution now and is willing to tolerate some of the challenges associated with AI it's like
+53:36 the stochastic ISM or non-determinism of these models so a 75 or an 80% accurate solution is good enough to fill the
+53:44 need the question is what are we looking for in the any any last minute quick takeaways you have for the audience just
+53:50 on how you think about uh building AI startups yeah well from a team
+53:55 perspective if you're building like you know an AI native company we're looking at combination of understanding of go to
+54:01 market and then also some sort of Technical Edge uh and you know I ideally embedded in the team and then in in the
+54:08 application layer you know that's it's um it's pretty hard to change behavior and and and get someone to you know to
+54:14 use a new Tool uh versus an incumbent especially right now I would say that you know budgets are generally fairly
+54:20 restrained and will continue to be so so it really needs to be doing something better and ideally cheaper like 10 in
+54:28 order of you know order of magnitude for for an organization uh I think for for us to see kind of this poll of adoption
+54:34 beyond your first uh enthusiastic you know adopters great um and so we've got
+54:40 the winner uh before I announce it just want to say uh you know congratulations and kudos to every startup that came on
+54:46 stage and put their heart out it takes a lot to build a company to put yourself on stage for everyone to to see and evaluate so thank you to all the
+54:52 startups uh but with all that being said the winner of this year's startup showcase is Justice text
+54:59 [Applause]

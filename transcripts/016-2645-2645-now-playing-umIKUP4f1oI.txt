@@ -1,0 +1,767 @@
+0:06 hello
+0:07 everybody
+0:09 um thanks for being here today this
+0:12 afternoon it's a it's a great day to be
+0:13 outside in San Francisco one of those
+0:15 very rare days and uh I have to express
+0:19 some extra thanks to you guys to be here
+0:21 in this room listening to me so I hope I
+0:22 can make it worth your while uh this
+0:24 afternoon at this time here today um as
+0:28 I was thinking about you know
+0:30 uh what I'm going to say in this session
+0:33 um I thought about starting with
+0:35 something very funny you know get people
+0:37 engaged get people involved and so on
+0:38 but then I decided against it something
+0:41 kept ringing in my head uh this warning
+0:44 from my kids or this assertion from my
+0:46 kids and they think that something
+0:48 happens to men when they become fathers
+0:51 now the day you become a dad the day
+0:53 your child's born something happens
+0:55 whether it's you know the the joy of
+0:56 fatherhood or the the fear of know many
+0:59 Sleepless night's coming up but
+1:00 something happens something triggers in
+1:02 your brain some protein or whatever that
+1:05 just makes you less funny you know so
+1:08 suddenly you are a nice funny guy and
+1:11 then you have a kid and boom you know
+1:12 anything you say any any attempt at
+1:14 humor becomes a dad joke it's not a bad
+1:17 joke it's a dad joke which is a little
+1:18 different than a bad joke apparently
+1:20 that's what they say so I figured maybe
+1:22 I'll give it up it's been 17 years since
+1:24 I became a dad a little over 17 years so
+1:26 apparently I haven't been funny for 17
+1:28 years so I should try not to do that
+1:30 today and I can hear a few people
+1:32 laughing thank you for your sympathetic
+1:34 courtesy laugh others in the room
+1:36 whatever 200 some people
+1:39 um thank you on behalf of my kids
+1:42 because you endorsed what they say and
+1:44 what they claim is true apparently it's
+1:45 all over Snapchat and Tik Tok and so on
+1:47 I haven't seen it but apparently it's
+1:49 true so I'll put all of that behind us
+1:52 and I'll get down to business um what
+1:55 we're going to talk about today is how
+1:57 do you do realtime analytics and how do
+2:00 you trigger and support realtime Ai and
+2:03 make
+2:04 decisions where is my
+2:07 clicker
+2:08 okay so let's start with a couple of
+2:11 questions let's start with some history
+2:12 and some
+2:13 context what is one thing know show of
+2:16 hands or whatever what is one thing that
+2:18 is the most important for you to be able
+2:21 to make well-informed
+2:23 decisions any
+2:27 takers the right data in information
+2:30 right the answers in the question itself
+2:32 to make well-informed decisions you need
+2:34 information and not only do you need
+2:36 information you need all relevant
+2:38 information right without the right
+2:40 information the decision you make will
+2:43 not be accurate it will not be complete
+2:44 will be based on incomplete information
+2:47 right the second thing I want to talk
+2:49 about as I said the context for this is
+2:52 U Thomas Freedman 2003 2004 I think I
+2:56 don't know if you guys have heard of him
+2:58 if anybody's read his book about the
+2:59 world being flat and so on so when he
+3:01 was talking about the world being flat
+3:04 he was talking in the context of
+3:05 globalization in the context of the
+3:08 equilibrium in the global supply chain
+3:10 around labor around goods and services
+3:12 and productivity and so on what he did
+3:15 not have in mind and what we all of us
+3:17 did not have in mind at that time was
+3:20 the fact that that the concept of the
+3:22 world being flat was impacting
+3:24 Enterprises all over the world any event
+3:27 happening anywhere in the world was was
+3:29 impacting Enterprises no matter what the
+3:32 type of the event was whether it was a
+3:33 social event whether it was a political
+3:35 event you know government's changing um
+3:37 an economical event company countries
+3:40 announcing their GDP numbers uh parts of
+3:43 world you know changing policies and so
+3:45 on and tariffs and so on or it was an
+3:48 environmental event like a tsunami or an
+3:49 earthquake or whatever or a political
+3:52 event you know um Strife in the Middle
+3:55 East or the Red Sea or Eastern Europe or
+3:57 whatever any event happening anywhere in
+3:59 the World impacted companies and
+4:01 Enterprises all over the world and what
+4:03 that meant was that the definition of
+4:05 data that is relevant was changing
+4:08 relevant data was no longer what you
+4:09 held in you know within the four walls
+4:11 of your Enterprise in your different
+4:12 datas and data silos and systems and
+4:15 applications it was anything happening
+4:17 anywhere in the world because it
+4:18 impacted you and that's something
+4:20 companies realized and that's when they
+4:22 realized that they have to look at
+4:23 information beyond their applications
+4:26 and their data silos so let's take a
+4:28 look at how do do you actually go about
+4:30 making a bined decision in real
+4:33 time what you have to start with as I
+4:35 said you have to have all of the
+4:37 information so you have all of your data
+4:39 in different silos whether it's your
+4:40 relational databases your non-relational
+4:43 databases your your data Lakes your you
+4:45 know cloud data stores whatever it is
+4:48 then you got your transactions and
+4:49 events that are coming in in real time
+4:51 you have to process those things as well
+4:53 right uh because that's when changes are
+4:55 happening and changes are coming into
+4:57 your Enterprise so you have to put all
+4:59 of this together together and you have
+5:01 to be able
+5:02 to why is the automation not working
+5:05 okay you have to put all of this
+5:06 together and you have to be able to make
+5:08 this uh all come together and then you
+5:11 have to run your intelligence on top of
+5:12 it and make your decisions now the
+5:15 problem with something like this is you
+5:17 have your event streaming Technologies
+5:19 you have your transactional systems you
+5:20 have your various you know um in
+5:23 Enterprise silos where you have your
+5:25 data your databases your data warehouses
+5:27 your data Lakes your odss you name name
+5:29 it it's all there right somebody for
+5:32 somebody to make a decision based on an
+5:33 event you have to take that event you
+5:35 have to understand it analyze it figure
+5:37 out what other context do you need
+5:39 because you need context right an event
+5:41 coming in in isolation is not enough for
+5:43 you to be able to make a decision based
+5:44 on this and there are simple examples
+5:46 you swipe your credit card you know
+5:48 anybody here and there's a lot of
+5:49 intelligent people here a lot of big
+5:50 Enterprises doing a lot of pioneering
+5:53 great groundbreaking work in AI can
+5:55 never tell that that one single credit
+5:57 card transaction in isolation is
+5:59 fraudulent or not you have to know what
+6:02 has been happening right um I paid for
+6:05 Uber when I came to the from the airport
+6:07 to my hotel is that transaction
+6:08 fraudulent well who knows but you may
+6:11 know if you go back at history and see
+6:12 that I did book a an airflight I did
+6:15 book a hotel I actually paid for Uber
+6:17 from my home to the airport I bought
+6:19 some food at the airport so when you put
+6:21 it all together you can fairly guess
+6:23 that this was not a fraudulent
+6:24 transaction but that context is needed
+6:27 so take that event figure out what cont
+6:29 context has to be applied pull that
+6:31 context in from all of these multiple
+6:32 silos and that's where the problem
+6:34 starts to happen when it comes to real
+6:36 time all of this takes time right
+6:38 analyzing your event going to all the
+6:41 different silos putting your data
+6:42 together that takes time so how do you
+6:43 eliminate that well you can start with
+6:45 something like a simple data Hub you
+6:48 take data from all of your different
+6:49 silos all of your historical data you
+6:52 put a data Hub in front of it you can
+6:53 hold your structured data your
+6:54 unstructured data your key value stores
+6:57 your you know relational data your um
+7:00 graph data whatever it is put it all
+7:02 together into this data Hub now you're
+7:04 going taking your event processing that
+7:06 event going to a data Hub pulling data
+7:09 out from the data Hub and going about
+7:11 your Mar making a decision so you've
+7:13 kind of eliminated one level of latency
+7:15 to some extent but then you still have
+7:18 problems you still have to go to the
+7:19 data Hub you still have to before that
+7:21 actually know what data to pull out of
+7:23 your data Hub so that means you have to
+7:25 you know do some sort of stream
+7:26 processing that stream processing then
+7:28 has to go down to your data Hub and this
+7:30 is unfortunate that my animation's not
+7:32 working but you could see this thing uh
+7:34 you know going up and down the data Hub
+7:36 trying to pull data out that takes time
+7:39 there's still movement over the network
+7:41 of an event of a stream processing
+7:44 engine that goes down to your data Hub
+7:46 pulls all of your relevant data out
+7:48 right over the network back to your
+7:50 processing engine apply context
+7:52 embellish that data aggregated do
+7:54 whatever you need to do to that data
+7:55 that takes time and then on top of it
+7:57 you have to do other things oh there we
+7:58 go something's moving
+8:00 uh you got your features that you have
+8:01 to extract from that event you have to
+8:03 be able to uh generate Vector embeddings
+8:06 uh you have to be able to um do all of
+8:09 these things and then store them
+8:10 somewhere right into an AI model store
+8:13 an AI feature store a vector store
+8:15 whatever it is and then on top of that
+8:17 you have to execute your model right all
+8:19 of that takes time and again still there
+8:22 is still some latency in the system here
+8:24 you still have to go down to your data
+8:26 Hub you still have to go down to your AI
+8:27 store you have to pull data up you have
+8:29 to extract your features so there's some
+8:31 processing happening that has to be
+8:33 written back down into your AI store
+8:36 your feature story Vector store whatever
+8:37 able to extract your vector embeddings
+8:39 and then you go and execute your AI
+8:40 model against it nowadays everybody here
+8:43 is talking about Rag and so on you can
+8:44 have a rag application point to your
+8:46 vector store and you can uh do all sorts
+8:48 of different things very interesting
+8:50 here is that the fact that you can
+8:51 actually process events in real time you
+8:54 can extract your vector embeddings you
+8:55 can make that available to your rag
+8:57 applications you can now apply recency
+9:00 to your rag systems as well so when
+9:02 you're doing a search you will have
+9:04 recent data and recent information to be
+9:05 able to do that search against your llms
+9:07 and so on so there's that element and
+9:10 level of performance that comes in this
+9:11 way as well but still you're still
+9:13 moving through a bunch of silos as you
+9:15 cross application boundaries and data
+9:17 silos and data boundaries you introduce
+9:19 latency so how do you you know try to
+9:22 eliminate that or minimize that or make
+9:24 this whole thing more efficient one
+9:25 thing you could do is you could start
+9:27 with let's say putting all of your
+9:28 processing all of your stream processing
+9:30 your feature extraction your vector
+9:31 embeddings extraction your execution of
+9:34 your AI model in a scalable horizontally
+9:37 scalable distributed compute grid as an
+9:38 example and there's a bunch of
+9:40 Technologies out there that do that
+9:41 right it's nothing new so you have that
+9:44 you have now manage your uh data
+9:47 processing component of it a little bit
+9:49 better because you now have this uh
+9:51 compute grid that scales horizontally
+9:53 that distributes your workload that does
+9:55 your processing a lot faster you still
+9:57 have a problem there though you're still
+9:58 dependent on data to do the processing
+10:01 and data is sitting in a silos somewhere
+10:02 in a data Hub somewhere in a in an AI
+10:04 data store a vector store somewhere that
+10:06 takes time right so still that going
+10:10 into the data store making the query
+10:11 coming back out if you're running an AI
+10:13 model you need you know 3 6 months of
+10:15 contextual data history and so on that
+10:17 is a lot of data that's moving up and
+10:19 down over the network right so that
+10:21 takes time so what do you do you maybe
+10:23 try to add a level of performance
+10:25 Improvement there as well you can have
+10:27 your data Hub and your AI store actually
+10:29 sit in a distributed uh inmemory comp um
+10:33 data grid so now your data is sitting in
+10:36 a in a low latency data store you
+10:37 eliminate dis iio you can still have it
+10:40 backed by some sort of an asset
+10:41 compliance durable uh disc store but you
+10:44 at least have your hard data that you
+10:45 need in memory in a distributed uh data
+10:48 grid and that eliminates your dis iio so
+10:51 that limits one level of U eliminates
+10:54 one level of performance bottling here
+10:56 right you can query the data in memory
+10:58 you can retrieve it you can process it
+10:59 but then again quering retrieving
+11:01 processing that still goes down to your
+11:04 uh data grid pulls data back you still
+11:06 have that Network latency that we
+11:08 haven't eliminated so there's that
+11:10 problem there still that we are running
+11:11 into right so uh with this whole system
+11:13 as well you still have that problem you
+11:15 have your um silos and your boundaries
+11:18 when your event comes and it has to go
+11:19 over the network into your uh stream
+11:21 processing engine your engine is going
+11:24 across the uh the network to your data
+11:26 Hub even though it's in memory it's just
+11:28 sitting in some uh
+11:29 you know some storage somewhere or some
+11:31 memory store somewhere you have to go
+11:33 there and come back so there's still
+11:34 that Network latency and it's worse
+11:36 actually where you are doing your model
+11:39 execution because the model execution
+11:41 requires data to come at high speeds and
+11:43 that's where a lot of data is coming as
+11:45 well right so that's where in this whole
+11:47 ecosystem that's where the biggest
+11:48 bottleneck is is in retrieving data to
+11:51 be able to feed to your model to be able
+11:53 to process it so what do you do there
+11:54 how do you eliminate that latency well
+11:57 um not all of it can be eliminated not
+11:59 laws of physics that cannot be bent you
+12:01 know there is if there's any component
+12:03 of network in there there will be
+12:05 Network latency you cannot bend laws of
+12:07 physics and you know go past speed of
+12:09 light and all of that fun stuff so what
+12:11 can we do to minimize this let's take a
+12:13 look well one option we have is as this
+12:15 thing um um is being processed you could
+12:19 actually introduce um a layer or a
+12:22 technology that encompasses your compute
+12:25 processing your compute grid and a data
+12:27 grid into a single platform
+12:29 and by doing that what you have done is
+12:31 you've actually eliminated the movement
+12:33 of data from your data Hub into your
+12:36 processing engine in your computer
+12:37 engine and you've eliminated that uh
+12:40 that biggest latency that was there in
+12:41 the system which is when your execution
+12:43 of AI models is happening when the
+12:46 models are executing that's when you run
+12:47 into this problem where the data has to
+12:49 be pulled in and pulled out and so on
+12:51 and that takes time so that's what you
+12:53 eliminate when you put it all together
+12:54 into a single platform that combines
+12:57 your data storage into that low latency
+12:59 in memory distributed data store and
+13:02 your compute processing for all of these
+13:04 kinds of different needs that you have
+13:05 whether it's feature extraction vure
+13:07 extraction or embedding generation or um
+13:10 running your AI models all of that is
+13:13 now sitting in a distributed uh parallel
+13:15 processed compute grid so between the
+13:18 two of them and when you put them
+13:20 together into a single platform where
+13:21 the data is now collocated with your
+13:23 compute and your data plane and compute
+13:26 plane are together with each other you
+13:28 now eliminate that that big bottleneck
+13:30 in this whole ecosystem and that's what
+13:32 makes this thing run a lot faster and
+13:35 that's where you can actually take an
+13:36 event that comes in process the event
+13:39 analyze it pull data from your
+13:42 historical context to apply that context
+13:44 to that event extract your features
+13:46 extract your U generate your vector
+13:48 embeddings put that back into that low
+13:50 latency store that you have in memory
+13:52 right where the the the processing is
+13:54 happening and run your models and be
+13:57 able to make decisions
+14:00 now what is this you know GD gain as a
+14:03 distributed memory platform how does it
+14:04 do this how does it actually put this
+14:06 all together so um I'll get into sort of
+14:09 the the workings of the technology a
+14:11 little bit briefly I won't go into a lot
+14:12 of details uh but let's look at where
+14:14 does this actually apply you know what
+14:17 kinds of use cases would need something
+14:19 like this why do you need that realtime
+14:21 in transaction analytics so let's take a
+14:24 couple of examples I just kind of went
+14:25 across different industry verticals and
+14:27 picked some examples so what of them is
+14:29 real time uh risk calculations Financial
+14:31 Risk analysis so why do you need
+14:33 Financial Risk analysis and risk
+14:35 calculations real time there's a couple
+14:36 of different things basil 3 when it came
+14:38 out after two in one and so on imposed a
+14:41 lot of requirements on um FTB or your
+14:45 you know xva your value analysis your
+14:47 Greeks calculations and so on and then
+14:50 Banks were required to move I think in
+14:52 the US it happened in May of this year
+14:54 Europe was a little ahead Asia was a
+14:56 little ahead but um as of early this
+14:59 year Q2 maybe uh Banks were required to
+15:02 do what they were calling t plus 0 or t0
+15:04 processing what that meant is when you
+15:06 execute a trade when you do a financial
+15:07 transaction they want the settlement to
+15:10 be done on the same day before the day
+15:12 ends as opposed to taking two or 3 days
+15:14 for the transaction to be the settlement
+15:16 to be done and the transaction to be
+15:18 completed so what that means is imagine
+15:20 you're doing a trade or you know me
+15:22 myself go on to my fidelity or shop or
+15:24 whatever and run a trade that's one
+15:25 thing but as an investment manager if
+15:27 I'm executing trade on behalf of my
+15:30 customers and I have to be able to um
+15:33 determine what does that do to the risk
+15:35 of my customers portfolio what does it
+15:37 does the portfolio profile change and
+15:39 then you take that and you roll that up
+15:41 at an Institutional level so a JP margan
+15:44 a Wells Fargo City Bank RBC Raymond
+15:46 James whatever if you look at those
+15:48 people they actually have to roll all of
+15:50 these kinds of transactions all of these
+15:52 changes in Risk profile all the way to
+15:54 the top at the corporate level and use
+15:56 that to determine if they have enough
+15:59 liquidity maintained you know after the
+16:01 the financial meltdown there was
+16:03 requirements to maintain a certain level
+16:05 of liquidity to drisk their their
+16:07 portfolio and so on so they have to roll
+16:09 all of that up to be able to make sure
+16:10 that they're they're maintaining the
+16:12 right kind of liquidity now they don't
+16:13 want to overdo it because then you have
+16:15 cash sitting around and not being used
+16:17 to be able to generate more funds and
+16:18 more money uh you don't want to underdo
+16:20 it because then you go into regulatory
+16:22 issues and you go into fins and so on so
+16:24 that has to be at the right level right
+16:26 anything else is inefficient so for
+16:28 banks to be able to do that they have to
+16:30 take your currency trades the latest
+16:31 currency values Equity trade requests
+16:33 coming in trade values and takes from
+16:36 all of the trades and all of the assets
+16:37 you have in your portfolio you have your
+16:39 derivatives your complex assets take
+16:42 that hypothetically figure out what
+16:44 would happen if I were to execute this
+16:45 trade what would that do to my portfolio
+16:48 calculate your portfolio risk execute
+16:50 the trade recalculate a portfolio risk
+16:52 figure out what it means for that one
+16:55 portfolio for One customer what what it
+16:57 means for me as an investment manager
+16:58 for all my portfolios and what does it
+17:00 mean for my employer the bank at the
+17:03 corporate level and all of that has to
+17:05 happen dynamically in real time and all
+17:08 of this if you if you look at you know a
+17:10 streaming uh taker coming in for
+17:12 equities and you look at currencies and
+17:14 you
+17:14 know for me in my portfolio it may just
+17:17 be a bunch of stocks and some mutual
+17:18 funds maybe but for investment managers
+17:21 it's a lot of these different assets all
+17:22 combined to be able to track all of them
+17:24 to be able to analyze all of them to be
+17:26 able to do all of this calculation in
+17:27 real time requires a technology that can
+17:30 actually manage all of these things
+17:32 together right uh here's another example
+17:35 utility grids and energy grids we all
+17:37 you know in California we are very
+17:39 familiar with power outages because a
+17:41 bunch of different kinds of things
+17:42 happen tree fall tree branch falls on a
+17:46 power line and boom you know we out of
+17:47 power for hours and days and so on and
+17:49 so on so what do power grid operators do
+17:52 the the truth is generating net new
+17:55 energy is very expensive and very
+17:57 timeconsuming it's not a you know
+17:59 one week 3 month 6 month kind of project
+18:01 it's many years before you can say I'm
+18:03 actually adding a power plant to
+18:04 generate more energy right so generating
+18:06 energy is not an option to meet the
+18:08 energy demand the option there is to be
+18:11 more efficient about making sure that
+18:13 what you're generating is being fully
+18:15 utilized which means no unscheduled
+18:17 outages no unscheduled downtime no
+18:19 breakage in your power lines your
+18:21 insulators your Transformers and things
+18:22 like that so how do these grid operators
+18:25 do it they actually have sensors and
+18:27 devices all over the power grids they're
+18:30 taking data from these sensors and
+18:31 devices so uh imagine millions of
+18:33 sensors feeding data every 5 seconds
+18:36 into some system and you're analyzing
+18:38 that information again it cannot be
+18:39 without context because the fact that
+18:42 the the temperature level of an
+18:43 insulator is at let's say 110° may be
+18:47 okay but it may not be okay for the past
+18:49 nine such readings and the 10th reading
+18:52 again together it has been over that
+18:54 110° that means that it could break down
+18:56 right so again you need context for that
+18:58 to be able to analyze that you need to
+19:00 make an take an action or do something
+19:01 some preventative maintenance so when
+19:03 you put it all together to understand
+19:05 the health of your grade to be able to
+19:06 know that you have to add load to the
+19:07 grid remove load from the grid how do
+19:09 you manage it maintain it send some
+19:11 preventative maintenance is my
+19:13 Transformer going to break down or
+19:14 whatever right all of that requires
+19:16 analyzing these events in real time and
+19:18 then being able to make decisions and
+19:20 again if you have that latency in your
+19:21 system in your ecosystem in your in know
+19:23 data processing platform that will not
+19:25 allow you to do something like this in
+19:27 real time here's another example I
+19:29 talked about credit card fraud fairly
+19:31 straightforward the idea is credit card
+19:33 companies want to encourage you guys to
+19:35 use the you know your different
+19:37 electronic payment methods more and more
+19:39 because they make money out of that um
+19:41 what they have been focusing on is not
+19:44 uh crediting you for fraud that happened
+19:47 because that's expensive for them they
+19:48 actually want to prevent fraud from
+19:49 happening right not detect it but
+19:51 actually prevent it how do they prevent
+19:53 fraud they have to be able to analyze
+19:55 that transaction with context to be able
+19:58 to say this looks like it's fraudulent
+20:00 and block it or send you a text message
+20:01 saying hey is this really you right and
+20:03 you must have seen that from your card
+20:05 companies and so on so doing all of that
+20:07 in real time being able to analyze a
+20:09 transaction apply context execute an
+20:11 intelligent model again with lateen
+20:14 Senor ecosystem not possible not
+20:17 happening another example realtime
+20:19 promotions for mobile users this is
+20:21 again something where you know you're in
+20:23 a mall at the lunch hour your company
+20:26 Mobile provider recognizes that sense
+20:28 you will coupon for something in that
+20:30 food code because it's a lunch hour and
+20:32 you want to um they have that
+20:34 partnership with those companies and
+20:35 they they feed you a coupon and they
+20:37 want encourage you to go eat there or
+20:38 whatever right that again takes time the
+20:41 fact the fact that you to figure out the
+20:43 location where they are tie that back to
+20:46 who your partners are around the
+20:48 promotion uh who's available what's
+20:50 nearby what makes sense put it all
+20:52 together analyze it push out the
+20:54 promotion and then wait for what happens
+20:55 after right so all of these things doing
+20:57 this analysis coming up with the right
+20:59 promotion pushing out that promotion
+21:01 takes time and if you have that latency
+21:04 again uh it's not good enough because
+21:06 guess what you went to the food court
+21:08 you ate you're done you're going back to
+21:10 your shopping and then you get a coupon
+21:11 for I don't know a Chipotle or whatever
+21:14 it is in the food code it's useless it's
+21:15 a waste of time right so why do it not
+21:18 only that you can get annoyed by it and
+21:20 then you may switch off those uh those
+21:21 alerts and notifications you get because
+21:23 why you're sending me these things I
+21:24 don't need them right so it's it's also
+21:26 a bad inducer experience especially
+21:28 nowaday and people are used to that
+21:29 instant gratification kind of a a way of
+21:32 life so that's kind of what do have well
+21:35 those are some of the examples um we
+21:37 have on where something like this is
+21:39 useful and as you can see from the
+21:40 breadth of the examples it's not just
+21:42 investment bankers and big Banks trying
+21:44 to use this to be able to figure things
+21:45 out even at a consumer level things that
+21:48 touch us right credit card fraud or
+21:50 promotions and things like that for
+21:51 Enterprises to engage with their
+21:53 customers in the way customers expect to
+21:55 be engaged nowadays in today's world yes
+21:58 something like this is
+22:00 imperative now very quickly a quick plug
+22:02 I got a couple minutes left um on how we
+22:05 make it happen at grid gain so one thing
+22:07 is grid gain is a unified real-time data
+22:09 platform what is unifying about it is
+22:12 the fact that you can actually combine
+22:14 streaming data in motion with historical
+22:17 data at rest put that context together
+22:20 apply some sort of an intelligent model
+22:21 on top of it do all that in real time to
+22:24 be able to make decisions the key here
+22:26 is that you cannot do one or the other
+22:29 right you have to do it all together and
+22:31 eliminate those latencies the dis iio
+22:33 the network latency the Hops all of
+22:35 those kinds of things the the less of
+22:37 these things you have the less silos you
+22:38 have the better your performance will be
+22:40 and that's what we try to do at g
+22:42 game it's a very simplified architecture
+22:45 very non-intrusive it works with a
+22:47 number of different standards you can U
+22:49 have grid gain in front of your
+22:50 relational databases you no SQL data
+22:52 bases or data warehouses whatever
+22:55 accelerate data processing whether it's
+22:56 transactional processing analytic
+22:58 processing stream processing put all of
+23:01 that data together into a data Hub a
+23:03 very low latency high performance data
+23:04 Hub remember we talked about this
+23:06 initially what is the most important
+23:08 thing to be able to make a well-informed
+23:09 decision is data and if you have data
+23:12 all data that is relevant to you in a
+23:15 high performance low latency data Hub
+23:17 half of your problems are already gone
+23:19 then it's a matter of how do you take
+23:20 that data and execute the Intelligence
+23:22 on top of it and that's where a unified
+23:25 platform where you can also actually
+23:26 execute the Intelligence on top of your
+23:28 data comes into the picture by combining
+23:31 again the data planes and the compute
+23:32 plane by being able to execute that
+23:34 intelligent model on data right there
+23:37 where the data is Distributing it across
+23:38 a horizontally scalable cluster
+23:41 providing asset compliance it can work
+23:43 as a system of record if you want to as
+23:44 well full transactional support and so
+23:46 on advanced level of security uh you can
+23:49 actually have something like this
+23:51 support your real-time business
+23:53 needs another thing that a technology
+23:56 like this does I talked a lot about
+23:58 minimizing you know number of hops and
+24:00 eliminating silos and network latency
+24:02 and so on something you see on your left
+24:04 is your traditional Enterprise
+24:05 architecture you don't need to read the
+24:06 little things on the on the blocks uh
+24:09 the idea is you got your transactional
+24:11 data stores and your decision engines
+24:12 and your you know transactional
+24:14 processing systems in your data laks in
+24:16 your data warehouses in your odss and
+24:17 your decisions uh engines and so on and
+24:20 on the other hand you have something
+24:21 that puts some of these things together
+24:23 it's not a one solution for everything
+24:25 it doesn't replace all your technology
+24:27 in your ecosystem but it minimizes the
+24:29 number of hops and by minimizing the
+24:31 number of hops in those right areas
+24:33 where you can make data available as a
+24:34 hub uh and execute a model be able to
+24:37 pull your data out execute your
+24:39 intelligent models those two areas where
+24:41 there's a lot of latency is where uh
+24:43 your ecosystem becomes a lot uh more
+24:45 performant a lot more efficient and a
+24:47 lot more easier to manage it's a it's
+24:49 it's a simpler uh data ecosystem a lot
+24:52 easier to manage so key takeaways
+24:55 basically again data is the most
+24:57 important thing right but data div
+24:59 Enterprises as we saw from some of these
+25:00 use cases need realtime processing
+25:03 combining your streaming data and
+25:05 transactional data with analytics is the
+25:08 way to go because without that you
+25:10 leaving a lot of value on the table
+25:11 you're introducing a lot of latency and
+25:14 finally unified real-time data platforms
+25:16 uh do provide a lot of value for
+25:18 Enterprises who are trying to be
+25:20 datadriven and trying to do those intr
+25:22 transactional
+25:23 analytics with that thank you very much
+25:25 for staying again thanks for sitting
+25:27 here during your lunch time and I hope
+25:29 it was worth your time I'll take
+25:31 questions Round of Applause for
+25:35 lit amazing job thank you so much we all
+25:39 need a little bit more time back in our
+25:40 day and reducing inefficiencies is very
+25:43 critical for most Enterprises so thank
+25:45 Youk you we have a couple minutes for
+25:48 Q&A if anyone has some questions just
+25:50 raise your hand real high we've got a
+25:52 question here in the
+25:54 front Wonder ready CL and play or
+25:58 La of information so U the truth is you
+26:02 have data sitting in your own silos
+26:04 right and you have your event stream
+26:07 Technologies in your transaction system
+26:08 so this will plug in with those
+26:10 Technologies it will plug in with your
+26:12 data stores we have connectors all stand
+26:14 based everything from key value
+26:16 connectors your uh colmer store
+26:18 connectors to your SQL based connectors
+26:20 you can actually execute a full ANC SQL
+26:23 query uh on the data Hub you can against
+26:26 the same data you can run a key value
+26:28 based you can run a rest API or Java C++
+26:30 Scala python R whatever you want so we
+26:33 support connectors with these
+26:35 Technologies we are not saying replace
+26:36 them all to make your system efficient
+26:38 but we plug into your ecosystem to make
+26:40 it happen

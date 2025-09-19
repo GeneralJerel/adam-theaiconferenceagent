@@ -1,0 +1,176 @@
+0:04 hi everybody my name is moeri I'm from
+0:08 the AI research lab at Nokia B laav it's
+0:11 a pleasure to be here today and to
+0:13 present to you our cutting age research
+0:16 where we apply AI to the challenges of
+0:18 the
+0:20 future at Nokia we create technologies
+0:23 that are improving people's life and
+0:26 driving
+0:27 sustainability Nokia B lab is Nokia's
+0:31 Global Research arm where we are
+0:33 focusing on the future of technology
+0:36 that
+0:37 includes research in network
+0:40 fundamentals like 6G next generation of
+0:43 Automation and of course AI we see AI as
+0:48 being at the center of all the
+0:50 technology challenges shaping the
+0:54 future so what kind of research we are
+0:58 doing around AI
+1:00 we have three main area of focus first
+1:04 AI fundamentals where we are developing
+1:08 Next Generation algorithms language
+1:10 models and computer models second AI in
+1:15 communication networks we are applying
+1:18 AI to wireless and other kind of
+1:21 networks across the life cycle of the
+1:24 network from design to maintenance and
+1:28 customer care and third AI for
+1:31 Industrial Automation where we are
+1:34 focusing on AI solutions that are
+1:38 fueling industry 5.0 by optimizing
+1:42 digital Technologies and digital
+1:45 twin today I'll be presenting one of our
+1:49 our AI research projects where we are
+1:52 using AI to create synchronized digital
+1:56 copies of physical words this Dynamic
+1:59 digital TW technology can add value to
+2:03 many businesses for example let's say
+2:06 your business uses warehouses for your
+2:09 product or you are a sport fan probably
+2:13 you are thinking now what do these two
+2:16 things have in common well our Dynamic
+2:19 digital twin solution can help you
+2:22 reduce your cost operation cost in the
+2:25 warehouse or revolutionize the way you
+2:28 view your favorite sport a sport game
+2:32 and let me explain
+2:35 how uh now that industrial metaverse is
+2:39 going from an idea to reality tools are
+2:42 emerging that are allowing us to
+2:45 digitally monitor what is going on in
+2:49 public or industrial spaces for example
+2:52 consider a warehouse when where
+2:55 inventory is changing constantly and you
+2:58 want to have real time time control and
+3:02 monitoring of the warehouse and you want
+3:04 to be able to do it remotely well how
+3:08 can you do it our solution is based on a
+3:11 dynamic digital TN that provides a
+3:15 comprehensive understanding of ongoing
+3:18 changes another example of a changing
+3:20 environment is a sport arena let's say
+3:24 you want to be able to transition
+3:27 smoothly from One camera view to another
+3:30 camera view in a in a game in a hockey
+3:33 game for example or you want to view the
+3:36 game from a specific seat in the stand
+3:39 or you even want to view for let's say
+3:42 you even want to view the game from
+3:44 right on the eyes where it's usually
+3:46 hard to get a good view with a camera
+3:49 well with our Dynamic digital T all of
+3:52 this is
+3:54 possible okay now let me tell you a
+3:56 little bit more about it and say where
+3:59 they are is in all of this so the main
+4:03 question we aim to answer is the
+4:06 following how can we create a 3D model
+4:10 of an entire space where we have access
+4:14 to very limited camera
+4:17 views we accomplish this by using a a
+4:23 collection of revolutionary techniques
+4:25 called Radiance fields and NE Radiance
+4:30 field specifically is an example of of
+4:33 Radiance field technology where the idea
+4:37 is you start with a small set of images
+4:41 their corresponding camera poses and
+4:44 train a neural network to represent your
+4:47 scene then using this trained model you
+4:51 are able to uh render images from
+4:55 arbitrary angles even the views that you
+4:58 haven't seen while with your camera
+5:00 while you were capturing uh the the
+5:03 scene our Dynamic digital t solution
+5:08 transforms this Nerf static model to a
+5:12 dynamic representation where real time
+5:14 updates are possible and you can view
+5:17 changes as they are
+5:20 happening now let's uh go back to the
+5:23 wherehouse example in order to create a
+5:27 dynamic model of of in order to first to
+5:31 uh collect images that we need to create
+5:34 a model from the warehouse we fly a
+5:37 drone in a warehouse with a camera on
+5:40 board and capture a small set of
+5:43 images here you can see a model an a
+5:47 static model that we have created from a
+5:50 warehouse then how the question is how
+5:53 can we
+5:55 dynamically update this model uh with
+5:59 with with with the incoming inventory
+6:02 well we can fly a drone in the warehouse
+6:05 every
+6:06 night and capture new inventory as you
+6:11 saw in the video here is a first person
+6:13 view of what the Drone sees
+6:18 actually so to put everything together
+6:21 we start by creating a model from empty
+6:24 shelves in the
+6:26 warehouse then we create photorealistic
+6:29 3D models of everything the Drone sees
+6:32 and captures and render them in the Nerf
+6:36 model our solution also allows for
+6:39 overlay of the products information uh
+6:43 in the
+6:44 model can you imagine
+6:47 your can you imagine the experience of
+6:50 having access to this upto-date
+6:53 augmented uh digital copy of your
+6:56 facility that allows you to control and
+6:58 monitor the the warehouse from right on
+7:01 a tablet rather than going and doing a
+7:05 physical spending the time to do a
+7:07 physical check this can help you reduce
+7:11 the cost of your operation improve the
+7:14 accuracy of inventory management and uh
+7:17 minimize risk while increasing
+7:22 safety now let's talk about the the 3D
+7:26 models of a sports arena usually in a
+7:28 sports arena in our
+7:30 studium cameras are installed in fixed
+7:34 position that really restricts the
+7:36 angles from which viewers can Spectators
+7:39 can view the game as I mentioned before
+7:42 our solution is built on Nerf but a
+7:45 standard Nerf can
+7:48 only represent a static scene so for
+7:51 example here you see uh a Nerf that we
+7:55 have created from a hockey arena that um
+7:59 uh Nokia owns in Finland so how can
+8:03 we dynamically update the hockey actions
+8:08 in this model we can do so by taking the
+8:12 Feats from different camera views
+8:15 segment out the players and then render
+8:18 them in the Nerf here you see the Fe
+8:22 from different camera Fs in the in the
+8:24 hockey
+8:25 arena here you see the segmentation of
+8:28 the player
+8:34 and finally this is the rendering in the
+8:36 Nerf this is a view from a arbitary seat
+8:40 in the
+8:42 stand here we can fly from One camera
+8:45 view to another
+8:49 one and here is the view from right on
+8:52 the
+8:54 ice so you can imagine like your your
+8:58 new and exciting experience once this
+9:00 technology is
+9:03 deployed so I hope that you like this
+9:06 presentation about our uh Dynamic
+9:08 digital T technology I'd like to invite
+9:11 you to come and visit us at boot 116 you
+9:14 can also use this QR code to uh find out
+9:17 more about our project
