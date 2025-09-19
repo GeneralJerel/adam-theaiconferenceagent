@@ -5,6 +5,9 @@ Companion app for the AI Conference. It lets attendees ask questions about talks
 - Data collection scripts (YouTube channel/playlist scraping, transcript extraction)
 - A React UI (Vite + TypeScript) that mirrors a modern hero layout and a simple chat interface
 
+<img width="1485" height="889" alt="image" src="https://github.com/user-attachments/assets/14304f66-9269-4831-a13f-1329e04edb27" />
+
+
 ### Repository structure
 
 ```
